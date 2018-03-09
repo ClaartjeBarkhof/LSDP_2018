@@ -21,7 +21,7 @@ brain:
             files: |
                     # ../program-y/bots/y-bot/aiml
                     # $BOT_ROOT/aiml
-                    /Users/claartje/Dropbox/UVA/LSDP/assignment_4/mybot/aiml
+                    ./aiml
             extension: .aiml
             directories: true
             errors: $BOT_ROOT/temp/errors.txt
@@ -31,7 +31,7 @@ brain:
             files: |
                     # ../program-y/bots/y-bot/sets
                     # $BOT_ROOT/sets
-                    /Users/claartje/Dropbox/UVA/LSDP/assignment_4/mybot/sets
+                    ./sets
             extension: .txt
             directories: false
     dynamic:

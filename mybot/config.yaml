@@ -16,7 +16,7 @@ bot:
 
 brain:
     files:
-        regex_templates: /Users/claartje/Dropbox/UVA/LSDP/assignment_4/mybot/regex-templates.txt
+        regex_templates: regex-templates.txt
         aiml:
             files: |
                     # ../program-y/bots/y-bot/aiml

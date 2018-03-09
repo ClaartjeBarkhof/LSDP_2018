@@ -1,0 +1,39 @@
+bot:
+    license_keys: ../program-y/bots/y-bot/config/license.keys
+
+    prompt: ">>>"
+    initial_question: Hi, how can I help you today?
+    default_response: Sorry, I don't have an answer for that!
+    empty_string_srai: YEMPTY
+    exit_response: So long, and thanks for the fish!
+
+    override_properties: true
+
+    max_question_recursion: 1000
+    max_question_timeout: 60
+    max_search_depth: 100
+    max_search_timeout: 60
+
+brain:
+    files:
+        regex_templates: /Users/claartje/Dropbox/UVA/LSDP/assignment_4/mybot/regex-templates.txt
+        aiml:
+            files: |
+                    # ../program-y/bots/y-bot/aiml
+                    # $BOT_ROOT/aiml
+                    /Users/claartje/Dropbox/UVA/LSDP/assignment_4/mybot/aiml
+            extension: .aiml
+            directories: true
+            errors: $BOT_ROOT/temp/errors.txt
+            duplicates: $BOT_ROOT/temp/duplicates.txt
+            conversation: $BOT_ROOT/temp/conversation.txt
+        sets:
+            files: |
+                    # ../program-y/bots/y-bot/sets
+                    # $BOT_ROOT/sets
+                    /Users/claartje/Dropbox/UVA/LSDP/assignment_4/mybot/sets
+            extension: .txt
+            directories: false
+    dynamic:
+        variables:
+            gettrain: programy.dynamic.variables.train.GetTrain

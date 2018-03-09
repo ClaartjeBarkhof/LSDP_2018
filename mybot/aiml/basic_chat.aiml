@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+
+    <category>
+        <pattern><set name="cars" /></pattern>
+        <template>WORKED!</template>
+    </category>
+
+    <category>
+        <pattern>I LIKE THE <regex template="colour-spelling" /> RED</pattern>
+        <template>REGEX works</template>
+    </category>
+
+    <category>
+        <pattern>test train</pattern>
+        <template>de trein <get name="gettrain" /></template>
+    </category>
+</aiml>

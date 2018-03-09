@@ -1,0 +1,2 @@
+colour-spelling:COL(O|OU)R
+time:\D

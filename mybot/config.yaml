@@ -35,5 +35,5 @@ brain:
             extension: .txt
             directories: false
     dynamic:
-        variables:
-            gettrain: programy.dynamic.variables.train.GetTrain
+        maps:
+            gettrain: programy.dynamic.maps.train.GetTrain

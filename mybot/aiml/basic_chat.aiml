@@ -6,7 +6,7 @@
             Well, hello!
         </template>
     </category>
-    
+
     <category>
         <pattern>WHAT ARE YOU</pattern>
         <template>
@@ -25,7 +25,7 @@
     </category>
 
     <category>
-        <pattern>test train *</pattern>
-        <template>de trein <get name="gettrain" >Muiderpoort</get> </template>
+        <pattern>NEXT TRAIN FROM *</pattern>
+        <template>From <star /><map name="gettrain"><star /></map> </template>
     </category>
 </aiml>

@@ -53,7 +53,12 @@ class ConsoleBotClient(BotClient):
 
     def process_question_answer(self):
         question = self.get_question()
+        if question[-1]=='?':
+            question = question[:-1]
+
         response = self.bot.ask_question(self.clientid, question, responselogger=self)
+        if response[-2]==" ":
+            response = response[:-2]+"."
         self.display_response(response)
         return question
 

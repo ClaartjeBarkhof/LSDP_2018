@@ -44,7 +44,8 @@ class GetTrain(DynamicMap):
         spoor = train.find('VertrekSpoor').text
         vertrektijd = train.find('VertrekTijd').text
         vertrektijd = datetime.strptime(vertrektijd, '%Y-%m-%dT%H:%M:%S%z')
-        return 'the next leaving train is the ' + treinsoort + \
-                ' to ' + eindbest + \
-                ' at ' + vertrektijd.time().isoformat(timespec='minutes') + \
-                ' from platform ' +  spoor
+        
+ #       print(vertrektijd.time().hour + vertrektijd.time().minute)
+        h = vertrektijd.time().hour
+        m = vertrektijd.time().minute
+        return ('the next leaving train is the ' + treinsoort +' to ' + eindbest +' at ' + '%s'%h + ':%s'%m + ' from platform ' +  spoor)

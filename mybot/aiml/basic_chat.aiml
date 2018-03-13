@@ -28,7 +28,7 @@
         <pattern>* NEXT TRAIN FROM <set name='stations'>*</set></pattern>
         <template>
             From <star index='2' /><map name="gettrain"><star index='2' /></map>
-            <think><set name='currenctloc'><star /></set></think>
+            <think><set name='currentloc'><star /></set></think>
         </template>
     </category>
 
@@ -89,6 +89,13 @@
         <template>
             <think><set name='destination'><star /></set></think>
             You want to go to from <get name='currentloc' /> to <get name='destination' />
+        </template>
+    </category>
+
+    <category>
+     <pattern>WHAT TRAINS ARE ARRIVING AT <regex pattern="\d(:\d\d)?$"/></pattern>
+        <template>
+            Trains arriving at time:
         </template>
     </category>
 

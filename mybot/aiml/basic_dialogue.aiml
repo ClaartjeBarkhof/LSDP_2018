@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-    <category>
+<!--     <category>
      <pattern>WHAT TRAINS ARE LEAVING AT <regex pattern="\d(:\d\d)?$"/></pattern>
         <template>
             trains leaving at time: <set name="destination"><star index="1"/></set>.
         </template>
     </category>
 
-
-     <category>
+ -->
+    <!--  <category>
      <pattern>WHAT TRAINS ARE ARRIVING AT <regex pattern="\d(:\d\d)?$"/></pattern>
         <template>
             Trains arriving at time:
         </template>
-    </category>
+    </category> -->
 
      <category>
      <pattern>I WANT TO GO TO *</pattern>

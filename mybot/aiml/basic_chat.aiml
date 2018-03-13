@@ -25,7 +25,64 @@
     </category>
 
     <category>
-        <pattern>NEXT TRAIN FROM *</pattern>
-        <template>From <star /><map name="gettrain"><star /></map> </template>
+        <pattern>* NEXT TRAIN FROM <set name='stations'>*</set></pattern>
+        <template>
+            From <star index='2' /><map name="gettrain"><star index='2' /></map>
+            <think><set name='currenctloc'><star /></set></think>
+        </template>
     </category>
+
+    <category>
+        <pattern>NEXT TRAIN FROM <set name='stations'>*</set></pattern>
+        <template>
+            From <star /><map name="gettrain"><star /></map>
+            <think><set name='currentloc'><star /></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* NEXT TRAIN FROM *</pattern>
+        <template>
+            <star index='2' /> is not a known station.
+            <think><set name='currentloc'><star index='2'/></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NEXT TRAIN FROM * </pattern>
+        <template><star /> is not a known station.</template>
+    </category>
+
+    <category>
+        <pattern>testing</pattern>
+        <template><get name='currentloc' /></template>
+    </category>
+
+
+    <category>
+        <pattern>WHAT TRAINS ARE LEAVING AT *</pattern>
+
+        <template>
+            <condition name='currentloc'>
+                <li value='unknown'>Where do you want to depart from?</li>
+                <li><condition name='jan'</li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern><set name='stations'>*</set></pattern>
+        <that>Where do you want to depart from?</that>
+        <template>
+            <think><set name='currentloc'><star /></set></think>
+            A LOT
+        </template>
+    </category>
+
+    <!-- <category>
+     <pattern>WHAT TRAINS ARE LEAVING AT <regex pattern="\d(:\d\d)?$"/></pattern>
+        <template>
+            trains leaving at time: <set name="destination"><star index="1"/></set>.
+        </template>
+    </category> -->
 </aiml>

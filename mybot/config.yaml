@@ -24,7 +24,7 @@ brain:
                     ./aiml
             extension: .aiml
             directories: true
-            errors: $BOT_ROOT/temp/errors.txt
+            errors: ./temp/errors.txt
             duplicates: $BOT_ROOT/temp/duplicates.txt
             conversation: $BOT_ROOT/temp/conversation.txt
         sets:

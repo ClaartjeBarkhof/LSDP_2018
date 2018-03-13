@@ -8,54 +8,18 @@
     </category>
 
     <category>
-        <pattern>WHAT ARE YOU</pattern>
+        <pattern>^ NEXT TRAIN FROM <set name='stations'>*</set></pattern>
         <template>
-            I'm a bot, silly!
-        </template>
-    </category>
-
-    <category>
-        <pattern><set name="cars" /></pattern>
-        <template>WORKED!</template>
-    </category>
-
-    <category>
-        <pattern>I LIKE THE <regex template="colour-spelling" /> RED</pattern>
-        <template>REGEX works</template>
-    </category>
-
-    <category>
-        <pattern>* NEXT TRAIN FROM <set name='stations'>*</set></pattern>
-        <template>
-            From <star index='2' /><map name="gettrain"><star index='2' /></map>
-            <think><set name='currentloc'><star /></set></think>
-        </template>
-    </category>
-
-    <category>
-        <pattern>NEXT TRAIN FROM <set name='stations'>*</set></pattern>
-        <template>
-            From <star /><map name="gettrain"><star /></map>
-            <think><set name='currentloc'><star /></set></think>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* NEXT TRAIN FROM *</pattern>
-        <template>
-            <star index='2' /> is not a known station.
+            From <star index='2'/><map name="gettrain"><star index='2'/></map>
             <think><set name='currentloc'><star index='2'/></set></think>
         </template>
     </category>
 
     <category>
-        <pattern>NEXT TRAIN FROM * </pattern>
-        <template><star /> is not a known station.</template>
-    </category>
-
-    <category>
-        <pattern>testing</pattern>
-        <template><get name='currentloc' /></template>
+        <pattern>^ NEXT TRAIN FROM *</pattern>
+        <template>
+            <star index='2' /> is not a known station.
+        </template>
     </category>
 
 
@@ -73,7 +37,7 @@
 
     <category>
         <pattern><set name='stations'>*</set></pattern>
-        <that>Where do you want to depart from?</that>
+        <that>WHERE DO YOU WANT TO DEPART FROM</that>
         <template>
             <think><set name='currentloc'><star /></set></think>
             <condition>
@@ -85,12 +49,13 @@
 
     <category>
         <pattern><set name='stations'>*</set></pattern>
-        <that>Where do you want to go to?</that>
+        <that>WHERE DO YOU WANT TO GO TO</that>
         <template>
             <think><set name='destination'><star /></set></think>
             You want to go to from <get name='currentloc' /> to <get name='destination' />
         </template>
     </category>
+<<<<<<< HEAD
 
     <category>
      <pattern>WHAT TRAINS ARE ARRIVING AT <regex pattern="\d(:\d\d)?$"/></pattern>
@@ -105,4 +70,6 @@
             trains leaving at time: <set name="destination"><star index="1"/></set>.
         </template>
     </category> -->
+=======
+>>>>>>> 56cdd00ddc7bc9e062ad0e12cb5454e2dc3e612e
 </aiml>

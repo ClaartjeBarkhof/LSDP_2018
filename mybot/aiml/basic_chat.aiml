@@ -25,6 +25,11 @@
     </category>
 
     <category>
+        <pattern>* NEXT TRAIN FROM *</pattern>
+        <template>From <star index='2' /><map name="gettrain"><star index='2' /></map> </template>
+    </category>
+
+    <category>
         <pattern>NEXT TRAIN FROM *</pattern>
         <template>From <star /><map name="gettrain"><star /></map> </template>
     </category>

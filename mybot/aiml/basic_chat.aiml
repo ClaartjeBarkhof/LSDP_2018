@@ -53,11 +53,6 @@
         <template><star /> is not a known station.</template>
     </category>
 
-    <category>
-        <pattern>testing</pattern>
-        <template><get name='currentloc' /></template>
-    </category>
-
 
     <category>
         <pattern>WHAT TRAINS ARE LEAVING AT *</pattern>
@@ -73,7 +68,7 @@
 
     <category>
         <pattern><set name='stations'>*</set></pattern>
-        <that>Where do you want to depart from?</that>
+        <that>WHERE DO YOU WANT TO DEPART FROM</that>
         <template>
             <think><set name='currentloc'><star /></set></think>
             <condition>
@@ -85,7 +80,7 @@
 
     <category>
         <pattern><set name='stations'>*</set></pattern>
-        <that>Where do you want to go to?</that>
+        <that>WHERE DO YOU WANT TO GO TO</that>
         <template>
             <think><set name='destination'><star /></set></think>
             You want to go to from <get name='currentloc' /> to <get name='destination' />

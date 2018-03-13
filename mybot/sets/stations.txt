@@ -1,0 +1,2553 @@
+HT
+'s-Hertogenbosch
+Den Bosch
+'s-Hertogenbosch
+Hertogenbosch ('s)
+Den Bosch
+HTO
+'s-Hertogenbosch Oost
+Dn Bosch O
+Hertogenb. Oost
+Hertogenbosch Oost ('s)
+Den Bosch Oost
+HDE
+'t Harde
+'t Harde
+'t Harde
+Harde ('t)
+AHBF
+Aachen Hbf
+Aachen
+Aachen Hbf
+ATN
+Aalten
+Aalten
+Aalten
+AC
+Abcoude
+Abcoude
+Abcoude
+EAHS
+Ahaus
+Ahaus
+Ahaus
+AIME
+Aime-la-Plagne
+Aime-la-Pl
+Aime-la-Plagne
+AIXTGV
+Aix-en-Provence
+Aix-en-Pro
+Aix-en-Provence
+AKM
+Akkrum
+Akkrum
+Akkrum
+ALBERT
+Albertville
+Albertv.
+Albertville
+ALESS
+Alessandria
+Alessandr.
+Alessandria
+AMR
+Alkmaar
+Alkmaar
+Alkmaar
+AMRN
+Alkmaar Noord
+Alkmaar N
+Alkmaar Noord
+AML
+Almelo
+Almelo
+Almelo
+AMRI
+Almelo de Riet
+de Riet
+Almelo de Riet
+ALMB
+Almere Buiten
+Buiten
+Almere Buiten
+ALM
+Almere Centrum
+Almere C
+Almere C.
+Almere
+ALMM
+Almere Muziekwijk
+Muziekwijk
+Muziekwijk
+ALMO
+Almere Oostvaarders
+Oostvaard
+Oostvaarders
+ALMP
+Almere Parkwijk
+Parkwijk
+Almere Parkwijk
+AMPO
+Almere Poort
+Almere Prt
+Almere Poort
+APN
+Alphen a/d Rijn
+Alphen
+Alphen a/d Rijn
+Alphen aan den Rijn
+EABG
+Altenberge
+Altenberge
+Altenberge
+AMF
+Amersfoort
+Amersfoort
+Amersfoort
+AMFS
+Amersfoort Schothorst
+Schothorst
+Schothorst
+AVAT
+Amersfoort Vathorst
+Vathorst
+Vathorst
+ASA
+Amsterdam Amstel
+Amstel
+Amsterdam Amstel
+ASB
+Amsterdam Bijlmer ArenA
+Bijlmer A
+Bijlmer ArenA
+ASD
+Amsterdam Centraal
+Amsterdam
+Amsterdam C.
+Amsterdam
+ASHD
+Amsterdam Holendrecht
+Holendrcht
+Holendrecht
+ASDL
+Amsterdam Lelylaan
+Lelylaan
+Lelylaan
+ASDM
+Amsterdam Muiderpoort
+Muiderprt
+Muiderpoort
+RAI
+Amsterdam RAI
+RAI
+Amsterdam RAI
+ASSP
+Amsterdam Science Park
+Scienceprk
+Science Park
+ASS
+Amsterdam Sloterdijk
+Sloterdijk
+Sloterdijk
+VMW
+Amsterdam Van der Madeweg
+vd Madeweg
+Van der Madeweg
+ASDZ
+Amsterdam Zuid
+Amsterdm Z
+Amsterdam Zuid
+ANA
+Anna Paulowna
+Anna Paulo
+Anna Paulowna
+BERCH
+Antwerpen-Berchem
+Antw-Berch
+Antw-Berchem
+ATW
+Antwerpen-Centraal
+Antwerpen
+Antwerpen-C.
+ATWLB
+Antwerpen-Luchtbal
+Antw-Bal
+Antw-Luchtbal
+ANDD
+Antwerpen-Noorderdokken
+Antw-dok
+Antw-N'dokken
+FNZD
+Antwerpen-Zuid
+Antw-Zuid
+Antwerpen-Zuid
+APD
+Apeldoorn
+Apeldoorn
+Apeldoorn
+APDM
+Apeldoorn De Maten
+De Maten
+De Maten
+APDO
+Apeldoorn Osseveld
+Osseveld
+Osseveld
+APG
+Appingedam
+Appingedam
+Appingedam
+AKL
+Arkel
+Arkel
+Arkel
+ARN
+Arnemuiden
+Arnemuiden
+Arnemuiden
+AH
+Arnhem Centraal
+Arnhem C
+Arnhem C.
+Arnhem
+AHPR
+Arnhem Presikhaaf
+Presikhaaf
+Presikhaaf
+AHP
+Arnhem Velperpoort
+Velperprt
+Velperpoort
+AHZ
+Arnhem Zuid
+Arnhem Z
+Arnhem Zuid
+ASHFD
+Ashford International
+AshfordINT
+Ashford Internat
+ASN
+Assen
+Assen
+Assen
+MA
+Augsburg Hbf
+Augsburg
+Augsburg Hbf
+AVTGV
+Avignon TGV
+Avignon
+Avignon TGV
+BRN
+Baarn
+Baarn
+Baarn
+BH
+Bad Bentheim
+Bentheim
+Bad Bentheim
+NSCH
+Bad Nieuweschans
+Nweschans
+Bad Nieuweschans
+Nieuweschans
+OEYNH
+Bad Oeynhausen
+Bad Oeynh
+Bad Oeynhausen
+BADSCH
+Bad Schandau
+Bad Schand
+Bad Schandau
+BADENZ
+Baden (CH)
+Baden (CH)
+Baden (CH)
+RBB
+Baden-Baden
+Baden-B.
+Baden-Baden
+BF
+Baflo
+Baflo
+Baflo
+BRD
+Barendrecht
+Barendrcht
+Barendrecht
+BNC
+Barneveld Centrum
+Barnevld C
+Barneveld C.
+BNN
+Barneveld Noord
+Barnevld N
+Barneveld Noord
+BNZ
+Barneveld Zuid
+Barnevld Z
+Barneveld Zuid
+BASELB
+Basel Bad Bf
+Basel Bad
+Basel Bad Bf
+BASELS
+Basel SBB
+Basel SBB
+Basel SBB
+BDM
+Bedum
+Bedum
+Bedum
+BK
+Beek-Elsloo
+Beek-E
+Beek-Elsloo
+BSD
+Beesd
+Beesd
+Beesd
+BL
+Beilen
+Beilen
+Beilen
+LLB
+Belsele
+Belsele
+Belsele
+BGN
+Bergen op Zoom
+Bergen opZ
+Bergen op Zoom
+GSB
+Berlin Gesundbrunnen
+Berlin Gsb
+Berlin Gesundbr.
+BERHBL
+Berlin Hbf
+Berlin Hbf
+Berlin Hbf
+Berlijn
+BERHBT
+Berlin Hbf (tief)
+Berlin Hbf
+Berlin Hbf
+BHF
+Berlin Ostbahnhof
+Berlin Ost
+Berlin Ostbhf
+BPAF
+Berlin SÃ¼dkreuz
+Berlin SÃ¼d
+Berlin SÃ¼dkreuz
+BERFL
+Berlin-SchÃ¶nefeld Flug.
+Berlin-Fl.
+Berlin-S Flugh.
+BSPD
+Berlin-Spandau
+Berlin-Spa
+Berlin-Spandau
+BET
+Best
+Best
+Best
+FBR
+Beveren
+Beveren
+Beveren
+BV
+Beverwijk
+Beverwijk
+Beverwijk
+BIELEF
+Bielefeld Hbf
+Bielefeld
+Bielefeld Hbf
+BHV
+Bilthoven
+Bilthoven
+Bilthoven
+FIE
+Bilzen
+Bilzen
+Bilzen
+BISCHO
+Bischofshofen
+Bischofsh.
+Bischofshofen
+BR
+Blerick
+Blerick
+Blerick
+BLL
+Bloemendaal
+Bloemendl
+Bloemendaal
+BLUDEN
+Bludenz
+Bludenz
+Bludenz
+BDG
+Bodegraven
+Bodegraven
+Bodegraven
+KBOI
+Boisheim
+Boisheim
+Boisheim
+BONN
+Bonn Hbf
+Bonn Hbf
+Bonn Hbf
+FMB
+Boom
+Boom
+Boom
+EBOK
+Bork (Westf)
+Bork
+Bork (Westf)
+BN
+Borne
+Borne
+Borne
+BSK
+Boskoop
+Boskoop
+Boskoop
+BSKS
+Boskoop Snijdelwijk
+Snijdelwk
+Boskoop Snijdelw
+BOURG
+Bourg-St-Maurice
+Bourg-StM
+Bourg-St-Maurice
+BHDV
+Boven-Hardinxveld
+Boven-Har
+Boven-Hardinxv.
+BKF
+Bovenkarspel Flora
+Bovenk Flo
+Bovenkarspel Fl.
+BKG
+Bovenkarspel-Grootebroek
+Bovenk-Gr
+Bovenkarspel-Gr.
+BMR
+Boxmeer
+Boxmeer
+Boxmeer
+BTL
+Boxtel
+Boxtel
+Boxtel
+BRAUNS
+Braunschweig Hbf
+Braunschw
+Braunschweig Hbf
+BD
+Breda
+Breda
+Breda
+BDPB
+Breda-Prinsenbeek
+Prinsenbk
+Prinsenbeek
+BRESSX
+Bressoux
+Bressoux
+Bressoux
+BKL
+Breukelen
+Breukelen
+Breukelen
+KBRY
+Breyell
+Breyell
+Breyell
+BMN
+Brummen
+Brummen
+Brummen
+BRUSC
+Brussel-Centraal
+Brussel-C
+Brussel-C.
+BRUSN
+Brussel-Noord
+Brussel-N
+Brussel-Noord
+BRUSZ
+Brussel-Zuid/Midi
+Brussel-Z
+Brussel Z./Midi
+FBNL
+Brussels Airport-Zaventem
+Brus Airpt
+Brussels Airport
+HBDP
+Budapest
+Budapest
+Budapest
+BP
+Buitenpost
+Buitenpost
+Buitenpost
+BÃ»tenpost
+BDE
+Bunde
+Bunde
+Bunde
+BNK
+Bunnik
+Bunnik
+Bunnik
+BSMZ
+Bussum Zuid
+Bussum Z
+Bussum Zuid
+EBEO
+BÃ¶nen
+BÃ¶nen
+BÃ¶nen
+Bonen
+BUENDE
+BÃ¼nde (Westf)
+BÃ¼nde (W)
+BÃ¼nde (Westf)
+Bunde
+CPS
+Capelle Schollevaar
+Schollevr
+Schollevaar
+CAS
+Castricum
+Castricum
+Castricum
+CHAMB
+ChambÃ©ry
+ChambÃ©ry
+ChambÃ©ry
+CVM
+Chevremont
+Chevremont
+Chevremont
+CHUR
+Chur
+Chur
+Chur
+ECMF
+Coesfeld (Westf)
+Coesfeld
+Coesfeld (Westf)
+CO
+Coevorden
+Coevorden
+Coevorden
+COMO
+Como
+Como
+Como
+CK
+Cuijk
+Cuijk
+Cuijk
+CL
+Culemborg
+Culemborg
+Culemborg
+DA
+Daarlerveen
+Daarlervn
+Daarlerveen
+DLN
+Dalen
+Dalen
+Dalen
+DL
+Dalfsen
+Dalfsen
+Dalfsen
+DVNK
+De Vink
+De Vink
+De Vink
+DWE
+De Westereen
+Westereen
+De Westereen
+DECIN
+Decin hl.n.
+Decin hl.n
+Decin hl.n.
+DEI
+Deinum
+Deinum
+Deinum
+DDN
+Delden
+Delden
+Delden
+DT
+Delft
+Delft
+Delft
+DTZ
+Delft Zuid
+Delft Z
+Delft Zuid
+DZ
+Delfzijl
+Delfzijl
+Delfzijl
+DZW
+Delfzijl West
+Delfzijl W
+Delfzijl West
+DLD
+Den Dolder
+Den Dolder
+Den Dolder
+GVC
+Den Haag Centraal
+Den Haag C
+Den Haag C.
+'s-Gravenhage
+Den Haag
+GV
+Den Haag HS
+Dn Haag HS
+Den Haag HS
+LAA
+Den Haag Laan v NOI
+Laan v NOI
+Laan v NOI
+GVM
+Den Haag Mariahoeve
+Mariahoeve
+Mariahoeve
+GVMW
+Den Haag Moerwijk
+Moerwijk
+Moerwijk
+YPB
+Den Haag Ypenburg
+Ypenburg
+Ypenburg
+HDR
+Den Helder
+Den Helder
+Den Helder
+HDRZ
+Den Helder Zuid
+Dn Heldr Z
+Den Helder Zuid
+DN
+Deurne
+Deurne
+Deurne
+DV
+Deventer
+Deventer
+Deventer
+DVC
+Deventer Colmschate
+Colmschate
+Colmschate
+DID
+Didam
+Didam
+Didam
+DMN
+Diemen
+Diemen
+Diemen
+DMNZ
+Diemen Zuid
+Diemen Z
+Diemen Zuid
+GDP
+Diepenbeek
+Diepenbeek
+Diepenbeek
+DR
+Dieren
+Dieren
+Dieren
+DTC
+Doetinchem
+Doetinchem
+Doetinchem
+DTCH
+Doetinchem De Huet
+De Huet
+De Huet
+DOMOD
+Domodossola
+Domodosso.
+Domodossola
+DDR
+Dordrecht
+Dordrecht
+Dordrecht
+DDRS
+Dordrecht Stadspolders
+Stadspldrs
+Stadspolders
+DDZD
+Dordrecht Zuid
+Dordrcht Z
+Dordrecht Zuid
+EDD
+Dortmund Derne
+Dortmund D
+Dortmund Derne
+EDO
+Dortmund Hbf
+Dortmund
+Dortmund Hbf
+EDKD
+Dortmund Kirchderne
+Dortmund K
+Dortmund Kirchd.
+DRESD
+Dresden Hbf
+Dresden H.
+Dresden Hbf
+DRESDN
+Dresden-Neustadt
+Dresden-N
+Dresden-Neustadt
+DB
+Driebergen-Zeist
+Driebergen
+Driebergen-Zeist
+DRH
+Driehuis
+Driehuis
+Driehuis
+DRP
+Dronryp
+Dronryp
+Dronryp
+DRON
+Dronten
+Dronten
+Dronten
+FDP
+Duffel
+Duffel
+Duffel
+DUISB
+Duisburg Hbf
+Duisburg
+Duisburg Hbf
+DVN
+Duiven
+Duiven
+Duiven
+DVD
+Duivendrecht
+Duivendrt
+Duivendrecht
+KDUL
+DÃ¼lken
+DÃ¼lken
+DÃ¼lken
+Dulken
+EDULH
+DÃ¼lmen
+DÃ¼lmen
+DÃ¼lmen
+Dulmen
+KDFFH
+DÃ¼sseldorf Flughafen
+DÃ¼sseld F.
+DÃ¼sseldorf Flug.
+Dusseldorf Flughafen
+Dusseldorf Airport
+DUSSEL
+DÃ¼sseldorf Hbf
+DÃ¼sseldrf
+DÃ¼sseldorf Hbf
+Dusseldorf
+EBBS
+Ebbsfleet International
+Ebbsfleet
+Ebbsfleet Intern
+EC
+Echt
+Echt
+Echt
+EDC
+Ede Centrum
+Ede C
+Ede C.
+ED
+Ede-Wageningen
+Ede-Wag
+Ede-Wageningen
+EEM
+Eemshaven
+Eemshaven
+Eemshaven
+EDN
+Eijsden
+Eijsden
+Eijsden
+EHV
+Eindhoven
+Eindhoven
+Eindhoven
+EHS
+Eindhoven Strijp-S
+Strijp-S
+Strijp-S
+LKR
+Ekeren
+Ekeren
+Ekeren
+EST
+Elst
+Elst
+Elst
+EMN
+Emmen
+Emmen
+Emmen
+EMNZ
+Emmen Zuid
+Emmen Z
+Emmen Zuid
+EM
+Emmerich
+Emmerich
+Emmerich
+EKZ
+Enkhuizen
+Enkhuizen
+Enkhuizen
+EENP
+Ennepetal
+Ennepetal
+Ennepetal
+ES
+Enschede
+Enschede
+Enschede
+ESE
+Enschede De Eschmarke
+Eschmarke
+De Eschmarke
+De Eschmarke
+Eschmarke
+ESK
+Enschede Kennispark
+Kennispark
+Kennispark
+EEPE
+Epe (Westf)
+Epe (West)
+Epe (Westf)
+EML
+Ermelo
+Ermelo
+Ermelo
+ESN
+Essen (B)
+Essen (B)
+Essen (B)
+ETN
+Etten-Leur
+Etten-Leur
+Etten-Leur
+EGH
+Eygelshoven
+Eygelshov
+Eygelshoven
+EGHM
+Eygelshoven Markt
+Eygelsh M
+Eygelshoven Mrkt
+WTM
+Eys-Wittem
+Eys-Witt
+Eys-Wittem
+FWD
+Feanwalden
+Feanwalden
+Feanwalden
+FIEBER
+Fieberbrunn
+Fieberbrun
+Fieberbrunn
+FN
+Franeker
+Franeker
+Franeker
+Frjentsjer
+FFFM
+Frankfurt (M) Hbf
+Frankfurt
+Frankfurt Hbf
+FRANKO
+Frankfurt (Oder)
+Frankf(Od)
+Frankfurt (Oder)
+FNAF
+Frankfurt Flughafen Fernb
+FrankfurtF
+Frankfurt Flugh.
+RF
+Freiburg (Breisgau) Hbf
+Freiburg
+Freiburg (B.)
+GDR
+Gaanderen
+Gaanderen
+Gaanderen
+GEISL
+Geislingen
+Geislingen
+Geislingen
+GDM
+Geldermalsen
+Geldermlsn
+Geldermalsen
+GP
+Geldrop
+Geldrop
+Geldrop
+GLN
+Geleen Oost
+Geleen O
+Geleen Oost
+LUT
+Geleen-Lutterade
+Geleen-Lut
+Geleen-Lutterade
+GZ
+Gilze-Rijen
+Gilze-Rij
+Gilze-Rijen
+GBR
+Glanerbrug
+Glanerbrug
+Glanerbrug
+LGL
+Glons
+Glons
+Glons
+GS
+Goes
+Goes
+Goes
+GO
+Goor
+Goor
+Goor
+GR
+Gorinchem
+Gorinchem
+Gorinchem
+GD
+Gouda
+Gouda
+Gouda
+GDG
+Gouda Goverwelle
+Goverwelle
+Gouda Goverwelle
+GBG
+Gramsbergen
+Gramsbergn
+Gramsbergen
+GK
+Grijpskerk
+Grijpskerk
+Grijpskerk
+G
+Gronau (Westf.)
+Gronau
+Gronau (Westf.)
+GN
+Groningen
+Groningen
+Groningen
+GERP
+Groningen Europapark
+Europapark
+Europapark
+GNN
+Groningen Noord
+Groningn N
+Groningen Noord
+GW
+Grou-Jirnsum
+Grou-Jirns
+Grou-Jirnsum
+WIJ
+Gulpen-Wijlre
+Gulpen-W
+Gulpen-Wijlre
+TGO
+GÃ¶ppingen
+GÃ¶ppingen
+GÃ¶ppingen
+Goppingen
+MGZB
+GÃ¼nzburg
+GÃ¼nzburg
+GÃ¼nzburg
+Gunzburg
+HLM
+Haarlem
+Haarlem
+Haarlem
+HLMS
+Haarlem Spaarnwoude
+Spaarnwde
+Spaarnwoude
+HAGEN
+Hagen Hbf
+Hagen
+Hagen Hbf
+HWZB
+Halfweg-Zwanenburg
+Halfweg-Zw
+Halfweg-Zwanenb.
+HAMH
+Hamburg Hbf
+Hamburg H
+Hamburg Hbf
+HAMM
+Hamm (Westf.)
+Hamm
+Hamm (Westf.)
+HANN
+Hannover Hbf
+Hannover H
+Hannover Hbf
+HDB
+Hardenberg
+Hardenberg
+Hardenberg
+HD
+Harderwijk
+Harderwijk
+Harderwijk
+HBZM
+Hardinxveld Blauwe Zoom
+Blauwe Zm
+Blauwe Zoom
+GND
+Hardinxveld-Giessendam
+Hardinxvld
+Hardinxveld-G.
+HRN
+Haren
+Haren
+Haren
+HRNOVT
+Haren OV Transferium
+Haren Tran
+Haren OV Transf.
+HLG
+Harlingen
+Harlingen
+Harlingen
+Harns
+HLGH
+Harlingen Haven
+Harl Haven
+Harlingen Haven
+Harns Haven
+FHS
+Hasselt
+Hasselt
+Hasselt
+HK
+Heemskerk
+Heemskerk
+Heemskerk
+HAD
+Heemstede-Aerdenhout
+Heemstede
+Heemstede-A.
+HR
+Heerenveen
+Heerenveen
+Heerenveen
+It Hearrenfean
+HRY
+Heerenveen IJsstadion
+IJsstadion
+IJsstadion
+It Hearrenfean IIsstadium
+HWD
+Heerhugowaard
+Heerhugow
+Heerhugowaard
+HRL
+Heerlen
+Heerlen
+Heerlen
+HRLK
+Heerlen De Kissel
+De Kissel
+Hrl De Kissel
+HRLW
+Heerlen Woonboulevard
+Heerlen W
+Hrl Woonblvd
+HZE
+Heeze
+Heeze
+Heeze
+MID
+Heide (B)
+Heide (B)
+Heide (B)
+HLO
+Heiloo
+Heiloo
+Heiloo
+HNO
+Heino
+Heino
+Heino
+HM
+Helmond
+Helmond
+Helmond
+HMH
+Helmond 't Hout
+'t Hout
+Helmond 't Hout
+HMBV
+Helmond Brandevoort
+Brandevrt
+Brandevoort
+HMBH
+Helmond Brouwhuis
+Brouwhuis
+Brouwhuis
+LKM
+Hemiksem
+Hemiksem
+Hemiksem
+HMN
+Hemmen-Dodewaard
+Hemmen-D
+Hemmen-Dodewaard
+HGL
+Hengelo
+Hengelo
+Hengelo
+HGLG
+Hengelo Gezondheidspark
+Gezondhprk
+Hengelo Gezondh.
+HGLO
+Hengelo Oost
+Hengelo O
+Hengelo Oost
+LHS
+Herstal
+Herstal
+Herstal
+HZ
+Herzogenrath
+Herzogenr
+Herzogenrath
+HIL
+Hillegom
+Hillegom
+Hillegom
+HVS
+Hilversum
+Hilversum
+Hilversum
+HVSM
+Hilversum Media Park
+Media Park
+Media Park
+HVSP
+Hilversum Sportpark
+Sportpark
+Sportpark
+HNP
+Hindeloopen
+Hindeloopn
+Hindeloopen
+Hylpen
+FOE
+Hoboken-Polder
+Hoboken-P
+Hoboken-Polder
+HB
+Hoensbroek
+Hoensbroek
+Hoensbroek
+HVL
+Hoevelaken
+Hoevelaken
+Hoevelaken
+HOR
+Hollandsche Rading
+Hol Rading
+Holl. Rading
+HON
+Holten
+Holten
+Holten
+EHZW
+Holzwickede
+H'wickede
+Holzwickede
+HFD
+Hoofddorp
+Hoofddorp
+Hoofddorp
+HGV
+Hoogeveen
+Hoogeveen
+Hoogeveen
+HGZ
+Hoogezand-Sappemeer
+Hoogezand
+Hoogezand-Sap.
+HKS
+Hoogkarspel
+Hoogkrspl
+Hoogkarspel
+HN
+Hoorn
+Hoorn
+Hoorn
+HNK
+Hoorn Kersenboogerd
+Hoorn Kers
+Kersenboogerd
+HOPF
+Hopfgarten
+Hopfgarten
+Hopfgarten
+HRT
+Horst-Sevenum
+Horst-Sev
+Horst-Sevenum
+HTN
+Houten
+Houten
+Houten
+HTNC
+Houten Castellum
+Houten Cas
+Houten Castellum
+SGL
+Houthem-St. Gerlach
+Houthem-St
+Houthem-St Gerl.
+MHO
+Hove
+Hove
+Hove
+HDG
+Hurdegaryp
+Hurdegaryp
+Hurdegaryp
+IJT
+IJlst
+IJlst
+IJlst
+Drylts
+INNSB
+Innsbruck Hbf
+Innsbruck
+Innsbruck Hbf
+JENBAC
+Jenbach
+Jenbach
+Jenbach
+KN
+Kaldenkirchen
+Kaldenkir
+Kaldenkirchen
+FKTH
+Kalmthout
+Kalmthout
+Kalmthout
+KPN
+Kampen
+Kampen
+Kampen
+KPNZ
+Kampen Zuid
+Kampen Z
+Kampen Zuid
+BZL
+Kapelle-Biezelinge
+Kapelle-Bi
+Kapelle-Biezel.
+LKP
+Kapellen
+Kapellen
+Kapellen
+KARLSR
+Karlsruhe Hbf
+Karlsruhe
+Karlsruhe Hbf
+KRD
+Kerkrade Centrum
+Kerkrade C
+Kerkrade C.
+KTR
+Kesteren
+Kesteren
+Kesteren
+GKT
+Kijkuit
+Kijkuit
+Kijkuit
+KIRCHB
+Kirchberg in Tirol
+Kirchberg
+Kirchberg in T.
+KITZB
+KitzbÃ¼hel
+KitzbÃ¼hel
+KitzbÃ¼hel
+KBK
+Klarenbeek
+Klarenbk
+Klarenbeek
+KMR
+Klimmen-Ransdaal
+Klimmen-R
+Klimmen-Ransdaal
+KKO
+Koblenz Hbf
+Koblenz
+Koblenz Hbf
+KONIN
+Konin
+Konin
+Konin
+FKI
+Kontich
+Kontich
+Kontich
+KZ
+Koog aan de Zaan
+Koog Zaan
+Koog a.d. Zaan
+KMW
+Koudum-Molkwerum
+Koudum-M
+Koudum-Molkwerum
+Koudum-Molkwar
+KBD
+Krabbendijke
+Krabbendke
+Krabbendijke
+KMA
+Krommenie-Assendelft
+Krommenie
+Krommenie-Ass.
+KW
+Kropswolde
+Kropswolde
+Kropswolde
+KRG
+Kruiningen-Yerseke
+Kruiningen
+Kruiningen-Y.
+KUFST
+Kufstein
+Kufstein
+Kufstein
+KUTNO
+Kutno
+Kutno
+Kutno
+KOLN
+KÃ¶ln Hbf
+KÃ¶ln Hbf
+KÃ¶ln Hbf
+Keulen
+Koln
+KKD
+KÃ¶ln Messe/Deutz
+KÃ¶ln Messe
+KÃ¶ln Messe/Deutz
+Koln-Deutz
+ZLW
+Lage Zwaluwe
+Lage Zwalu
+Lage Zwaluwe
+LAND
+Landeck
+Landeck
+Landeck
+LG
+Landgraaf
+Landgraaf
+Landgraaf
+LANDQ
+Landquart
+Landquart
+Landquart
+LANDRY
+Landry
+Landry
+Landry
+LEER
+Leer (Ostfriesl)
+Leer
+Leer (Ostfr.)
+LDM
+Leerdam
+Leerdam
+Leerdam
+LW
+Leeuwarden
+Leeuwarden
+Leeuwarden
+Ljouwert
+ADH
+Leeuwarden Achter d Hoven
+Achter d.H
+Achter de Hoven
+Ljouwert Efter de Hannen
+LWC
+Leeuwarden Camminghaburen
+Camminghab
+Camminghaburen
+Ljouwert Camminghaburen
+ELGD
+Legden
+Legden
+Legden
+LEDN
+Leiden Centraal
+Leiden C
+Leiden C.
+Leiden
+LDL
+Leiden Lammenschans
+Leiden Lam
+Lammenschans
+LLS
+Lelystad Centrum
+Lelystad C
+Lelystad C.
+ELET
+Lette (Kr Coesfeld)
+Lette
+Lette (Kr Coes)
+LEUVEN
+Leuven
+Leuven
+Leuven
+LTV
+Lichtenvoorde-Groenlo
+Lichtenv-G
+Lichtenvoorde-G.
+LSL
+Liers
+Liers
+Liers
+LILLEE
+Lille Europe
+Lille E.
+Lille Europe
+FLB
+Limburg SÃ¼d
+Limburg S
+Limburg SÃ¼d
+LIVOR
+Livorno Centrale
+Livorno C.
+Livorno Centrale
+LUIK
+LiÃ¨ge-Guillemins
+LiÃ¨ge-G.
+LiÃ¨ge-Guillemins
+Luik
+LUIKJ
+LiÃ¨ge-Jonfosse
+LiÃ¨ge-J.
+LiÃ¨ge-Jonfosse
+LUIKP
+LiÃ¨ge-Palais
+LiÃ¨ge-P.
+LiÃ¨ge-Palais
+LC
+Lochem
+Lochem
+Lochem
+FLK
+Lokeren
+Lokeren
+Lokeren
+STP
+London St. Pancras Int.
+London StP
+London St. P Int
+LP
+Loppersum
+Loppersum
+Loppersum
+LOURD
+Lourdes
+Lourdes
+Lourdes
+LTN
+Lunteren
+Lunteren
+Lunteren
+ELDH
+LÃ¼dinghausen
+LÃ¼'hausen
+LÃ¼dinghausen
+Ludinghausen
+ELUE
+LÃ¼nen Hbf
+LÃ¼nen Hbf
+LÃ¼nen Hbf
+Lunen
+MZ
+Maarheeze
+Maarheeze
+Maarheeze
+MRN
+Maarn
+Maarn
+Maarn
+MAS
+Maarssen
+Maarssen
+Maarssen
+MT
+Maastricht
+Maastricht
+Maastricht
+MTN
+Maastricht Noord
+Maastr N
+Maastricht Noord
+MTR
+Maastricht Randwyck
+Maastr Rw
+Maastricht Randw
+FMZ
+Mainz Hbf
+Mainz Hbf
+Mainz Hbf
+MANNHE
+Mannheim Hbf
+Mannheim
+Mannheim Hbf
+MG
+Mantgum
+Mantgum
+Mantgum
+MRB
+MariÃ«nberg
+MariÃ«nberg
+MariÃ«nberg
+MARNE
+Marne-la-VallÃ©e-Chessy
+Marne-la-V
+Marne-la-VallÃ©e
+MARS
+Marseille-St-Charles
+Marseille
+Marseille-St-C
+MTH
+Martenshoek
+Martenshk
+Martenshoek
+MECH
+Mechelen
+Mechelen
+Mechelen
+LNK
+Mechelen-Nekkerspoel
+Nekkersp
+Mech-Nekkerspoel
+MES
+Meerssen
+Meerssen
+Meerssen
+LM
+Melsele
+Melsele
+Melsele
+MP
+Meppel
+Meppel
+Meppel
+EMTE
+Metelen Land
+Metelen L.
+Metelen Land
+MDB
+Middelburg
+Middelburg
+Middelburg
+BLTM
+Milmort
+Milmort
+Milmort
+MINDEN
+Minden (Westf)
+Minden
+Minden (Westf)
+KMB
+Montabaur
+Montabaur
+Montabaur
+MMLH
+Mook Molenhoek
+Mook Molen
+Molenhoek
+GMD
+Mortsel-Deurnesteenweg
+M-Deurnest
+M-Deurnesteenweg
+GMOG
+Mortsel-Oude God
+M-Oude God
+Mortsel-Oude God
+MOUT
+Moutiers-Salins-Brides
+Moutiers-S
+Moutiers-Salins
+MCGB
+MÃ¶nchengladbach Hbf
+MÃ¶nchengl
+MÃ¶nchengladbach
+Monchengladbach
+MUNCHH
+MÃ¼nchen Hbf
+MÃ¼nchen
+MÃ¼nchen Hbf
+Munchen
+ENHF
+MÃ¼nster (W) Zentrum Nord
+MÃ¼nster ZN
+MÃ¼nster Zentr. N
+Munster Zentrum Nord
+MUNST
+MÃ¼nster (Westf) Hbf
+MÃ¼nster
+MÃ¼nster (Westf)
+Munster (Westf.)
+ENBE
+MÃ¼nster-HÃ¤ger
+MÃ¼nster-H
+MÃ¼nster-HÃ¤ger
+Munster-Hager
+NDB
+Naarden-Bussum
+Naarden-Bu
+Naarden-Bussum
+NEUSS
+Neuss Hbf
+Neuss
+Neuss Hbf
+LNI
+Niel
+Niel
+Niel
+NA
+Nieuw Amsterdam
+Nw A'dam
+Nieuw Amsterdam
+NVP
+Nieuw Vennep
+Nw Vennep
+Nieuw Vennep
+NWK
+Nieuwerkerk a/d IJssel
+Nieuwerkrk
+Nieuwerkerk
+FNU
+Nieuwkerken-Waas
+Nieuwkerke
+Nieuwkerken-Waas
+NKK
+Nijkerk
+Nijkerk
+Nijkerk
+NM
+Nijmegen
+Nijmegen
+Nijmegen
+NMD
+Nijmegen Dukenburg
+Dukenburg
+Dukenburg
+NMGO
+Nijmegen Goffert
+Goffert
+Nijmegen Goffert
+NMH
+Nijmegen Heyendaal
+Heyendaal
+Nm Heyendaal
+NML
+Nijmegen Lent
+Lent
+Nijmegen Lent
+NVD
+Nijverdal
+Nijverdal
+Nijverdal
+NDKP
+Noorderkempen
+N.kempen
+Noorderkempen
+ENOW
+Nordwalde
+Nordwalde
+Nordwalde
+NS
+Nunspeet
+Nunspeet
+Nunspeet
+NH
+Nuth
+Nuth
+Nuth
+NURNB
+NÃ¼rnberg Hbf
+NÃ¼rnberg
+NÃ¼rnberg Hbf
+OBD
+Obdam
+Obdam
+Obdam
+OBERH
+Oberhausen Hbf
+Oberhausen
+Oberhausen Hbf
+OBERHS
+Oberhausen-Sterkrade
+Ob-Sterkr
+Oberh-Sterkrade
+EOP
+Ochtrup
+Ochtrup
+Ochtrup
+RO
+Offenburg
+Offenburg
+Offenburg
+OT
+Oisterwijk
+Oisterwijk
+Oisterwijk
+ODZ
+Oldenzaal
+Oldenzaal
+Oldenzaal
+OST
+Olst
+Olst
+Olst
+OMN
+Ommen
+Ommen
+Ommen
+OTB
+Oosterbeek
+Oosterbeek
+Oosterbeek
+OP
+Opheusden
+Opheusden
+Opheusden
+OSNH
+OsnabrÃ¼ck Hbf
+OsnabrÃ¼ck
+OsnabrÃ¼ck Hbf
+O
+Oss
+Oss
+Oss
+OW
+Oss West
+Oss W
+Oss West
+ODB
+Oudenbosch
+Oudenbosch
+Oudenbosch
+OVN
+Overveen
+Overveen
+Overveen
+PARIS
+Paris-Nord
+Paris-Nord
+Paris-Nord
+Parijs
+TP
+Plochingen
+Plochingen
+Plochingen
+POZN
+Poznan Gl.
+Poznan Gl.
+Poznan Gl.
+PRAHA
+Praha hl.n.
+Praha hl.n
+Praha hl.n.
+PRAHOL
+Praha-Holesovice
+Praha-Hol.
+Praha-Holesovice
+EPRN
+Preussen
+Preussen
+Preussen
+PMR
+Purmerend
+Purmerend
+Purmerend
+PMO
+Purmerend Overwhere
+Overwhere
+Overwhere
+PMW
+Purmerend Weidevenne
+Weidevenne
+Weidevenne
+PT
+Putten
+Putten
+Putten
+FRP
+Puurs
+Puurs
+Puurs
+RAT
+Raalte
+Raalte
+Raalte
+LRW
+Rathenow
+Rathenow
+Rathenow
+RVS
+Ravenstein
+Ravenstein
+Ravenstein
+RV
+Reuver
+Reuver
+Reuver
+RH
+Rheden
+Rheden
+Rheden
+RHEINE
+Rheine
+Rheine
+Rheine
+RHN
+Rhenen
+Rhenen
+Rhenen
+RSN
+Rijssen
+Rijssen
+Rijssen
+RSW
+Rijswijk
+Rijswijk
+Rijswijk
+RB
+Rilland-Bath
+Rilland-Ba
+Rilland-Bath
+RM
+Roermond
+Roermond
+Roermond
+RD
+Roodeschool
+Roodeschl
+Roodeschool
+RSD
+Roosendaal
+Roosendaal
+Roosendaal
+EHW
+Rosendahl-Holtwick
+Rosend-H
+Rosendahl-Holtw.
+RS
+Rosmalen
+Rosmalen
+Rosmalen
+RTA
+Rotterdam Alexander
+Alexander
+Alexander
+RTB
+Rotterdam Blaak
+Blaak
+Rotterdam Blaak
+RTD
+Rotterdam Centraal
+Rotterdam
+Rotterdam C.
+Rotterdam
+RLB
+Rotterdam Lombardijen
+Lombardije
+Lombardijen
+RTN
+Rotterdam Noord
+Rotterdm N
+Rotterdam Noord
+RTST
+Rotterdam Stadion
+R'dam Sta
+R'dam Stadion
+RTZ
+Rotterdam Zuid
+Rotterdm Z
+Rotterdam Zuid
+FSV
+Ruisbroek-Sauvegarde
+Ruisbr-S
+Ruisbroek-Sauv.
+RL
+Ruurlo
+Ruurlo
+Ruurlo
+RZEPIN
+Rzepin
+Rzepin
+Rzepin
+SAALF
+Saalfelden
+Saalfelden
+Saalfelden
+SPTN
+Santpoort Noord
+Santprt N
+Santpoort Noord
+SPTZ
+Santpoort Zuid
+Santprt Z
+Santpoort Zuid
+SPM
+Sappemeer Oost
+Sappemr O
+Sappemeer Oost
+SSH
+Sassenheim
+Sassenheim
+Sassenheim
+SWD
+Sauwerd
+Sauwerd
+Sauwerd
+SGN
+Schagen
+Schagen
+Schagen
+SDA
+Scheemda
+Scheemda
+Scheemda
+SCHLL
+Schelle
+Schelle
+Schelle
+SDM
+Schiedam Centrum
+Schiedam C
+Schiedam C.
+SOG
+Schin op Geul
+Schin op G
+Schin op Geul
+SN
+Schinnen
+Schinnen
+Schinnen
+SHL
+Schiphol Airport
+Schiphol
+Schiphol Airport
+Amsterdam Airport
+SCHWAR
+Schwarzach-St. Veit
+Schwarzach
+Schwarzach-St. V
+KSWE
+Schwelm
+Schwelm
+Schwelm
+ESRT
+Schwerte (Ruhr)
+Schwerte
+Schwerte (R)
+ESEM
+Selm
+Selm
+Selm
+ESEB
+Selm-Beifang
+Selm-B
+Selm-Beifang
+KSB
+Siegburg/Bonn
+Siegburg
+Siegburg/Bonn
+SPV
+Simpelveld
+Simpelveld
+Simpelveld
+LSW
+Sinaai
+Sinaai
+Sinaai
+FWA
+Sint-Katelijne-Waver
+Sint-Katel
+Sint-Katelijne-W
+MARIA
+Sint-Mariaburg
+St-Mariab
+Sint-Mariaburg
+FSN
+Sint-Niklaas
+Sint-Nikla
+Sint-Niklaas
+STD
+Sittard
+Sittard
+Sittard
+SDT
+Sliedrecht
+Sliedrecht
+Sliedrecht
+SDTB
+Sliedrecht Baanhoek
+Baanhoek
+Baanhoek
+SK
+Sneek
+Sneek
+Sneek
+Snits
+SKND
+Sneek Noord
+Sneek N
+Sneek Noord
+Snits Noard
+ST
+Soest
+Soest
+Soest
+STZ
+Soest Zuid
+Soest Z
+Soest Zuid
+SD
+Soestdijk
+Soestdijk
+Soestdijk
+SBK
+Spaubeek
+Spaubeek
+Spaubeek
+SPH
+Spekholzerheide
+Spekholzer
+Spekholzerheide
+STJOHP
+St. Johann im Pongau
+St.JohannP
+St. Johann im P.
+STJOH
+St. Johann in Tirol
+St. Johann
+St. Johann in T.
+STV
+Stavoren
+Stavoren
+Stavoren
+Starum
+STM
+Stedum
+Stedum
+Stedum
+SWK
+Steenwijk
+Steenwijk
+Steenwijk
+EBGO
+Steinfurt-Borghorst
+Steinf-Bor
+Steinfurt-Borgh
+EBFT
+Steinfurt-Burgsteinfurt
+Steinf-Bur
+Steinfurt-Burgst
+EGRK
+Steinfurt-Grottenkamp
+Steinf-Gr
+Steinfurt-Grotte
+LS
+Stendal
+Stendal
+Stendal
+TS
+Stuttgart Hbf
+Stuttgart
+Stuttgart Hbf
+SRN
+Susteren
+Susteren
+Susteren
+SM
+Swalmen
+Swalmen
+Swalmen
+WTA
+Tantow
+Tantow
+Tantow
+TG
+Tegelen
+Tegelen
+Tegelen
+TBG
+Terborg
+Terborg
+Terborg
+TL
+Tiel
+Tiel
+Tiel
+TPSW
+Tiel Passewaaij
+Passewaaij
+Tiel Passewaaij
+TB
+Tilburg
+Tilburg
+Tilburg
+TBR
+Tilburg Reeshof
+Reeshof
+Tilburg Reeshof
+TBU
+Tilburg Universiteit
+Tilburg Un
+Tilburg Univers.
+FTG
+Tongeren
+Tongeren
+Tongeren
+TWL
+Twello
+Twello
+Twello
+UTG
+Uitgeest
+Uitgeest
+Uitgeest
+UHZ
+Uithuizen
+Uithuizen
+Uithuizen
+UHM
+Uithuizermeeden
+Uithuizerm
+Uithuizermeeden
+TU
+Ulm Hbf
+Ulm
+Ulm Hbf
+EUN
+Unna
+Unna
+Unna
+UST
+Usquert
+Usquert
+Usquert
+USTI
+Usti nad Labem
+Usti nad L
+Usti nad Labem
+UT
+Utrecht Centraal
+Utrecht C
+Utrecht C.
+Utrecht
+UTLR
+Utrecht Leidsche Rijn
+LeidscheRn
+Leidsche Rijn
+UTLN
+Utrecht Lunetten
+Lunetten
+Utrecht Lunetten
+UTM
+Utrecht Maliebaan
+Maliebaan
+Maliebaan
+Spoorwegmuseum
+UTO
+Utrecht Overvecht
+Overvecht
+Overvecht
+UTT
+Utrecht Terwijde
+Terwijde
+Utrecht Terwijde
+UTVR
+Utrecht Vaartsche Rijn
+VaartscheR
+Vaartsche Rijn
+UTZL
+Utrecht Zuilen
+Zuilen
+Utrecht Zuilen
+VALTGV
+Valence TGV
+ValenceTGV
+Valence TGV
+VK
+Valkenburg
+Valkenburg
+Valkenburg
+VSV
+Varsseveld
+Varsseveld
+Varsseveld
+VDM
+Veendam
+Veendam
+Veendam
+VNDC
+Veenendaal Centrum
+Veenendl C
+Veenendaal C.
+VNDW
+Veenendaal West
+Veenendl W
+Veenendaal West
+KLP
+Veenendaal-De Klomp
+De Klomp
+De Klomp
+VP
+Velp
+Velp
+Velp
+VL
+Venlo
+Venlo
+Venlo
+VRY
+Venray
+Venray
+Venray
+VLB
+Vierlingsbeek
+Vierlingsb
+Vierlingsbeek
+VIERS
+Viersen
+Viersen
+Viersen
+FVS
+VisÃ©
+VisÃ©
+VisÃ©
+VTN
+Vleuten
+Vleuten
+Vleuten
+VS
+Vlissingen
+Vlissingen
+Vlissingen
+VSS
+Vlissingen Souburg
+Souburg
+Souburg
+VDL
+Voerendaal
+Voerendaal
+Voerendaal
+VB
+Voorburg
+Voorburg
+Voorburg
+VH
+Voorhout
+Voorhout
+Voorhout
+VST
+Voorschoten
+Voorschtn
+Voorschoten
+VEM
+Voorst-Empe
+Voorst-E
+Voorst-Empe
+VD
+Vorden
+Vorden
+Vorden
+VZ
+Vriezenveen
+Vriezenvn
+Vriezenveen
+VHP
+Vroomshoop
+Vroomshoop
+Vroomshoop
+VG
+Vught
+Vught
+Vught
+WAD
+Waddinxveen
+Waddinxvn
+Waddinxveen
+WADN
+Waddinxveen Noord
+Waddinxv N
+Waddinxveen N.
+WADT
+Waddinxveen Triangel
+Triangel
+Waddinxvn Triang
+WFM
+Warffum
+Warffum
+Warffum
+WARSZC
+Warszawa Centralna
+Warszawa C
+Warszawa C.
+WARSAW
+Warszawa Wschodnia
+Warszawa W
+Warszawa Wschodn
+WR
+Weener
+Weener
+Weener
+WT
+Weert
+Weert
+Weert
+WP
+Weesp
+Weesp
+Weesp
+WL
+Wehl
+Wehl
+Wehl
+WESEL
+Wesel
+Wesel
+Wesel
+WTV
+Westervoort
+Westervrt
+Westervoort
+WZ
+Wezep
+Wezep
+Wezep
+WIENW
+Wien Westbahnhof
+Wien Westb
+Wien Westbf
+WDN
+Wierden
+Wierden
+Wierden
+WC
+Wijchen
+Wijchen
+Wijchen
+WH
+Wijhe
+Wijhe
+Wijhe
+GWD
+Wildert
+Wildert
+Wildert
+WS
+Winschoten
+Winschoten
+Winschoten
+WSM
+Winsum
+Winsum
+Winsum
+WW
+Winterswijk
+Winterswk
+Winterswijk
+WWW
+Winterswijk West
+Wintersw W
+Winterswijk West
+WD
+Woerden
+Woerden
+Woerden
+WF
+Wolfheze
+Wolfheze
+Wolfheze
+HWOB
+Wolfsburg Hbf
+Wolfsburg
+Wolfsburg Hbf
+WV
+Wolvega
+Wolvega
+Wolvega
+Wolvegea
+WK
+Workum
+Workum
+Workum
+Warkum
+WM
+Wormerveer
+Wormerveer
+Wormerveer
+WUPPH
+Wuppertal Hbf
+Wuppertal
+Wuppertal Hbf
+KWO
+Wuppertal Oberbarmen
+Wup'tal O
+Wuppertal O
+KWBA
+Wuppertal-Barmen
+Wup'tal-B
+Wuppertal-B
+WUPPV
+Wuppertal-Vohwinkel
+Wupp-Vohw
+Wupp-Vohwinkel
+WORGL
+WÃ¶rgl
+WÃ¶rgl
+WÃ¶rgl
+Worgl
+WURZB
+WÃ¼rzburg Hbf
+WÃ¼rzburg
+WÃ¼rzburg Hbf
+ZD
+Zaandam
+Zaandam
+Zaandam
+ZDK
+Zaandam Kogerveld
+Kogerveld
+Kogerveld
+ZZS
+Zaandijk Zaanse Schans
+Zaanse S.
+Zaanse Schans
+ZBM
+Zaltbommel
+Zaltbommel
+Zaltbommel
+ZVT
+Zandvoort aan Zee
+Zandvoort
+Zandvoort a Zee
+ZELL
+Zell am See
+Zell am S.
+Zell am See
+ZA
+Zetten-Andelst
+Zetten-And
+Zetten-Andelst
+ZV
+Zevenaar
+Zevenaar
+Zevenaar
+ZVB
+Zevenbergen
+Zevenbergn
+Zevenbergen
+ZTM
+Zoetermeer
+Zoetermeer
+Zoetermeer
+ZTMO
+Zoetermeer Oost
+Zoetermr O
+Zoetermeer Oost
+ZB
+Zuidbroek
+Zuidbroek
+Zuidbroek
+ZH
+Zuidhorn
+Zuidhorn
+Zuidhorn
+ZP
+Zutphen
+Zutphen
+Zutphen
+ZWD
+Zwijndrecht
+Zwijndrcht
+Zwijndrecht
+LZD
+Zwijndrecht (B)
+Zwijndrech
+Zwijndrecht (B)
+ZL
+Zwolle
+Zwolle
+Zwolle
+ZLSH
+Zwolle Stadshagen
+Stadshagen
+Stadshagen
+ZUE
+ZÃ¼rich HB
+ZÃ¼rich HB
+ZÃ¼rich HB
+Zurich
+OETZ
+Ãtztal
+Ãtztal
+Ãtztal
+Otztal

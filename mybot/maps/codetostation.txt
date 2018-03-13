@@ -1,0 +1,623 @@
+HT:'s-Hertogenbosch
+HTO:'s-Hertogenbosch Oost
+HDE:'t Harde
+AHBF:Aachen Hbf
+ATN:Aalten
+AC:Abcoude
+EAHS:Ahaus
+AIME:Aime-la-Plagne
+AIXTGV:Aix-en-Provence
+AKM:Akkrum
+ALBERT:Albertville
+ALESS:Alessandria
+AMR:Alkmaar
+AMRN:Alkmaar Noord
+AML:Almelo
+AMRI:Almelo de Riet
+ALMB:Almere Buiten
+ALM:Almere Centrum
+ALMM:Almere Muziekwijk
+ALMO:Almere Oostvaarders
+ALMP:Almere Parkwijk
+AMPO:Almere Poort
+APN:Alphen a/d Rijn
+EABG:Altenberge
+AMF:Amersfoort
+AMFS:Amersfoort Schothorst
+AVAT:Amersfoort Vathorst
+ASA:Amsterdam Amstel
+ASB:Amsterdam Bijlmer ArenA
+ASD:Amsterdam Centraal
+ASHD:Amsterdam Holendrecht
+ASDL:Amsterdam Lelylaan
+ASDM:Amsterdam Muiderpoort
+RAI:Amsterdam RAI
+ASSP:Amsterdam Science Park
+ASS:Amsterdam Sloterdijk
+VMW:Amsterdam Van der Madeweg
+ASDZ:Amsterdam Zuid
+ANA:Anna Paulowna
+BERCH:Antwerpen-Berchem
+ATW:Antwerpen-Centraal
+ATWLB:Antwerpen-Luchtbal
+ANDD:Antwerpen-Noorderdokken
+FNZD:Antwerpen-Zuid
+APD:Apeldoorn
+APDM:Apeldoorn De Maten
+APDO:Apeldoorn Osseveld
+APG:Appingedam
+AKL:Arkel
+ARN:Arnemuiden
+AH:Arnhem Centraal
+AHPR:Arnhem Presikhaaf
+AHP:Arnhem Velperpoort
+AHZ:Arnhem Zuid
+ASHFD:Ashford International
+ASN:Assen
+MA:Augsburg Hbf
+AVTGV:Avignon TGV
+BRN:Baarn
+BH:Bad Bentheim
+NSCH:Bad Nieuweschans
+OEYNH:Bad Oeynhausen
+BADSCH:Bad Schandau
+BADENZ:Baden (CH)
+RBB:Baden-Baden
+BF:Baflo
+BRD:Barendrecht
+BNC:Barneveld Centrum
+BNN:Barneveld Noord
+BNZ:Barneveld Zuid
+BASELB:Basel Bad Bf
+BASELS:Basel SBB
+BDM:Bedum
+BK:Beek-Elsloo
+BSD:Beesd
+BL:Beilen
+LLB:Belsele
+BGN:Bergen op Zoom
+GSB:Berlin Gesundbrunnen
+BERHBL:Berlin Hbf
+BERHBT:Berlin Hbf (tief)
+BHF:Berlin Ostbahnhof
+BPAF:Berlin SÃ¼dkreuz
+BERFL:Berlin-SchÃ¶nefeld Flug.
+BSPD:Berlin-Spandau
+BET:Best
+FBR:Beveren
+BV:Beverwijk
+BIELEF:Bielefeld Hbf
+BHV:Bilthoven
+FIE:Bilzen
+BISCHO:Bischofshofen
+BR:Blerick
+BLL:Bloemendaal
+BLUDEN:Bludenz
+BDG:Bodegraven
+KBOI:Boisheim
+BONN:Bonn Hbf
+FMB:Boom
+EBOK:Bork (Westf)
+BN:Borne
+BSK:Boskoop
+BSKS:Boskoop Snijdelwijk
+BOURG:Bourg-St-Maurice
+BHDV:Boven-Hardinxveld
+BKF:Bovenkarspel Flora
+BKG:Bovenkarspel-Grootebroek
+BMR:Boxmeer
+BTL:Boxtel
+BRAUNS:Braunschweig Hbf
+BD:Breda
+BDPB:Breda-Prinsenbeek
+BRESSX:Bressoux
+BKL:Breukelen
+KBRY:Breyell
+BMN:Brummen
+BRUSC:Brussel-Centraal
+BRUSN:Brussel-Noord
+BRUSZ:Brussel-Zuid/Midi
+FBNL:Brussels Airport-Zaventem
+HBDP:Budapest
+BP:Buitenpost
+BDE:Bunde
+BNK:Bunnik
+BSMZ:Bussum Zuid
+EBEO:BÃ¶nen
+BUENDE:BÃ¼nde (Westf)
+CPS:Capelle Schollevaar
+CAS:Castricum
+CHAMB:ChambÃ©ry
+CVM:Chevremont
+CHUR:Chur
+ECMF:Coesfeld (Westf)
+CO:Coevorden
+COMO:Como
+CK:Cuijk
+CL:Culemborg
+DA:Daarlerveen
+DLN:Dalen
+DL:Dalfsen
+DVNK:De Vink
+DWE:De Westereen
+DECIN:Decin hl.n.
+DEI:Deinum
+DDN:Delden
+DT:Delft
+DTZ:Delft Zuid
+DZ:Delfzijl
+DZW:Delfzijl West
+DLD:Den Dolder
+GVC:Den Haag Centraal
+GV:Den Haag HS
+LAA:Den Haag Laan v NOI
+GVM:Den Haag Mariahoeve
+GVMW:Den Haag Moerwijk
+YPB:Den Haag Ypenburg
+HDR:Den Helder
+HDRZ:Den Helder Zuid
+DN:Deurne
+DV:Deventer
+DVC:Deventer Colmschate
+DID:Didam
+DMN:Diemen
+DMNZ:Diemen Zuid
+GDP:Diepenbeek
+DR:Dieren
+DTC:Doetinchem
+DTCH:Doetinchem De Huet
+DOMOD:Domodossola
+DDR:Dordrecht
+DDRS:Dordrecht Stadspolders
+DDZD:Dordrecht Zuid
+EDD:Dortmund Derne
+EDO:Dortmund Hbf
+EDKD:Dortmund Kirchderne
+DRESD:Dresden Hbf
+DRESDN:Dresden-Neustadt
+DB:Driebergen-Zeist
+DRH:Driehuis
+DRP:Dronryp
+DRON:Dronten
+FDP:Duffel
+DUISB:Duisburg Hbf
+DVN:Duiven
+DVD:Duivendrecht
+KDUL:DÃ¼lken
+EDULH:DÃ¼lmen
+KDFFH:DÃ¼sseldorf Flughafen
+DUSSEL:DÃ¼sseldorf Hbf
+EBBS:Ebbsfleet International
+EC:Echt
+EDC:Ede Centrum
+ED:Ede-Wageningen
+EEM:Eemshaven
+EDN:Eijsden
+EHV:Eindhoven
+EHS:Eindhoven Strijp-S
+LKR:Ekeren
+EST:Elst
+EMN:Emmen
+EMNZ:Emmen Zuid
+EM:Emmerich
+EKZ:Enkhuizen
+EENP:Ennepetal
+ES:Enschede
+ESE:Enschede De Eschmarke
+ESK:Enschede Kennispark
+EEPE:Epe (Westf)
+EML:Ermelo
+ESN:Essen (B)
+ETN:Etten-Leur
+EGH:Eygelshoven
+EGHM:Eygelshoven Markt
+WTM:Eys-Wittem
+FWD:Feanwalden
+FIEBER:Fieberbrunn
+FN:Franeker
+FFFM:Frankfurt (M) Hbf
+FRANKO:Frankfurt (Oder)
+FNAF:Frankfurt Flughafen Fernb
+RF:Freiburg (Breisgau) Hbf
+GDR:Gaanderen
+GEISL:Geislingen
+GDM:Geldermalsen
+GP:Geldrop
+GLN:Geleen Oost
+LUT:Geleen-Lutterade
+GZ:Gilze-Rijen
+GBR:Glanerbrug
+LGL:Glons
+GS:Goes
+GO:Goor
+GR:Gorinchem
+GD:Gouda
+GDG:Gouda Goverwelle
+GBG:Gramsbergen
+GK:Grijpskerk
+G:Gronau (Westf.)
+GN:Groningen
+GERP:Groningen Europapark
+GNN:Groningen Noord
+GW:Grou-Jirnsum
+WIJ:Gulpen-Wijlre
+TGO:GÃ¶ppingen
+MGZB:GÃ¼nzburg
+HLM:Haarlem
+HLMS:Haarlem Spaarnwoude
+HAGEN:Hagen Hbf
+HWZB:Halfweg-Zwanenburg
+HAMH:Hamburg Hbf
+HAMM:Hamm (Westf.)
+HANN:Hannover Hbf
+HDB:Hardenberg
+HD:Harderwijk
+HBZM:Hardinxveld Blauwe Zoom
+GND:Hardinxveld-Giessendam
+HRN:Haren
+HRNOVT:Haren OV Transferium
+HLG:Harlingen
+HLGH:Harlingen Haven
+FHS:Hasselt
+HK:Heemskerk
+HAD:Heemstede-Aerdenhout
+HR:Heerenveen
+HRY:Heerenveen IJsstadion
+HWD:Heerhugowaard
+HRL:Heerlen
+HRLK:Heerlen De Kissel
+HRLW:Heerlen Woonboulevard
+HZE:Heeze
+MID:Heide (B)
+HLO:Heiloo
+HNO:Heino
+HM:Helmond
+HMH:Helmond 't Hout
+HMBV:Helmond Brandevoort
+HMBH:Helmond Brouwhuis
+LKM:Hemiksem
+HMN:Hemmen-Dodewaard
+HGL:Hengelo
+HGLG:Hengelo Gezondheidspark
+HGLO:Hengelo Oost
+LHS:Herstal
+HZ:Herzogenrath
+HIL:Hillegom
+HVS:Hilversum
+HVSM:Hilversum Media Park
+HVSP:Hilversum Sportpark
+HNP:Hindeloopen
+FOE:Hoboken-Polder
+HB:Hoensbroek
+HVL:Hoevelaken
+HOR:Hollandsche Rading
+HON:Holten
+EHZW:Holzwickede
+HFD:Hoofddorp
+HGV:Hoogeveen
+HGZ:Hoogezand-Sappemeer
+HKS:Hoogkarspel
+HN:Hoorn
+HNK:Hoorn Kersenboogerd
+HOPF:Hopfgarten
+HRT:Horst-Sevenum
+HTN:Houten
+HTNC:Houten Castellum
+SGL:Houthem-St. Gerlach
+MHO:Hove
+HDG:Hurdegaryp
+IJT:IJlst
+INNSB:Innsbruck Hbf
+JENBAC:Jenbach
+KN:Kaldenkirchen
+FKTH:Kalmthout
+KPN:Kampen
+KPNZ:Kampen Zuid
+BZL:Kapelle-Biezelinge
+LKP:Kapellen
+KARLSR:Karlsruhe Hbf
+KRD:Kerkrade Centrum
+KTR:Kesteren
+GKT:Kijkuit
+KIRCHB:Kirchberg in Tirol
+KITZB:KitzbÃ¼hel
+KBK:Klarenbeek
+KMR:Klimmen-Ransdaal
+KKO:Koblenz Hbf
+KONIN:Konin
+FKI:Kontich
+KZ:Koog aan de Zaan
+KMW:Koudum-Molkwerum
+KBD:Krabbendijke
+KMA:Krommenie-Assendelft
+KW:Kropswolde
+KRG:Kruiningen-Yerseke
+KUFST:Kufstein
+KUTNO:Kutno
+KOLN:KÃ¶ln Hbf
+KKD:KÃ¶ln Messe/Deutz
+ZLW:Lage Zwaluwe
+LAND:Landeck
+LG:Landgraaf
+LANDQ:Landquart
+LANDRY:Landry
+LEER:Leer (Ostfriesl)
+LDM:Leerdam
+LW:Leeuwarden
+ADH:Leeuwarden Achter d Hoven
+LWC:Leeuwarden Camminghaburen
+ELGD:Legden
+LEDN:Leiden Centraal
+LDL:Leiden Lammenschans
+LLS:Lelystad Centrum
+ELET:Lette (Kr Coesfeld)
+LEUVEN:Leuven
+LTV:Lichtenvoorde-Groenlo
+LSL:Liers
+LILLEE:Lille Europe
+FLB:Limburg SÃ¼d
+LIVOR:Livorno Centrale
+LUIK:LiÃ¨ge-Guillemins
+LUIKJ:LiÃ¨ge-Jonfosse
+LUIKP:LiÃ¨ge-Palais
+LC:Lochem
+FLK:Lokeren
+STP:London St. Pancras Int.
+LP:Loppersum
+LOURD:Lourdes
+LTN:Lunteren
+ELDH:LÃ¼dinghausen
+ELUE:LÃ¼nen Hbf
+MZ:Maarheeze
+MRN:Maarn
+MAS:Maarssen
+MT:Maastricht
+MTN:Maastricht Noord
+MTR:Maastricht Randwyck
+FMZ:Mainz Hbf
+MANNHE:Mannheim Hbf
+MG:Mantgum
+MRB:MariÃ«nberg
+MARNE:Marne-la-VallÃ©e-Chessy
+MARS:Marseille-St-Charles
+MTH:Martenshoek
+MECH:Mechelen
+LNK:Mechelen-Nekkerspoel
+MES:Meerssen
+LM:Melsele
+MP:Meppel
+EMTE:Metelen Land
+MDB:Middelburg
+BLTM:Milmort
+MINDEN:Minden (Westf)
+KMB:Montabaur
+MMLH:Mook Molenhoek
+GMD:Mortsel-Deurnesteenweg
+GMOG:Mortsel-Oude God
+MOUT:Moutiers-Salins-Brides
+MCGB:MÃ¶nchengladbach Hbf
+MUNCHH:MÃ¼nchen Hbf
+ENHF:MÃ¼nster (W) Zentrum Nord
+MUNST:MÃ¼nster (Westf) Hbf
+ENBE:MÃ¼nster-HÃ¤ger
+NDB:Naarden-Bussum
+NEUSS:Neuss Hbf
+LNI:Niel
+NA:Nieuw Amsterdam
+NVP:Nieuw Vennep
+NWK:Nieuwerkerk a/d IJssel
+FNU:Nieuwkerken-Waas
+NKK:Nijkerk
+NM:Nijmegen
+NMD:Nijmegen Dukenburg
+NMGO:Nijmegen Goffert
+NMH:Nijmegen Heyendaal
+NML:Nijmegen Lent
+NVD:Nijverdal
+NDKP:Noorderkempen
+ENOW:Nordwalde
+NS:Nunspeet
+NH:Nuth
+NURNB:NÃ¼rnberg Hbf
+OBD:Obdam
+OBERH:Oberhausen Hbf
+OBERHS:Oberhausen-Sterkrade
+EOP:Ochtrup
+RO:Offenburg
+OT:Oisterwijk
+ODZ:Oldenzaal
+OST:Olst
+OMN:Ommen
+OTB:Oosterbeek
+OP:Opheusden
+OSNH:OsnabrÃ¼ck Hbf
+O:Oss
+OW:Oss West
+ODB:Oudenbosch
+OVN:Overveen
+PARIS:Paris-Nord
+TP:Plochingen
+POZN:Poznan Gl.
+PRAHA:Praha hl.n.
+PRAHOL:Praha-Holesovice
+EPRN:Preussen
+PMR:Purmerend
+PMO:Purmerend Overwhere
+PMW:Purmerend Weidevenne
+PT:Putten
+FRP:Puurs
+RAT:Raalte
+LRW:Rathenow
+RVS:Ravenstein
+RV:Reuver
+RH:Rheden
+RHEINE:Rheine
+RHN:Rhenen
+RSN:Rijssen
+RSW:Rijswijk
+RB:Rilland-Bath
+RM:Roermond
+RD:Roodeschool
+RSD:Roosendaal
+EHW:Rosendahl-Holtwick
+RS:Rosmalen
+RTA:Rotterdam Alexander
+RTB:Rotterdam Blaak
+RTD:Rotterdam Centraal
+RLB:Rotterdam Lombardijen
+RTN:Rotterdam Noord
+RTST:Rotterdam Stadion
+RTZ:Rotterdam Zuid
+FSV:Ruisbroek-Sauvegarde
+RL:Ruurlo
+RZEPIN:Rzepin
+SAALF:Saalfelden
+SPTN:Santpoort Noord
+SPTZ:Santpoort Zuid
+SPM:Sappemeer Oost
+SSH:Sassenheim
+SWD:Sauwerd
+SGN:Schagen
+SDA:Scheemda
+SCHLL:Schelle
+SDM:Schiedam Centrum
+SOG:Schin op Geul
+SN:Schinnen
+SHL:Schiphol Airport
+SCHWAR:Schwarzach-St. Veit
+KSWE:Schwelm
+ESRT:Schwerte (Ruhr)
+ESEM:Selm
+ESEB:Selm-Beifang
+KSB:Siegburg/Bonn
+SPV:Simpelveld
+LSW:Sinaai
+FWA:Sint-Katelijne-Waver
+MARIA:Sint-Mariaburg
+FSN:Sint-Niklaas
+STD:Sittard
+SDT:Sliedrecht
+SDTB:Sliedrecht Baanhoek
+SK:Sneek
+SKND:Sneek Noord
+ST:Soest
+STZ:Soest Zuid
+SD:Soestdijk
+SBK:Spaubeek
+SPH:Spekholzerheide
+STJOHP:St. Johann im Pongau
+STJOH:St. Johann in Tirol
+STV:Stavoren
+STM:Stedum
+SWK:Steenwijk
+EBGO:Steinfurt-Borghorst
+EBFT:Steinfurt-Burgsteinfurt
+EGRK:Steinfurt-Grottenkamp
+LS:Stendal
+TS:Stuttgart Hbf
+SRN:Susteren
+SM:Swalmen
+WTA:Tantow
+TG:Tegelen
+TBG:Terborg
+TL:Tiel
+TPSW:Tiel Passewaaij
+TB:Tilburg
+TBR:Tilburg Reeshof
+TBU:Tilburg Universiteit
+FTG:Tongeren
+TWL:Twello
+UTG:Uitgeest
+UHZ:Uithuizen
+UHM:Uithuizermeeden
+TU:Ulm Hbf
+EUN:Unna
+UST:Usquert
+USTI:Usti nad Labem
+UT:Utrecht Centraal
+UTLR:Utrecht Leidsche Rijn
+UTLN:Utrecht Lunetten
+UTM:Utrecht Maliebaan
+UTO:Utrecht Overvecht
+UTT:Utrecht Terwijde
+UTVR:Utrecht Vaartsche Rijn
+UTZL:Utrecht Zuilen
+VALTGV:Valence TGV
+VK:Valkenburg
+VSV:Varsseveld
+VDM:Veendam
+VNDC:Veenendaal Centrum
+VNDW:Veenendaal West
+KLP:Veenendaal-De Klomp
+VP:Velp
+VL:Venlo
+VRY:Venray
+VLB:Vierlingsbeek
+VIERS:Viersen
+FVS:VisÃ©
+VTN:Vleuten
+VS:Vlissingen
+VSS:Vlissingen Souburg
+VDL:Voerendaal
+VB:Voorburg
+VH:Voorhout
+VST:Voorschoten
+VEM:Voorst-Empe
+VD:Vorden
+VZ:Vriezenveen
+VHP:Vroomshoop
+VG:Vught
+WAD:Waddinxveen
+WADN:Waddinxveen Noord
+WADT:Waddinxveen Triangel
+WFM:Warffum
+WARSZC:Warszawa Centralna
+WARSAW:Warszawa Wschodnia
+WR:Weener
+WT:Weert
+WP:Weesp
+WL:Wehl
+WESEL:Wesel
+WTV:Westervoort
+WZ:Wezep
+WIENW:Wien Westbahnhof
+WDN:Wierden
+WC:Wijchen
+WH:Wijhe
+GWD:Wildert
+WS:Winschoten
+WSM:Winsum
+WW:Winterswijk
+WWW:Winterswijk West
+WD:Woerden
+WF:Wolfheze
+HWOB:Wolfsburg Hbf
+WV:Wolvega
+WK:Workum
+WM:Wormerveer
+WUPPH:Wuppertal Hbf
+KWO:Wuppertal Oberbarmen
+KWBA:Wuppertal-Barmen
+WUPPV:Wuppertal-Vohwinkel
+WORGL:WÃ¶rgl
+WURZB:WÃ¼rzburg Hbf
+ZD:Zaandam
+ZDK:Zaandam Kogerveld
+ZZS:Zaandijk Zaanse Schans
+ZBM:Zaltbommel
+ZVT:Zandvoort aan Zee
+ZELL:Zell am See
+ZA:Zetten-Andelst
+ZV:Zevenaar
+ZVB:Zevenbergen
+ZTM:Zoetermeer
+ZTMO:Zoetermeer Oost
+ZB:Zuidbroek
+ZH:Zuidhorn
+ZP:Zutphen
+ZWD:Zwijndrecht
+LZD:Zwijndrecht (B)
+ZL:Zwolle
+ZLSH:Zwolle Stadshagen
+ZUE:ZÃ¼rich HB
+OETZ:Ãtztal

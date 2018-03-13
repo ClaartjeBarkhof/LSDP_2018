@@ -1,0 +1,2553 @@
+HT:HT
+'s-Hertogenbosch:HT
+Den Bosch:HT
+'s-Hertogenbosch:HT
+Hertogenbosch ('s):HT
+Den Bosch:HT
+HTO:HTO
+'s-Hertogenbosch Oost:HTO
+Dn Bosch O:HTO
+Hertogenb. Oost:HTO
+Hertogenbosch Oost ('s):HTO
+Den Bosch Oost:HTO
+HDE:HDE
+'t Harde:HDE
+'t Harde:HDE
+'t Harde:HDE
+Harde ('t):HDE
+AHBF:AHBF
+Aachen Hbf:AHBF
+Aachen:AHBF
+Aachen Hbf:AHBF
+ATN:ATN
+Aalten:ATN
+Aalten:ATN
+Aalten:ATN
+AC:AC
+Abcoude:AC
+Abcoude:AC
+Abcoude:AC
+EAHS:EAHS
+Ahaus:EAHS
+Ahaus:EAHS
+Ahaus:EAHS
+AIME:AIME
+Aime-la-Plagne:AIME
+Aime-la-Pl:AIME
+Aime-la-Plagne:AIME
+AIXTGV:AIXTGV
+Aix-en-Provence:AIXTGV
+Aix-en-Pro:AIXTGV
+Aix-en-Provence:AIXTGV
+AKM:AKM
+Akkrum:AKM
+Akkrum:AKM
+Akkrum:AKM
+ALBERT:ALBERT
+Albertville:ALBERT
+Albertv.:ALBERT
+Albertville:ALBERT
+ALESS:ALESS
+Alessandria:ALESS
+Alessandr.:ALESS
+Alessandria:ALESS
+AMR:AMR
+Alkmaar:AMR
+Alkmaar:AMR
+Alkmaar:AMR
+AMRN:AMRN
+Alkmaar Noord:AMRN
+Alkmaar N:AMRN
+Alkmaar Noord:AMRN
+AML:AML
+Almelo:AML
+Almelo:AML
+Almelo:AML
+AMRI:AMRI
+Almelo de Riet:AMRI
+de Riet:AMRI
+Almelo de Riet:AMRI
+ALMB:ALMB
+Almere Buiten:ALMB
+Buiten:ALMB
+Almere Buiten:ALMB
+ALM:ALM
+Almere Centrum:ALM
+Almere C:ALM
+Almere C.:ALM
+Almere:ALM
+ALMM:ALMM
+Almere Muziekwijk:ALMM
+Muziekwijk:ALMM
+Muziekwijk:ALMM
+ALMO:ALMO
+Almere Oostvaarders:ALMO
+Oostvaard:ALMO
+Oostvaarders:ALMO
+ALMP:ALMP
+Almere Parkwijk:ALMP
+Parkwijk:ALMP
+Almere Parkwijk:ALMP
+AMPO:AMPO
+Almere Poort:AMPO
+Almere Prt:AMPO
+Almere Poort:AMPO
+APN:APN
+Alphen a/d Rijn:APN
+Alphen:APN
+Alphen a/d Rijn:APN
+Alphen aan den Rijn:APN
+EABG:EABG
+Altenberge:EABG
+Altenberge:EABG
+Altenberge:EABG
+AMF:AMF
+Amersfoort:AMF
+Amersfoort:AMF
+Amersfoort:AMF
+AMFS:AMFS
+Amersfoort Schothorst:AMFS
+Schothorst:AMFS
+Schothorst:AMFS
+AVAT:AVAT
+Amersfoort Vathorst:AVAT
+Vathorst:AVAT
+Vathorst:AVAT
+ASA:ASA
+Amsterdam Amstel:ASA
+Amstel:ASA
+Amsterdam Amstel:ASA
+ASB:ASB
+Amsterdam Bijlmer ArenA:ASB
+Bijlmer A:ASB
+Bijlmer ArenA:ASB
+ASD:ASD
+Amsterdam Centraal:ASD
+Amsterdam:ASD
+Amsterdam C.:ASD
+Amsterdam:ASD
+ASHD:ASHD
+Amsterdam Holendrecht:ASHD
+Holendrcht:ASHD
+Holendrecht:ASHD
+ASDL:ASDL
+Amsterdam Lelylaan:ASDL
+Lelylaan:ASDL
+Lelylaan:ASDL
+ASDM:ASDM
+Amsterdam Muiderpoort:ASDM
+Muiderprt:ASDM
+Muiderpoort:ASDM
+RAI:RAI
+Amsterdam RAI:RAI
+RAI:RAI
+Amsterdam RAI:RAI
+ASSP:ASSP
+Amsterdam Science Park:ASSP
+Scienceprk:ASSP
+Science Park:ASSP
+ASS:ASS
+Amsterdam Sloterdijk:ASS
+Sloterdijk:ASS
+Sloterdijk:ASS
+VMW:VMW
+Amsterdam Van der Madeweg:VMW
+vd Madeweg:VMW
+Van der Madeweg:VMW
+ASDZ:ASDZ
+Amsterdam Zuid:ASDZ
+Amsterdm Z:ASDZ
+Amsterdam Zuid:ASDZ
+ANA:ANA
+Anna Paulowna:ANA
+Anna Paulo:ANA
+Anna Paulowna:ANA
+BERCH:BERCH
+Antwerpen-Berchem:BERCH
+Antw-Berch:BERCH
+Antw-Berchem:BERCH
+ATW:ATW
+Antwerpen-Centraal:ATW
+Antwerpen:ATW
+Antwerpen-C.:ATW
+ATWLB:ATWLB
+Antwerpen-Luchtbal:ATWLB
+Antw-Bal:ATWLB
+Antw-Luchtbal:ATWLB
+ANDD:ANDD
+Antwerpen-Noorderdokken:ANDD
+Antw-dok:ANDD
+Antw-N'dokken:ANDD
+FNZD:FNZD
+Antwerpen-Zuid:FNZD
+Antw-Zuid:FNZD
+Antwerpen-Zuid:FNZD
+APD:APD
+Apeldoorn:APD
+Apeldoorn:APD
+Apeldoorn:APD
+APDM:APDM
+Apeldoorn De Maten:APDM
+De Maten:APDM
+De Maten:APDM
+APDO:APDO
+Apeldoorn Osseveld:APDO
+Osseveld:APDO
+Osseveld:APDO
+APG:APG
+Appingedam:APG
+Appingedam:APG
+Appingedam:APG
+AKL:AKL
+Arkel:AKL
+Arkel:AKL
+Arkel:AKL
+ARN:ARN
+Arnemuiden:ARN
+Arnemuiden:ARN
+Arnemuiden:ARN
+AH:AH
+Arnhem Centraal:AH
+Arnhem C:AH
+Arnhem C.:AH
+Arnhem:AH
+AHPR:AHPR
+Arnhem Presikhaaf:AHPR
+Presikhaaf:AHPR
+Presikhaaf:AHPR
+AHP:AHP
+Arnhem Velperpoort:AHP
+Velperprt:AHP
+Velperpoort:AHP
+AHZ:AHZ
+Arnhem Zuid:AHZ
+Arnhem Z:AHZ
+Arnhem Zuid:AHZ
+ASHFD:ASHFD
+Ashford International:ASHFD
+AshfordINT:ASHFD
+Ashford Internat:ASHFD
+ASN:ASN
+Assen:ASN
+Assen:ASN
+Assen:ASN
+MA:MA
+Augsburg Hbf:MA
+Augsburg:MA
+Augsburg Hbf:MA
+AVTGV:AVTGV
+Avignon TGV:AVTGV
+Avignon:AVTGV
+Avignon TGV:AVTGV
+BRN:BRN
+Baarn:BRN
+Baarn:BRN
+Baarn:BRN
+BH:BH
+Bad Bentheim:BH
+Bentheim:BH
+Bad Bentheim:BH
+NSCH:NSCH
+Bad Nieuweschans:NSCH
+Nweschans:NSCH
+Bad Nieuweschans:NSCH
+Nieuweschans:NSCH
+OEYNH:OEYNH
+Bad Oeynhausen:OEYNH
+Bad Oeynh:OEYNH
+Bad Oeynhausen:OEYNH
+BADSCH:BADSCH
+Bad Schandau:BADSCH
+Bad Schand:BADSCH
+Bad Schandau:BADSCH
+BADENZ:BADENZ
+Baden (CH):BADENZ
+Baden (CH):BADENZ
+Baden (CH):BADENZ
+RBB:RBB
+Baden-Baden:RBB
+Baden-B.:RBB
+Baden-Baden:RBB
+BF:BF
+Baflo:BF
+Baflo:BF
+Baflo:BF
+BRD:BRD
+Barendrecht:BRD
+Barendrcht:BRD
+Barendrecht:BRD
+BNC:BNC
+Barneveld Centrum:BNC
+Barnevld C:BNC
+Barneveld C.:BNC
+BNN:BNN
+Barneveld Noord:BNN
+Barnevld N:BNN
+Barneveld Noord:BNN
+BNZ:BNZ
+Barneveld Zuid:BNZ
+Barnevld Z:BNZ
+Barneveld Zuid:BNZ
+BASELB:BASELB
+Basel Bad Bf:BASELB
+Basel Bad:BASELB
+Basel Bad Bf:BASELB
+BASELS:BASELS
+Basel SBB:BASELS
+Basel SBB:BASELS
+Basel SBB:BASELS
+BDM:BDM
+Bedum:BDM
+Bedum:BDM
+Bedum:BDM
+BK:BK
+Beek-Elsloo:BK
+Beek-E:BK
+Beek-Elsloo:BK
+BSD:BSD
+Beesd:BSD
+Beesd:BSD
+Beesd:BSD
+BL:BL
+Beilen:BL
+Beilen:BL
+Beilen:BL
+LLB:LLB
+Belsele:LLB
+Belsele:LLB
+Belsele:LLB
+BGN:BGN
+Bergen op Zoom:BGN
+Bergen opZ:BGN
+Bergen op Zoom:BGN
+GSB:GSB
+Berlin Gesundbrunnen:GSB
+Berlin Gsb:GSB
+Berlin Gesundbr.:GSB
+BERHBL:BERHBL
+Berlin Hbf:BERHBL
+Berlin Hbf:BERHBL
+Berlin Hbf:BERHBL
+Berlijn:BERHBL
+BERHBT:BERHBT
+Berlin Hbf (tief):BERHBT
+Berlin Hbf:BERHBT
+Berlin Hbf:BERHBT
+BHF:BHF
+Berlin Ostbahnhof:BHF
+Berlin Ost:BHF
+Berlin Ostbhf:BHF
+BPAF:BPAF
+Berlin SÃ¼dkreuz:BPAF
+Berlin SÃ¼d:BPAF
+Berlin SÃ¼dkreuz:BPAF
+BERFL:BERFL
+Berlin-SchÃ¶nefeld Flug.:BERFL
+Berlin-Fl.:BERFL
+Berlin-S Flugh.:BERFL
+BSPD:BSPD
+Berlin-Spandau:BSPD
+Berlin-Spa:BSPD
+Berlin-Spandau:BSPD
+BET:BET
+Best:BET
+Best:BET
+Best:BET
+FBR:FBR
+Beveren:FBR
+Beveren:FBR
+Beveren:FBR
+BV:BV
+Beverwijk:BV
+Beverwijk:BV
+Beverwijk:BV
+BIELEF:BIELEF
+Bielefeld Hbf:BIELEF
+Bielefeld:BIELEF
+Bielefeld Hbf:BIELEF
+BHV:BHV
+Bilthoven:BHV
+Bilthoven:BHV
+Bilthoven:BHV
+FIE:FIE
+Bilzen:FIE
+Bilzen:FIE
+Bilzen:FIE
+BISCHO:BISCHO
+Bischofshofen:BISCHO
+Bischofsh.:BISCHO
+Bischofshofen:BISCHO
+BR:BR
+Blerick:BR
+Blerick:BR
+Blerick:BR
+BLL:BLL
+Bloemendaal:BLL
+Bloemendl:BLL
+Bloemendaal:BLL
+BLUDEN:BLUDEN
+Bludenz:BLUDEN
+Bludenz:BLUDEN
+Bludenz:BLUDEN
+BDG:BDG
+Bodegraven:BDG
+Bodegraven:BDG
+Bodegraven:BDG
+KBOI:KBOI
+Boisheim:KBOI
+Boisheim:KBOI
+Boisheim:KBOI
+BONN:BONN
+Bonn Hbf:BONN
+Bonn Hbf:BONN
+Bonn Hbf:BONN
+FMB:FMB
+Boom:FMB
+Boom:FMB
+Boom:FMB
+EBOK:EBOK
+Bork (Westf):EBOK
+Bork:EBOK
+Bork (Westf):EBOK
+BN:BN
+Borne:BN
+Borne:BN
+Borne:BN
+BSK:BSK
+Boskoop:BSK
+Boskoop:BSK
+Boskoop:BSK
+BSKS:BSKS
+Boskoop Snijdelwijk:BSKS
+Snijdelwk:BSKS
+Boskoop Snijdelw:BSKS
+BOURG:BOURG
+Bourg-St-Maurice:BOURG
+Bourg-StM:BOURG
+Bourg-St-Maurice:BOURG
+BHDV:BHDV
+Boven-Hardinxveld:BHDV
+Boven-Har:BHDV
+Boven-Hardinxv.:BHDV
+BKF:BKF
+Bovenkarspel Flora:BKF
+Bovenk Flo:BKF
+Bovenkarspel Fl.:BKF
+BKG:BKG
+Bovenkarspel-Grootebroek:BKG
+Bovenk-Gr:BKG
+Bovenkarspel-Gr.:BKG
+BMR:BMR
+Boxmeer:BMR
+Boxmeer:BMR
+Boxmeer:BMR
+BTL:BTL
+Boxtel:BTL
+Boxtel:BTL
+Boxtel:BTL
+BRAUNS:BRAUNS
+Braunschweig Hbf:BRAUNS
+Braunschw:BRAUNS
+Braunschweig Hbf:BRAUNS
+BD:BD
+Breda:BD
+Breda:BD
+Breda:BD
+BDPB:BDPB
+Breda-Prinsenbeek:BDPB
+Prinsenbk:BDPB
+Prinsenbeek:BDPB
+BRESSX:BRESSX
+Bressoux:BRESSX
+Bressoux:BRESSX
+Bressoux:BRESSX
+BKL:BKL
+Breukelen:BKL
+Breukelen:BKL
+Breukelen:BKL
+KBRY:KBRY
+Breyell:KBRY
+Breyell:KBRY
+Breyell:KBRY
+BMN:BMN
+Brummen:BMN
+Brummen:BMN
+Brummen:BMN
+BRUSC:BRUSC
+Brussel-Centraal:BRUSC
+Brussel-C:BRUSC
+Brussel-C.:BRUSC
+BRUSN:BRUSN
+Brussel-Noord:BRUSN
+Brussel-N:BRUSN
+Brussel-Noord:BRUSN
+BRUSZ:BRUSZ
+Brussel-Zuid/Midi:BRUSZ
+Brussel-Z:BRUSZ
+Brussel Z./Midi:BRUSZ
+FBNL:FBNL
+Brussels Airport-Zaventem:FBNL
+Brus Airpt:FBNL
+Brussels Airport:FBNL
+HBDP:HBDP
+Budapest:HBDP
+Budapest:HBDP
+Budapest:HBDP
+BP:BP
+Buitenpost:BP
+Buitenpost:BP
+Buitenpost:BP
+BÃ»tenpost:BP
+BDE:BDE
+Bunde:BDE
+Bunde:BDE
+Bunde:BDE
+BNK:BNK
+Bunnik:BNK
+Bunnik:BNK
+Bunnik:BNK
+BSMZ:BSMZ
+Bussum Zuid:BSMZ
+Bussum Z:BSMZ
+Bussum Zuid:BSMZ
+EBEO:EBEO
+BÃ¶nen:EBEO
+BÃ¶nen:EBEO
+BÃ¶nen:EBEO
+Bonen:EBEO
+BUENDE:BUENDE
+BÃ¼nde (Westf):BUENDE
+BÃ¼nde (W):BUENDE
+BÃ¼nde (Westf):BUENDE
+Bunde:BUENDE
+CPS:CPS
+Capelle Schollevaar:CPS
+Schollevr:CPS
+Schollevaar:CPS
+CAS:CAS
+Castricum:CAS
+Castricum:CAS
+Castricum:CAS
+CHAMB:CHAMB
+ChambÃ©ry:CHAMB
+ChambÃ©ry:CHAMB
+ChambÃ©ry:CHAMB
+CVM:CVM
+Chevremont:CVM
+Chevremont:CVM
+Chevremont:CVM
+CHUR:CHUR
+Chur:CHUR
+Chur:CHUR
+Chur:CHUR
+ECMF:ECMF
+Coesfeld (Westf):ECMF
+Coesfeld:ECMF
+Coesfeld (Westf):ECMF
+CO:CO
+Coevorden:CO
+Coevorden:CO
+Coevorden:CO
+COMO:COMO
+Como:COMO
+Como:COMO
+Como:COMO
+CK:CK
+Cuijk:CK
+Cuijk:CK
+Cuijk:CK
+CL:CL
+Culemborg:CL
+Culemborg:CL
+Culemborg:CL
+DA:DA
+Daarlerveen:DA
+Daarlervn:DA
+Daarlerveen:DA
+DLN:DLN
+Dalen:DLN
+Dalen:DLN
+Dalen:DLN
+DL:DL
+Dalfsen:DL
+Dalfsen:DL
+Dalfsen:DL
+DVNK:DVNK
+De Vink:DVNK
+De Vink:DVNK
+De Vink:DVNK
+DWE:DWE
+De Westereen:DWE
+Westereen:DWE
+De Westereen:DWE
+DECIN:DECIN
+Decin hl.n.:DECIN
+Decin hl.n:DECIN
+Decin hl.n.:DECIN
+DEI:DEI
+Deinum:DEI
+Deinum:DEI
+Deinum:DEI
+DDN:DDN
+Delden:DDN
+Delden:DDN
+Delden:DDN
+DT:DT
+Delft:DT
+Delft:DT
+Delft:DT
+DTZ:DTZ
+Delft Zuid:DTZ
+Delft Z:DTZ
+Delft Zuid:DTZ
+DZ:DZ
+Delfzijl:DZ
+Delfzijl:DZ
+Delfzijl:DZ
+DZW:DZW
+Delfzijl West:DZW
+Delfzijl W:DZW
+Delfzijl West:DZW
+DLD:DLD
+Den Dolder:DLD
+Den Dolder:DLD
+Den Dolder:DLD
+GVC:GVC
+Den Haag Centraal:GVC
+Den Haag C:GVC
+Den Haag C.:GVC
+'s-Gravenhage:GVC
+Den Haag:GVC
+GV:GV
+Den Haag HS:GV
+Dn Haag HS:GV
+Den Haag HS:GV
+LAA:LAA
+Den Haag Laan v NOI:LAA
+Laan v NOI:LAA
+Laan v NOI:LAA
+GVM:GVM
+Den Haag Mariahoeve:GVM
+Mariahoeve:GVM
+Mariahoeve:GVM
+GVMW:GVMW
+Den Haag Moerwijk:GVMW
+Moerwijk:GVMW
+Moerwijk:GVMW
+YPB:YPB
+Den Haag Ypenburg:YPB
+Ypenburg:YPB
+Ypenburg:YPB
+HDR:HDR
+Den Helder:HDR
+Den Helder:HDR
+Den Helder:HDR
+HDRZ:HDRZ
+Den Helder Zuid:HDRZ
+Dn Heldr Z:HDRZ
+Den Helder Zuid:HDRZ
+DN:DN
+Deurne:DN
+Deurne:DN
+Deurne:DN
+DV:DV
+Deventer:DV
+Deventer:DV
+Deventer:DV
+DVC:DVC
+Deventer Colmschate:DVC
+Colmschate:DVC
+Colmschate:DVC
+DID:DID
+Didam:DID
+Didam:DID
+Didam:DID
+DMN:DMN
+Diemen:DMN
+Diemen:DMN
+Diemen:DMN
+DMNZ:DMNZ
+Diemen Zuid:DMNZ
+Diemen Z:DMNZ
+Diemen Zuid:DMNZ
+GDP:GDP
+Diepenbeek:GDP
+Diepenbeek:GDP
+Diepenbeek:GDP
+DR:DR
+Dieren:DR
+Dieren:DR
+Dieren:DR
+DTC:DTC
+Doetinchem:DTC
+Doetinchem:DTC
+Doetinchem:DTC
+DTCH:DTCH
+Doetinchem De Huet:DTCH
+De Huet:DTCH
+De Huet:DTCH
+DOMOD:DOMOD
+Domodossola:DOMOD
+Domodosso.:DOMOD
+Domodossola:DOMOD
+DDR:DDR
+Dordrecht:DDR
+Dordrecht:DDR
+Dordrecht:DDR
+DDRS:DDRS
+Dordrecht Stadspolders:DDRS
+Stadspldrs:DDRS
+Stadspolders:DDRS
+DDZD:DDZD
+Dordrecht Zuid:DDZD
+Dordrcht Z:DDZD
+Dordrecht Zuid:DDZD
+EDD:EDD
+Dortmund Derne:EDD
+Dortmund D:EDD
+Dortmund Derne:EDD
+EDO:EDO
+Dortmund Hbf:EDO
+Dortmund:EDO
+Dortmund Hbf:EDO
+EDKD:EDKD
+Dortmund Kirchderne:EDKD
+Dortmund K:EDKD
+Dortmund Kirchd.:EDKD
+DRESD:DRESD
+Dresden Hbf:DRESD
+Dresden H.:DRESD
+Dresden Hbf:DRESD
+DRESDN:DRESDN
+Dresden-Neustadt:DRESDN
+Dresden-N:DRESDN
+Dresden-Neustadt:DRESDN
+DB:DB
+Driebergen-Zeist:DB
+Driebergen:DB
+Driebergen-Zeist:DB
+DRH:DRH
+Driehuis:DRH
+Driehuis:DRH
+Driehuis:DRH
+DRP:DRP
+Dronryp:DRP
+Dronryp:DRP
+Dronryp:DRP
+DRON:DRON
+Dronten:DRON
+Dronten:DRON
+Dronten:DRON
+FDP:FDP
+Duffel:FDP
+Duffel:FDP
+Duffel:FDP
+DUISB:DUISB
+Duisburg Hbf:DUISB
+Duisburg:DUISB
+Duisburg Hbf:DUISB
+DVN:DVN
+Duiven:DVN
+Duiven:DVN
+Duiven:DVN
+DVD:DVD
+Duivendrecht:DVD
+Duivendrt:DVD
+Duivendrecht:DVD
+KDUL:KDUL
+DÃ¼lken:KDUL
+DÃ¼lken:KDUL
+DÃ¼lken:KDUL
+Dulken:KDUL
+EDULH:EDULH
+DÃ¼lmen:EDULH
+DÃ¼lmen:EDULH
+DÃ¼lmen:EDULH
+Dulmen:EDULH
+KDFFH:KDFFH
+DÃ¼sseldorf Flughafen:KDFFH
+DÃ¼sseld F.:KDFFH
+DÃ¼sseldorf Flug.:KDFFH
+Dusseldorf Flughafen:KDFFH
+Dusseldorf Airport:KDFFH
+DUSSEL:DUSSEL
+DÃ¼sseldorf Hbf:DUSSEL
+DÃ¼sseldrf:DUSSEL
+DÃ¼sseldorf Hbf:DUSSEL
+Dusseldorf:DUSSEL
+EBBS:EBBS
+Ebbsfleet International:EBBS
+Ebbsfleet:EBBS
+Ebbsfleet Intern:EBBS
+EC:EC
+Echt:EC
+Echt:EC
+Echt:EC
+EDC:EDC
+Ede Centrum:EDC
+Ede C:EDC
+Ede C.:EDC
+ED:ED
+Ede-Wageningen:ED
+Ede-Wag:ED
+Ede-Wageningen:ED
+EEM:EEM
+Eemshaven:EEM
+Eemshaven:EEM
+Eemshaven:EEM
+EDN:EDN
+Eijsden:EDN
+Eijsden:EDN
+Eijsden:EDN
+EHV:EHV
+Eindhoven:EHV
+Eindhoven:EHV
+Eindhoven:EHV
+EHS:EHS
+Eindhoven Strijp-S:EHS
+Strijp-S:EHS
+Strijp-S:EHS
+LKR:LKR
+Ekeren:LKR
+Ekeren:LKR
+Ekeren:LKR
+EST:EST
+Elst:EST
+Elst:EST
+Elst:EST
+EMN:EMN
+Emmen:EMN
+Emmen:EMN
+Emmen:EMN
+EMNZ:EMNZ
+Emmen Zuid:EMNZ
+Emmen Z:EMNZ
+Emmen Zuid:EMNZ
+EM:EM
+Emmerich:EM
+Emmerich:EM
+Emmerich:EM
+EKZ:EKZ
+Enkhuizen:EKZ
+Enkhuizen:EKZ
+Enkhuizen:EKZ
+EENP:EENP
+Ennepetal:EENP
+Ennepetal:EENP
+Ennepetal:EENP
+ES:ES
+Enschede:ES
+Enschede:ES
+Enschede:ES
+ESE:ESE
+Enschede De Eschmarke:ESE
+Eschmarke:ESE
+De Eschmarke:ESE
+De Eschmarke:ESE
+Eschmarke:ESE
+ESK:ESK
+Enschede Kennispark:ESK
+Kennispark:ESK
+Kennispark:ESK
+EEPE:EEPE
+Epe (Westf):EEPE
+Epe (West):EEPE
+Epe (Westf):EEPE
+EML:EML
+Ermelo:EML
+Ermelo:EML
+Ermelo:EML
+ESN:ESN
+Essen (B):ESN
+Essen (B):ESN
+Essen (B):ESN
+ETN:ETN
+Etten-Leur:ETN
+Etten-Leur:ETN
+Etten-Leur:ETN
+EGH:EGH
+Eygelshoven:EGH
+Eygelshov:EGH
+Eygelshoven:EGH
+EGHM:EGHM
+Eygelshoven Markt:EGHM
+Eygelsh M:EGHM
+Eygelshoven Mrkt:EGHM
+WTM:WTM
+Eys-Wittem:WTM
+Eys-Witt:WTM
+Eys-Wittem:WTM
+FWD:FWD
+Feanwalden:FWD
+Feanwalden:FWD
+Feanwalden:FWD
+FIEBER:FIEBER
+Fieberbrunn:FIEBER
+Fieberbrun:FIEBER
+Fieberbrunn:FIEBER
+FN:FN
+Franeker:FN
+Franeker:FN
+Franeker:FN
+Frjentsjer:FN
+FFFM:FFFM
+Frankfurt (M) Hbf:FFFM
+Frankfurt:FFFM
+Frankfurt Hbf:FFFM
+FRANKO:FRANKO
+Frankfurt (Oder):FRANKO
+Frankf(Od):FRANKO
+Frankfurt (Oder):FRANKO
+FNAF:FNAF
+Frankfurt Flughafen Fernb:FNAF
+FrankfurtF:FNAF
+Frankfurt Flugh.:FNAF
+RF:RF
+Freiburg (Breisgau) Hbf:RF
+Freiburg:RF
+Freiburg (B.):RF
+GDR:GDR
+Gaanderen:GDR
+Gaanderen:GDR
+Gaanderen:GDR
+GEISL:GEISL
+Geislingen:GEISL
+Geislingen:GEISL
+Geislingen:GEISL
+GDM:GDM
+Geldermalsen:GDM
+Geldermlsn:GDM
+Geldermalsen:GDM
+GP:GP
+Geldrop:GP
+Geldrop:GP
+Geldrop:GP
+GLN:GLN
+Geleen Oost:GLN
+Geleen O:GLN
+Geleen Oost:GLN
+LUT:LUT
+Geleen-Lutterade:LUT
+Geleen-Lut:LUT
+Geleen-Lutterade:LUT
+GZ:GZ
+Gilze-Rijen:GZ
+Gilze-Rij:GZ
+Gilze-Rijen:GZ
+GBR:GBR
+Glanerbrug:GBR
+Glanerbrug:GBR
+Glanerbrug:GBR
+LGL:LGL
+Glons:LGL
+Glons:LGL
+Glons:LGL
+GS:GS
+Goes:GS
+Goes:GS
+Goes:GS
+GO:GO
+Goor:GO
+Goor:GO
+Goor:GO
+GR:GR
+Gorinchem:GR
+Gorinchem:GR
+Gorinchem:GR
+GD:GD
+Gouda:GD
+Gouda:GD
+Gouda:GD
+GDG:GDG
+Gouda Goverwelle:GDG
+Goverwelle:GDG
+Gouda Goverwelle:GDG
+GBG:GBG
+Gramsbergen:GBG
+Gramsbergn:GBG
+Gramsbergen:GBG
+GK:GK
+Grijpskerk:GK
+Grijpskerk:GK
+Grijpskerk:GK
+G:G
+Gronau (Westf.):G
+Gronau:G
+Gronau (Westf.):G
+GN:GN
+Groningen:GN
+Groningen:GN
+Groningen:GN
+GERP:GERP
+Groningen Europapark:GERP
+Europapark:GERP
+Europapark:GERP
+GNN:GNN
+Groningen Noord:GNN
+Groningn N:GNN
+Groningen Noord:GNN
+GW:GW
+Grou-Jirnsum:GW
+Grou-Jirns:GW
+Grou-Jirnsum:GW
+WIJ:WIJ
+Gulpen-Wijlre:WIJ
+Gulpen-W:WIJ
+Gulpen-Wijlre:WIJ
+TGO:TGO
+GÃ¶ppingen:TGO
+GÃ¶ppingen:TGO
+GÃ¶ppingen:TGO
+Goppingen:TGO
+MGZB:MGZB
+GÃ¼nzburg:MGZB
+GÃ¼nzburg:MGZB
+GÃ¼nzburg:MGZB
+Gunzburg:MGZB
+HLM:HLM
+Haarlem:HLM
+Haarlem:HLM
+Haarlem:HLM
+HLMS:HLMS
+Haarlem Spaarnwoude:HLMS
+Spaarnwde:HLMS
+Spaarnwoude:HLMS
+HAGEN:HAGEN
+Hagen Hbf:HAGEN
+Hagen:HAGEN
+Hagen Hbf:HAGEN
+HWZB:HWZB
+Halfweg-Zwanenburg:HWZB
+Halfweg-Zw:HWZB
+Halfweg-Zwanenb.:HWZB
+HAMH:HAMH
+Hamburg Hbf:HAMH
+Hamburg H:HAMH
+Hamburg Hbf:HAMH
+HAMM:HAMM
+Hamm (Westf.):HAMM
+Hamm:HAMM
+Hamm (Westf.):HAMM
+HANN:HANN
+Hannover Hbf:HANN
+Hannover H:HANN
+Hannover Hbf:HANN
+HDB:HDB
+Hardenberg:HDB
+Hardenberg:HDB
+Hardenberg:HDB
+HD:HD
+Harderwijk:HD
+Harderwijk:HD
+Harderwijk:HD
+HBZM:HBZM
+Hardinxveld Blauwe Zoom:HBZM
+Blauwe Zm:HBZM
+Blauwe Zoom:HBZM
+GND:GND
+Hardinxveld-Giessendam:GND
+Hardinxvld:GND
+Hardinxveld-G.:GND
+HRN:HRN
+Haren:HRN
+Haren:HRN
+Haren:HRN
+HRNOVT:HRNOVT
+Haren OV Transferium:HRNOVT
+Haren Tran:HRNOVT
+Haren OV Transf.:HRNOVT
+HLG:HLG
+Harlingen:HLG
+Harlingen:HLG
+Harlingen:HLG
+Harns:HLG
+HLGH:HLGH
+Harlingen Haven:HLGH
+Harl Haven:HLGH
+Harlingen Haven:HLGH
+Harns Haven:HLGH
+FHS:FHS
+Hasselt:FHS
+Hasselt:FHS
+Hasselt:FHS
+HK:HK
+Heemskerk:HK
+Heemskerk:HK
+Heemskerk:HK
+HAD:HAD
+Heemstede-Aerdenhout:HAD
+Heemstede:HAD
+Heemstede-A.:HAD
+HR:HR
+Heerenveen:HR
+Heerenveen:HR
+Heerenveen:HR
+It Hearrenfean:HR
+HRY:HRY
+Heerenveen IJsstadion:HRY
+IJsstadion:HRY
+IJsstadion:HRY
+It Hearrenfean IIsstadium:HRY
+HWD:HWD
+Heerhugowaard:HWD
+Heerhugow:HWD
+Heerhugowaard:HWD
+HRL:HRL
+Heerlen:HRL
+Heerlen:HRL
+Heerlen:HRL
+HRLK:HRLK
+Heerlen De Kissel:HRLK
+De Kissel:HRLK
+Hrl De Kissel:HRLK
+HRLW:HRLW
+Heerlen Woonboulevard:HRLW
+Heerlen W:HRLW
+Hrl Woonblvd:HRLW
+HZE:HZE
+Heeze:HZE
+Heeze:HZE
+Heeze:HZE
+MID:MID
+Heide (B):MID
+Heide (B):MID
+Heide (B):MID
+HLO:HLO
+Heiloo:HLO
+Heiloo:HLO
+Heiloo:HLO
+HNO:HNO
+Heino:HNO
+Heino:HNO
+Heino:HNO
+HM:HM
+Helmond:HM
+Helmond:HM
+Helmond:HM
+HMH:HMH
+Helmond 't Hout:HMH
+'t Hout:HMH
+Helmond 't Hout:HMH
+HMBV:HMBV
+Helmond Brandevoort:HMBV
+Brandevrt:HMBV
+Brandevoort:HMBV
+HMBH:HMBH
+Helmond Brouwhuis:HMBH
+Brouwhuis:HMBH
+Brouwhuis:HMBH
+LKM:LKM
+Hemiksem:LKM
+Hemiksem:LKM
+Hemiksem:LKM
+HMN:HMN
+Hemmen-Dodewaard:HMN
+Hemmen-D:HMN
+Hemmen-Dodewaard:HMN
+HGL:HGL
+Hengelo:HGL
+Hengelo:HGL
+Hengelo:HGL
+HGLG:HGLG
+Hengelo Gezondheidspark:HGLG
+Gezondhprk:HGLG
+Hengelo Gezondh.:HGLG
+HGLO:HGLO
+Hengelo Oost:HGLO
+Hengelo O:HGLO
+Hengelo Oost:HGLO
+LHS:LHS
+Herstal:LHS
+Herstal:LHS
+Herstal:LHS
+HZ:HZ
+Herzogenrath:HZ
+Herzogenr:HZ
+Herzogenrath:HZ
+HIL:HIL
+Hillegom:HIL
+Hillegom:HIL
+Hillegom:HIL
+HVS:HVS
+Hilversum:HVS
+Hilversum:HVS
+Hilversum:HVS
+HVSM:HVSM
+Hilversum Media Park:HVSM
+Media Park:HVSM
+Media Park:HVSM
+HVSP:HVSP
+Hilversum Sportpark:HVSP
+Sportpark:HVSP
+Sportpark:HVSP
+HNP:HNP
+Hindeloopen:HNP
+Hindeloopn:HNP
+Hindeloopen:HNP
+Hylpen:HNP
+FOE:FOE
+Hoboken-Polder:FOE
+Hoboken-P:FOE
+Hoboken-Polder:FOE
+HB:HB
+Hoensbroek:HB
+Hoensbroek:HB
+Hoensbroek:HB
+HVL:HVL
+Hoevelaken:HVL
+Hoevelaken:HVL
+Hoevelaken:HVL
+HOR:HOR
+Hollandsche Rading:HOR
+Hol Rading:HOR
+Holl. Rading:HOR
+HON:HON
+Holten:HON
+Holten:HON
+Holten:HON
+EHZW:EHZW
+Holzwickede:EHZW
+H'wickede:EHZW
+Holzwickede:EHZW
+HFD:HFD
+Hoofddorp:HFD
+Hoofddorp:HFD
+Hoofddorp:HFD
+HGV:HGV
+Hoogeveen:HGV
+Hoogeveen:HGV
+Hoogeveen:HGV
+HGZ:HGZ
+Hoogezand-Sappemeer:HGZ
+Hoogezand:HGZ
+Hoogezand-Sap.:HGZ
+HKS:HKS
+Hoogkarspel:HKS
+Hoogkrspl:HKS
+Hoogkarspel:HKS
+HN:HN
+Hoorn:HN
+Hoorn:HN
+Hoorn:HN
+HNK:HNK
+Hoorn Kersenboogerd:HNK
+Hoorn Kers:HNK
+Kersenboogerd:HNK
+HOPF:HOPF
+Hopfgarten:HOPF
+Hopfgarten:HOPF
+Hopfgarten:HOPF
+HRT:HRT
+Horst-Sevenum:HRT
+Horst-Sev:HRT
+Horst-Sevenum:HRT
+HTN:HTN
+Houten:HTN
+Houten:HTN
+Houten:HTN
+HTNC:HTNC
+Houten Castellum:HTNC
+Houten Cas:HTNC
+Houten Castellum:HTNC
+SGL:SGL
+Houthem-St. Gerlach:SGL
+Houthem-St:SGL
+Houthem-St Gerl.:SGL
+MHO:MHO
+Hove:MHO
+Hove:MHO
+Hove:MHO
+HDG:HDG
+Hurdegaryp:HDG
+Hurdegaryp:HDG
+Hurdegaryp:HDG
+IJT:IJT
+IJlst:IJT
+IJlst:IJT
+IJlst:IJT
+Drylts:IJT
+INNSB:INNSB
+Innsbruck Hbf:INNSB
+Innsbruck:INNSB
+Innsbruck Hbf:INNSB
+JENBAC:JENBAC
+Jenbach:JENBAC
+Jenbach:JENBAC
+Jenbach:JENBAC
+KN:KN
+Kaldenkirchen:KN
+Kaldenkir:KN
+Kaldenkirchen:KN
+FKTH:FKTH
+Kalmthout:FKTH
+Kalmthout:FKTH
+Kalmthout:FKTH
+KPN:KPN
+Kampen:KPN
+Kampen:KPN
+Kampen:KPN
+KPNZ:KPNZ
+Kampen Zuid:KPNZ
+Kampen Z:KPNZ
+Kampen Zuid:KPNZ
+BZL:BZL
+Kapelle-Biezelinge:BZL
+Kapelle-Bi:BZL
+Kapelle-Biezel.:BZL
+LKP:LKP
+Kapellen:LKP
+Kapellen:LKP
+Kapellen:LKP
+KARLSR:KARLSR
+Karlsruhe Hbf:KARLSR
+Karlsruhe:KARLSR
+Karlsruhe Hbf:KARLSR
+KRD:KRD
+Kerkrade Centrum:KRD
+Kerkrade C:KRD
+Kerkrade C.:KRD
+KTR:KTR
+Kesteren:KTR
+Kesteren:KTR
+Kesteren:KTR
+GKT:GKT
+Kijkuit:GKT
+Kijkuit:GKT
+Kijkuit:GKT
+KIRCHB:KIRCHB
+Kirchberg in Tirol:KIRCHB
+Kirchberg:KIRCHB
+Kirchberg in T.:KIRCHB
+KITZB:KITZB
+KitzbÃ¼hel:KITZB
+KitzbÃ¼hel:KITZB
+KitzbÃ¼hel:KITZB
+KBK:KBK
+Klarenbeek:KBK
+Klarenbk:KBK
+Klarenbeek:KBK
+KMR:KMR
+Klimmen-Ransdaal:KMR
+Klimmen-R:KMR
+Klimmen-Ransdaal:KMR
+KKO:KKO
+Koblenz Hbf:KKO
+Koblenz:KKO
+Koblenz Hbf:KKO
+KONIN:KONIN
+Konin:KONIN
+Konin:KONIN
+Konin:KONIN
+FKI:FKI
+Kontich:FKI
+Kontich:FKI
+Kontich:FKI
+KZ:KZ
+Koog aan de Zaan:KZ
+Koog Zaan:KZ
+Koog a.d. Zaan:KZ
+KMW:KMW
+Koudum-Molkwerum:KMW
+Koudum-M:KMW
+Koudum-Molkwerum:KMW
+Koudum-Molkwar:KMW
+KBD:KBD
+Krabbendijke:KBD
+Krabbendke:KBD
+Krabbendijke:KBD
+KMA:KMA
+Krommenie-Assendelft:KMA
+Krommenie:KMA
+Krommenie-Ass.:KMA
+KW:KW
+Kropswolde:KW
+Kropswolde:KW
+Kropswolde:KW
+KRG:KRG
+Kruiningen-Yerseke:KRG
+Kruiningen:KRG
+Kruiningen-Y.:KRG
+KUFST:KUFST
+Kufstein:KUFST
+Kufstein:KUFST
+Kufstein:KUFST
+KUTNO:KUTNO
+Kutno:KUTNO
+Kutno:KUTNO
+Kutno:KUTNO
+KOLN:KOLN
+KÃ¶ln Hbf:KOLN
+KÃ¶ln Hbf:KOLN
+KÃ¶ln Hbf:KOLN
+Keulen:KOLN
+Koln:KOLN
+KKD:KKD
+KÃ¶ln Messe/Deutz:KKD
+KÃ¶ln Messe:KKD
+KÃ¶ln Messe/Deutz:KKD
+Koln-Deutz:KKD
+ZLW:ZLW
+Lage Zwaluwe:ZLW
+Lage Zwalu:ZLW
+Lage Zwaluwe:ZLW
+LAND:LAND
+Landeck:LAND
+Landeck:LAND
+Landeck:LAND
+LG:LG
+Landgraaf:LG
+Landgraaf:LG
+Landgraaf:LG
+LANDQ:LANDQ
+Landquart:LANDQ
+Landquart:LANDQ
+Landquart:LANDQ
+LANDRY:LANDRY
+Landry:LANDRY
+Landry:LANDRY
+Landry:LANDRY
+LEER:LEER
+Leer (Ostfriesl):LEER
+Leer:LEER
+Leer (Ostfr.):LEER
+LDM:LDM
+Leerdam:LDM
+Leerdam:LDM
+Leerdam:LDM
+LW:LW
+Leeuwarden:LW
+Leeuwarden:LW
+Leeuwarden:LW
+Ljouwert:LW
+ADH:ADH
+Leeuwarden Achter d Hoven:ADH
+Achter d.H:ADH
+Achter de Hoven:ADH
+Ljouwert Efter de Hannen:ADH
+LWC:LWC
+Leeuwarden Camminghaburen:LWC
+Camminghab:LWC
+Camminghaburen:LWC
+Ljouwert Camminghaburen:LWC
+ELGD:ELGD
+Legden:ELGD
+Legden:ELGD
+Legden:ELGD
+LEDN:LEDN
+Leiden Centraal:LEDN
+Leiden C:LEDN
+Leiden C.:LEDN
+Leiden:LEDN
+LDL:LDL
+Leiden Lammenschans:LDL
+Leiden Lam:LDL
+Lammenschans:LDL
+LLS:LLS
+Lelystad Centrum:LLS
+Lelystad C:LLS
+Lelystad C.:LLS
+ELET:ELET
+Lette (Kr Coesfeld):ELET
+Lette:ELET
+Lette (Kr Coes):ELET
+LEUVEN:LEUVEN
+Leuven:LEUVEN
+Leuven:LEUVEN
+Leuven:LEUVEN
+LTV:LTV
+Lichtenvoorde-Groenlo:LTV
+Lichtenv-G:LTV
+Lichtenvoorde-G.:LTV
+LSL:LSL
+Liers:LSL
+Liers:LSL
+Liers:LSL
+LILLEE:LILLEE
+Lille Europe:LILLEE
+Lille E.:LILLEE
+Lille Europe:LILLEE
+FLB:FLB
+Limburg SÃ¼d:FLB
+Limburg S:FLB
+Limburg SÃ¼d:FLB
+LIVOR:LIVOR
+Livorno Centrale:LIVOR
+Livorno C.:LIVOR
+Livorno Centrale:LIVOR
+LUIK:LUIK
+LiÃ¨ge-Guillemins:LUIK
+LiÃ¨ge-G.:LUIK
+LiÃ¨ge-Guillemins:LUIK
+Luik:LUIK
+LUIKJ:LUIKJ
+LiÃ¨ge-Jonfosse:LUIKJ
+LiÃ¨ge-J.:LUIKJ
+LiÃ¨ge-Jonfosse:LUIKJ
+LUIKP:LUIKP
+LiÃ¨ge-Palais:LUIKP
+LiÃ¨ge-P.:LUIKP
+LiÃ¨ge-Palais:LUIKP
+LC:LC
+Lochem:LC
+Lochem:LC
+Lochem:LC
+FLK:FLK
+Lokeren:FLK
+Lokeren:FLK
+Lokeren:FLK
+STP:STP
+London St. Pancras Int.:STP
+London StP:STP
+London St. P Int:STP
+LP:LP
+Loppersum:LP
+Loppersum:LP
+Loppersum:LP
+LOURD:LOURD
+Lourdes:LOURD
+Lourdes:LOURD
+Lourdes:LOURD
+LTN:LTN
+Lunteren:LTN
+Lunteren:LTN
+Lunteren:LTN
+ELDH:ELDH
+LÃ¼dinghausen:ELDH
+LÃ¼'hausen:ELDH
+LÃ¼dinghausen:ELDH
+Ludinghausen:ELDH
+ELUE:ELUE
+LÃ¼nen Hbf:ELUE
+LÃ¼nen Hbf:ELUE
+LÃ¼nen Hbf:ELUE
+Lunen:ELUE
+MZ:MZ
+Maarheeze:MZ
+Maarheeze:MZ
+Maarheeze:MZ
+MRN:MRN
+Maarn:MRN
+Maarn:MRN
+Maarn:MRN
+MAS:MAS
+Maarssen:MAS
+Maarssen:MAS
+Maarssen:MAS
+MT:MT
+Maastricht:MT
+Maastricht:MT
+Maastricht:MT
+MTN:MTN
+Maastricht Noord:MTN
+Maastr N:MTN
+Maastricht Noord:MTN
+MTR:MTR
+Maastricht Randwyck:MTR
+Maastr Rw:MTR
+Maastricht Randw:MTR
+FMZ:FMZ
+Mainz Hbf:FMZ
+Mainz Hbf:FMZ
+Mainz Hbf:FMZ
+MANNHE:MANNHE
+Mannheim Hbf:MANNHE
+Mannheim:MANNHE
+Mannheim Hbf:MANNHE
+MG:MG
+Mantgum:MG
+Mantgum:MG
+Mantgum:MG
+MRB:MRB
+MariÃ«nberg:MRB
+MariÃ«nberg:MRB
+MariÃ«nberg:MRB
+MARNE:MARNE
+Marne-la-VallÃ©e-Chessy:MARNE
+Marne-la-V:MARNE
+Marne-la-VallÃ©e:MARNE
+MARS:MARS
+Marseille-St-Charles:MARS
+Marseille:MARS
+Marseille-St-C:MARS
+MTH:MTH
+Martenshoek:MTH
+Martenshk:MTH
+Martenshoek:MTH
+MECH:MECH
+Mechelen:MECH
+Mechelen:MECH
+Mechelen:MECH
+LNK:LNK
+Mechelen-Nekkerspoel:LNK
+Nekkersp:LNK
+Mech-Nekkerspoel:LNK
+MES:MES
+Meerssen:MES
+Meerssen:MES
+Meerssen:MES
+LM:LM
+Melsele:LM
+Melsele:LM
+Melsele:LM
+MP:MP
+Meppel:MP
+Meppel:MP
+Meppel:MP
+EMTE:EMTE
+Metelen Land:EMTE
+Metelen L.:EMTE
+Metelen Land:EMTE
+MDB:MDB
+Middelburg:MDB
+Middelburg:MDB
+Middelburg:MDB
+BLTM:BLTM
+Milmort:BLTM
+Milmort:BLTM
+Milmort:BLTM
+MINDEN:MINDEN
+Minden (Westf):MINDEN
+Minden:MINDEN
+Minden (Westf):MINDEN
+KMB:KMB
+Montabaur:KMB
+Montabaur:KMB
+Montabaur:KMB
+MMLH:MMLH
+Mook Molenhoek:MMLH
+Mook Molen:MMLH
+Molenhoek:MMLH
+GMD:GMD
+Mortsel-Deurnesteenweg:GMD
+M-Deurnest:GMD
+M-Deurnesteenweg:GMD
+GMOG:GMOG
+Mortsel-Oude God:GMOG
+M-Oude God:GMOG
+Mortsel-Oude God:GMOG
+MOUT:MOUT
+Moutiers-Salins-Brides:MOUT
+Moutiers-S:MOUT
+Moutiers-Salins:MOUT
+MCGB:MCGB
+MÃ¶nchengladbach Hbf:MCGB
+MÃ¶nchengl:MCGB
+MÃ¶nchengladbach:MCGB
+Monchengladbach:MCGB
+MUNCHH:MUNCHH
+MÃ¼nchen Hbf:MUNCHH
+MÃ¼nchen:MUNCHH
+MÃ¼nchen Hbf:MUNCHH
+Munchen:MUNCHH
+ENHF:ENHF
+MÃ¼nster (W) Zentrum Nord:ENHF
+MÃ¼nster ZN:ENHF
+MÃ¼nster Zentr. N:ENHF
+Munster Zentrum Nord:ENHF
+MUNST:MUNST
+MÃ¼nster (Westf) Hbf:MUNST
+MÃ¼nster:MUNST
+MÃ¼nster (Westf):MUNST
+Munster (Westf.):MUNST
+ENBE:ENBE
+MÃ¼nster-HÃ¤ger:ENBE
+MÃ¼nster-H:ENBE
+MÃ¼nster-HÃ¤ger:ENBE
+Munster-Hager:ENBE
+NDB:NDB
+Naarden-Bussum:NDB
+Naarden-Bu:NDB
+Naarden-Bussum:NDB
+NEUSS:NEUSS
+Neuss Hbf:NEUSS
+Neuss:NEUSS
+Neuss Hbf:NEUSS
+LNI:LNI
+Niel:LNI
+Niel:LNI
+Niel:LNI
+NA:NA
+Nieuw Amsterdam:NA
+Nw A'dam:NA
+Nieuw Amsterdam:NA
+NVP:NVP
+Nieuw Vennep:NVP
+Nw Vennep:NVP
+Nieuw Vennep:NVP
+NWK:NWK
+Nieuwerkerk a/d IJssel:NWK
+Nieuwerkrk:NWK
+Nieuwerkerk:NWK
+FNU:FNU
+Nieuwkerken-Waas:FNU
+Nieuwkerke:FNU
+Nieuwkerken-Waas:FNU
+NKK:NKK
+Nijkerk:NKK
+Nijkerk:NKK
+Nijkerk:NKK
+NM:NM
+Nijmegen:NM
+Nijmegen:NM
+Nijmegen:NM
+NMD:NMD
+Nijmegen Dukenburg:NMD
+Dukenburg:NMD
+Dukenburg:NMD
+NMGO:NMGO
+Nijmegen Goffert:NMGO
+Goffert:NMGO
+Nijmegen Goffert:NMGO
+NMH:NMH
+Nijmegen Heyendaal:NMH
+Heyendaal:NMH
+Nm Heyendaal:NMH
+NML:NML
+Nijmegen Lent:NML
+Lent:NML
+Nijmegen Lent:NML
+NVD:NVD
+Nijverdal:NVD
+Nijverdal:NVD
+Nijverdal:NVD
+NDKP:NDKP
+Noorderkempen:NDKP
+N.kempen:NDKP
+Noorderkempen:NDKP
+ENOW:ENOW
+Nordwalde:ENOW
+Nordwalde:ENOW
+Nordwalde:ENOW
+NS:NS
+Nunspeet:NS
+Nunspeet:NS
+Nunspeet:NS
+NH:NH
+Nuth:NH
+Nuth:NH
+Nuth:NH
+NURNB:NURNB
+NÃ¼rnberg Hbf:NURNB
+NÃ¼rnberg:NURNB
+NÃ¼rnberg Hbf:NURNB
+OBD:OBD
+Obdam:OBD
+Obdam:OBD
+Obdam:OBD
+OBERH:OBERH
+Oberhausen Hbf:OBERH
+Oberhausen:OBERH
+Oberhausen Hbf:OBERH
+OBERHS:OBERHS
+Oberhausen-Sterkrade:OBERHS
+Ob-Sterkr:OBERHS
+Oberh-Sterkrade:OBERHS
+EOP:EOP
+Ochtrup:EOP
+Ochtrup:EOP
+Ochtrup:EOP
+RO:RO
+Offenburg:RO
+Offenburg:RO
+Offenburg:RO
+OT:OT
+Oisterwijk:OT
+Oisterwijk:OT
+Oisterwijk:OT
+ODZ:ODZ
+Oldenzaal:ODZ
+Oldenzaal:ODZ
+Oldenzaal:ODZ
+OST:OST
+Olst:OST
+Olst:OST
+Olst:OST
+OMN:OMN
+Ommen:OMN
+Ommen:OMN
+Ommen:OMN
+OTB:OTB
+Oosterbeek:OTB
+Oosterbeek:OTB
+Oosterbeek:OTB
+OP:OP
+Opheusden:OP
+Opheusden:OP
+Opheusden:OP
+OSNH:OSNH
+OsnabrÃ¼ck Hbf:OSNH
+OsnabrÃ¼ck:OSNH
+OsnabrÃ¼ck Hbf:OSNH
+O:O
+Oss:O
+Oss:O
+Oss:O
+OW:OW
+Oss West:OW
+Oss W:OW
+Oss West:OW
+ODB:ODB
+Oudenbosch:ODB
+Oudenbosch:ODB
+Oudenbosch:ODB
+OVN:OVN
+Overveen:OVN
+Overveen:OVN
+Overveen:OVN
+PARIS:PARIS
+Paris-Nord:PARIS
+Paris-Nord:PARIS
+Paris-Nord:PARIS
+Parijs:PARIS
+TP:TP
+Plochingen:TP
+Plochingen:TP
+Plochingen:TP
+POZN:POZN
+Poznan Gl.:POZN
+Poznan Gl.:POZN
+Poznan Gl.:POZN
+PRAHA:PRAHA
+Praha hl.n.:PRAHA
+Praha hl.n:PRAHA
+Praha hl.n.:PRAHA
+PRAHOL:PRAHOL
+Praha-Holesovice:PRAHOL
+Praha-Hol.:PRAHOL
+Praha-Holesovice:PRAHOL
+EPRN:EPRN
+Preussen:EPRN
+Preussen:EPRN
+Preussen:EPRN
+PMR:PMR
+Purmerend:PMR
+Purmerend:PMR
+Purmerend:PMR
+PMO:PMO
+Purmerend Overwhere:PMO
+Overwhere:PMO
+Overwhere:PMO
+PMW:PMW
+Purmerend Weidevenne:PMW
+Weidevenne:PMW
+Weidevenne:PMW
+PT:PT
+Putten:PT
+Putten:PT
+Putten:PT
+FRP:FRP
+Puurs:FRP
+Puurs:FRP
+Puurs:FRP
+RAT:RAT
+Raalte:RAT
+Raalte:RAT
+Raalte:RAT
+LRW:LRW
+Rathenow:LRW
+Rathenow:LRW
+Rathenow:LRW
+RVS:RVS
+Ravenstein:RVS
+Ravenstein:RVS
+Ravenstein:RVS
+RV:RV
+Reuver:RV
+Reuver:RV
+Reuver:RV
+RH:RH
+Rheden:RH
+Rheden:RH
+Rheden:RH
+RHEINE:RHEINE
+Rheine:RHEINE
+Rheine:RHEINE
+Rheine:RHEINE
+RHN:RHN
+Rhenen:RHN
+Rhenen:RHN
+Rhenen:RHN
+RSN:RSN
+Rijssen:RSN
+Rijssen:RSN
+Rijssen:RSN
+RSW:RSW
+Rijswijk:RSW
+Rijswijk:RSW
+Rijswijk:RSW
+RB:RB
+Rilland-Bath:RB
+Rilland-Ba:RB
+Rilland-Bath:RB
+RM:RM
+Roermond:RM
+Roermond:RM
+Roermond:RM
+RD:RD
+Roodeschool:RD
+Roodeschl:RD
+Roodeschool:RD
+RSD:RSD
+Roosendaal:RSD
+Roosendaal:RSD
+Roosendaal:RSD
+EHW:EHW
+Rosendahl-Holtwick:EHW
+Rosend-H:EHW
+Rosendahl-Holtw.:EHW
+RS:RS
+Rosmalen:RS
+Rosmalen:RS
+Rosmalen:RS
+RTA:RTA
+Rotterdam Alexander:RTA
+Alexander:RTA
+Alexander:RTA
+RTB:RTB
+Rotterdam Blaak:RTB
+Blaak:RTB
+Rotterdam Blaak:RTB
+RTD:RTD
+Rotterdam Centraal:RTD
+Rotterdam:RTD
+Rotterdam C.:RTD
+Rotterdam:RTD
+RLB:RLB
+Rotterdam Lombardijen:RLB
+Lombardije:RLB
+Lombardijen:RLB
+RTN:RTN
+Rotterdam Noord:RTN
+Rotterdm N:RTN
+Rotterdam Noord:RTN
+RTST:RTST
+Rotterdam Stadion:RTST
+R'dam Sta:RTST
+R'dam Stadion:RTST
+RTZ:RTZ
+Rotterdam Zuid:RTZ
+Rotterdm Z:RTZ
+Rotterdam Zuid:RTZ
+FSV:FSV
+Ruisbroek-Sauvegarde:FSV
+Ruisbr-S:FSV
+Ruisbroek-Sauv.:FSV
+RL:RL
+Ruurlo:RL
+Ruurlo:RL
+Ruurlo:RL
+RZEPIN:RZEPIN
+Rzepin:RZEPIN
+Rzepin:RZEPIN
+Rzepin:RZEPIN
+SAALF:SAALF
+Saalfelden:SAALF
+Saalfelden:SAALF
+Saalfelden:SAALF
+SPTN:SPTN
+Santpoort Noord:SPTN
+Santprt N:SPTN
+Santpoort Noord:SPTN
+SPTZ:SPTZ
+Santpoort Zuid:SPTZ
+Santprt Z:SPTZ
+Santpoort Zuid:SPTZ
+SPM:SPM
+Sappemeer Oost:SPM
+Sappemr O:SPM
+Sappemeer Oost:SPM
+SSH:SSH
+Sassenheim:SSH
+Sassenheim:SSH
+Sassenheim:SSH
+SWD:SWD
+Sauwerd:SWD
+Sauwerd:SWD
+Sauwerd:SWD
+SGN:SGN
+Schagen:SGN
+Schagen:SGN
+Schagen:SGN
+SDA:SDA
+Scheemda:SDA
+Scheemda:SDA
+Scheemda:SDA
+SCHLL:SCHLL
+Schelle:SCHLL
+Schelle:SCHLL
+Schelle:SCHLL
+SDM:SDM
+Schiedam Centrum:SDM
+Schiedam C:SDM
+Schiedam C.:SDM
+SOG:SOG
+Schin op Geul:SOG
+Schin op G:SOG
+Schin op Geul:SOG
+SN:SN
+Schinnen:SN
+Schinnen:SN
+Schinnen:SN
+SHL:SHL
+Schiphol Airport:SHL
+Schiphol:SHL
+Schiphol Airport:SHL
+Amsterdam Airport:SHL
+SCHWAR:SCHWAR
+Schwarzach-St. Veit:SCHWAR
+Schwarzach:SCHWAR
+Schwarzach-St. V:SCHWAR
+KSWE:KSWE
+Schwelm:KSWE
+Schwelm:KSWE
+Schwelm:KSWE
+ESRT:ESRT
+Schwerte (Ruhr):ESRT
+Schwerte:ESRT
+Schwerte (R):ESRT
+ESEM:ESEM
+Selm:ESEM
+Selm:ESEM
+Selm:ESEM
+ESEB:ESEB
+Selm-Beifang:ESEB
+Selm-B:ESEB
+Selm-Beifang:ESEB
+KSB:KSB
+Siegburg/Bonn:KSB
+Siegburg:KSB
+Siegburg/Bonn:KSB
+SPV:SPV
+Simpelveld:SPV
+Simpelveld:SPV
+Simpelveld:SPV
+LSW:LSW
+Sinaai:LSW
+Sinaai:LSW
+Sinaai:LSW
+FWA:FWA
+Sint-Katelijne-Waver:FWA
+Sint-Katel:FWA
+Sint-Katelijne-W:FWA
+MARIA:MARIA
+Sint-Mariaburg:MARIA
+St-Mariab:MARIA
+Sint-Mariaburg:MARIA
+FSN:FSN
+Sint-Niklaas:FSN
+Sint-Nikla:FSN
+Sint-Niklaas:FSN
+STD:STD
+Sittard:STD
+Sittard:STD
+Sittard:STD
+SDT:SDT
+Sliedrecht:SDT
+Sliedrecht:SDT
+Sliedrecht:SDT
+SDTB:SDTB
+Sliedrecht Baanhoek:SDTB
+Baanhoek:SDTB
+Baanhoek:SDTB
+SK:SK
+Sneek:SK
+Sneek:SK
+Sneek:SK
+Snits:SK
+SKND:SKND
+Sneek Noord:SKND
+Sneek N:SKND
+Sneek Noord:SKND
+Snits Noard:SKND
+ST:ST
+Soest:ST
+Soest:ST
+Soest:ST
+STZ:STZ
+Soest Zuid:STZ
+Soest Z:STZ
+Soest Zuid:STZ
+SD:SD
+Soestdijk:SD
+Soestdijk:SD
+Soestdijk:SD
+SBK:SBK
+Spaubeek:SBK
+Spaubeek:SBK
+Spaubeek:SBK
+SPH:SPH
+Spekholzerheide:SPH
+Spekholzer:SPH
+Spekholzerheide:SPH
+STJOHP:STJOHP
+St. Johann im Pongau:STJOHP
+St.JohannP:STJOHP
+St. Johann im P.:STJOHP
+STJOH:STJOH
+St. Johann in Tirol:STJOH
+St. Johann:STJOH
+St. Johann in T.:STJOH
+STV:STV
+Stavoren:STV
+Stavoren:STV
+Stavoren:STV
+Starum:STV
+STM:STM
+Stedum:STM
+Stedum:STM
+Stedum:STM
+SWK:SWK
+Steenwijk:SWK
+Steenwijk:SWK
+Steenwijk:SWK
+EBGO:EBGO
+Steinfurt-Borghorst:EBGO
+Steinf-Bor:EBGO
+Steinfurt-Borgh:EBGO
+EBFT:EBFT
+Steinfurt-Burgsteinfurt:EBFT
+Steinf-Bur:EBFT
+Steinfurt-Burgst:EBFT
+EGRK:EGRK
+Steinfurt-Grottenkamp:EGRK
+Steinf-Gr:EGRK
+Steinfurt-Grotte:EGRK
+LS:LS
+Stendal:LS
+Stendal:LS
+Stendal:LS
+TS:TS
+Stuttgart Hbf:TS
+Stuttgart:TS
+Stuttgart Hbf:TS
+SRN:SRN
+Susteren:SRN
+Susteren:SRN
+Susteren:SRN
+SM:SM
+Swalmen:SM
+Swalmen:SM
+Swalmen:SM
+WTA:WTA
+Tantow:WTA
+Tantow:WTA
+Tantow:WTA
+TG:TG
+Tegelen:TG
+Tegelen:TG
+Tegelen:TG
+TBG:TBG
+Terborg:TBG
+Terborg:TBG
+Terborg:TBG
+TL:TL
+Tiel:TL
+Tiel:TL
+Tiel:TL
+TPSW:TPSW
+Tiel Passewaaij:TPSW
+Passewaaij:TPSW
+Tiel Passewaaij:TPSW
+TB:TB
+Tilburg:TB
+Tilburg:TB
+Tilburg:TB
+TBR:TBR
+Tilburg Reeshof:TBR
+Reeshof:TBR
+Tilburg Reeshof:TBR
+TBU:TBU
+Tilburg Universiteit:TBU
+Tilburg Un:TBU
+Tilburg Univers.:TBU
+FTG:FTG
+Tongeren:FTG
+Tongeren:FTG
+Tongeren:FTG
+TWL:TWL
+Twello:TWL
+Twello:TWL
+Twello:TWL
+UTG:UTG
+Uitgeest:UTG
+Uitgeest:UTG
+Uitgeest:UTG
+UHZ:UHZ
+Uithuizen:UHZ
+Uithuizen:UHZ
+Uithuizen:UHZ
+UHM:UHM
+Uithuizermeeden:UHM
+Uithuizerm:UHM
+Uithuizermeeden:UHM
+TU:TU
+Ulm Hbf:TU
+Ulm:TU
+Ulm Hbf:TU
+EUN:EUN
+Unna:EUN
+Unna:EUN
+Unna:EUN
+UST:UST
+Usquert:UST
+Usquert:UST
+Usquert:UST
+USTI:USTI
+Usti nad Labem:USTI
+Usti nad L:USTI
+Usti nad Labem:USTI
+UT:UT
+Utrecht Centraal:UT
+Utrecht C:UT
+Utrecht C.:UT
+Utrecht:UT
+UTLR:UTLR
+Utrecht Leidsche Rijn:UTLR
+LeidscheRn:UTLR
+Leidsche Rijn:UTLR
+UTLN:UTLN
+Utrecht Lunetten:UTLN
+Lunetten:UTLN
+Utrecht Lunetten:UTLN
+UTM:UTM
+Utrecht Maliebaan:UTM
+Maliebaan:UTM
+Maliebaan:UTM
+Spoorwegmuseum:UTM
+UTO:UTO
+Utrecht Overvecht:UTO
+Overvecht:UTO
+Overvecht:UTO
+UTT:UTT
+Utrecht Terwijde:UTT
+Terwijde:UTT
+Utrecht Terwijde:UTT
+UTVR:UTVR
+Utrecht Vaartsche Rijn:UTVR
+VaartscheR:UTVR
+Vaartsche Rijn:UTVR
+UTZL:UTZL
+Utrecht Zuilen:UTZL
+Zuilen:UTZL
+Utrecht Zuilen:UTZL
+VALTGV:VALTGV
+Valence TGV:VALTGV
+ValenceTGV:VALTGV
+Valence TGV:VALTGV
+VK:VK
+Valkenburg:VK
+Valkenburg:VK
+Valkenburg:VK
+VSV:VSV
+Varsseveld:VSV
+Varsseveld:VSV
+Varsseveld:VSV
+VDM:VDM
+Veendam:VDM
+Veendam:VDM
+Veendam:VDM
+VNDC:VNDC
+Veenendaal Centrum:VNDC
+Veenendl C:VNDC
+Veenendaal C.:VNDC
+VNDW:VNDW
+Veenendaal West:VNDW
+Veenendl W:VNDW
+Veenendaal West:VNDW
+KLP:KLP
+Veenendaal-De Klomp:KLP
+De Klomp:KLP
+De Klomp:KLP
+VP:VP
+Velp:VP
+Velp:VP
+Velp:VP
+VL:VL
+Venlo:VL
+Venlo:VL
+Venlo:VL
+VRY:VRY
+Venray:VRY
+Venray:VRY
+Venray:VRY
+VLB:VLB
+Vierlingsbeek:VLB
+Vierlingsb:VLB
+Vierlingsbeek:VLB
+VIERS:VIERS
+Viersen:VIERS
+Viersen:VIERS
+Viersen:VIERS
+FVS:FVS
+VisÃ©:FVS
+VisÃ©:FVS
+VisÃ©:FVS
+VTN:VTN
+Vleuten:VTN
+Vleuten:VTN
+Vleuten:VTN
+VS:VS
+Vlissingen:VS
+Vlissingen:VS
+Vlissingen:VS
+VSS:VSS
+Vlissingen Souburg:VSS
+Souburg:VSS
+Souburg:VSS
+VDL:VDL
+Voerendaal:VDL
+Voerendaal:VDL
+Voerendaal:VDL
+VB:VB
+Voorburg:VB
+Voorburg:VB
+Voorburg:VB
+VH:VH
+Voorhout:VH
+Voorhout:VH
+Voorhout:VH
+VST:VST
+Voorschoten:VST
+Voorschtn:VST
+Voorschoten:VST
+VEM:VEM
+Voorst-Empe:VEM
+Voorst-E:VEM
+Voorst-Empe:VEM
+VD:VD
+Vorden:VD
+Vorden:VD
+Vorden:VD
+VZ:VZ
+Vriezenveen:VZ
+Vriezenvn:VZ
+Vriezenveen:VZ
+VHP:VHP
+Vroomshoop:VHP
+Vroomshoop:VHP
+Vroomshoop:VHP
+VG:VG
+Vught:VG
+Vught:VG
+Vught:VG
+WAD:WAD
+Waddinxveen:WAD
+Waddinxvn:WAD
+Waddinxveen:WAD
+WADN:WADN
+Waddinxveen Noord:WADN
+Waddinxv N:WADN
+Waddinxveen N.:WADN
+WADT:WADT
+Waddinxveen Triangel:WADT
+Triangel:WADT
+Waddinxvn Triang:WADT
+WFM:WFM
+Warffum:WFM
+Warffum:WFM
+Warffum:WFM
+WARSZC:WARSZC
+Warszawa Centralna:WARSZC
+Warszawa C:WARSZC
+Warszawa C.:WARSZC
+WARSAW:WARSAW
+Warszawa Wschodnia:WARSAW
+Warszawa W:WARSAW
+Warszawa Wschodn:WARSAW
+WR:WR
+Weener:WR
+Weener:WR
+Weener:WR
+WT:WT
+Weert:WT
+Weert:WT
+Weert:WT
+WP:WP
+Weesp:WP
+Weesp:WP
+Weesp:WP
+WL:WL
+Wehl:WL
+Wehl:WL
+Wehl:WL
+WESEL:WESEL
+Wesel:WESEL
+Wesel:WESEL
+Wesel:WESEL
+WTV:WTV
+Westervoort:WTV
+Westervrt:WTV
+Westervoort:WTV
+WZ:WZ
+Wezep:WZ
+Wezep:WZ
+Wezep:WZ
+WIENW:WIENW
+Wien Westbahnhof:WIENW
+Wien Westb:WIENW
+Wien Westbf:WIENW
+WDN:WDN
+Wierden:WDN
+Wierden:WDN
+Wierden:WDN
+WC:WC
+Wijchen:WC
+Wijchen:WC
+Wijchen:WC
+WH:WH
+Wijhe:WH
+Wijhe:WH
+Wijhe:WH
+GWD:GWD
+Wildert:GWD
+Wildert:GWD
+Wildert:GWD
+WS:WS
+Winschoten:WS
+Winschoten:WS
+Winschoten:WS
+WSM:WSM
+Winsum:WSM
+Winsum:WSM
+Winsum:WSM
+WW:WW
+Winterswijk:WW
+Winterswk:WW
+Winterswijk:WW
+WWW:WWW
+Winterswijk West:WWW
+Wintersw W:WWW
+Winterswijk West:WWW
+WD:WD
+Woerden:WD
+Woerden:WD
+Woerden:WD
+WF:WF
+Wolfheze:WF
+Wolfheze:WF
+Wolfheze:WF
+HWOB:HWOB
+Wolfsburg Hbf:HWOB
+Wolfsburg:HWOB
+Wolfsburg Hbf:HWOB
+WV:WV
+Wolvega:WV
+Wolvega:WV
+Wolvega:WV
+Wolvegea:WV
+WK:WK
+Workum:WK
+Workum:WK
+Workum:WK
+Warkum:WK
+WM:WM
+Wormerveer:WM
+Wormerveer:WM
+Wormerveer:WM
+WUPPH:WUPPH
+Wuppertal Hbf:WUPPH
+Wuppertal:WUPPH
+Wuppertal Hbf:WUPPH
+KWO:KWO
+Wuppertal Oberbarmen:KWO
+Wup'tal O:KWO
+Wuppertal O:KWO
+KWBA:KWBA
+Wuppertal-Barmen:KWBA
+Wup'tal-B:KWBA
+Wuppertal-B:KWBA
+WUPPV:WUPPV
+Wuppertal-Vohwinkel:WUPPV
+Wupp-Vohw:WUPPV
+Wupp-Vohwinkel:WUPPV
+WORGL:WORGL
+WÃ¶rgl:WORGL
+WÃ¶rgl:WORGL
+WÃ¶rgl:WORGL
+Worgl:WORGL
+WURZB:WURZB
+WÃ¼rzburg Hbf:WURZB
+WÃ¼rzburg:WURZB
+WÃ¼rzburg Hbf:WURZB
+ZD:ZD
+Zaandam:ZD
+Zaandam:ZD
+Zaandam:ZD
+ZDK:ZDK
+Zaandam Kogerveld:ZDK
+Kogerveld:ZDK
+Kogerveld:ZDK
+ZZS:ZZS
+Zaandijk Zaanse Schans:ZZS
+Zaanse S.:ZZS
+Zaanse Schans:ZZS
+ZBM:ZBM
+Zaltbommel:ZBM
+Zaltbommel:ZBM
+Zaltbommel:ZBM
+ZVT:ZVT
+Zandvoort aan Zee:ZVT
+Zandvoort:ZVT
+Zandvoort a Zee:ZVT
+ZELL:ZELL
+Zell am See:ZELL
+Zell am S.:ZELL
+Zell am See:ZELL
+ZA:ZA
+Zetten-Andelst:ZA
+Zetten-And:ZA
+Zetten-Andelst:ZA
+ZV:ZV
+Zevenaar:ZV
+Zevenaar:ZV
+Zevenaar:ZV
+ZVB:ZVB
+Zevenbergen:ZVB
+Zevenbergn:ZVB
+Zevenbergen:ZVB
+ZTM:ZTM
+Zoetermeer:ZTM
+Zoetermeer:ZTM
+Zoetermeer:ZTM
+ZTMO:ZTMO
+Zoetermeer Oost:ZTMO
+Zoetermr O:ZTMO
+Zoetermeer Oost:ZTMO
+ZB:ZB
+Zuidbroek:ZB
+Zuidbroek:ZB
+Zuidbroek:ZB
+ZH:ZH
+Zuidhorn:ZH
+Zuidhorn:ZH
+Zuidhorn:ZH
+ZP:ZP
+Zutphen:ZP
+Zutphen:ZP
+Zutphen:ZP
+ZWD:ZWD
+Zwijndrecht:ZWD
+Zwijndrcht:ZWD
+Zwijndrecht:ZWD
+LZD:LZD
+Zwijndrecht (B):LZD
+Zwijndrech:LZD
+Zwijndrecht (B):LZD
+ZL:ZL
+Zwolle:ZL
+Zwolle:ZL
+Zwolle:ZL
+ZLSH:ZLSH
+Zwolle Stadshagen:ZLSH
+Stadshagen:ZLSH
+Stadshagen:ZLSH
+ZUE:ZUE
+ZÃ¼rich HB:ZUE
+ZÃ¼rich HB:ZUE
+ZÃ¼rich HB:ZUE
+Zurich:ZUE
+OETZ:OETZ
+Ãtztal:OETZ
+Ãtztal:OETZ
+Ãtztal:OETZ
+Otztal:OETZ

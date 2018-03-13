@@ -63,9 +63,10 @@
         <pattern>WHAT TRAINS ARE LEAVING AT *</pattern>
 
         <template>
-            <condition name='currentloc'>
-                <li value='unknown'>Where do you want to depart from?</li>
-                <li><condition name='jan'</li>
+            <condition>
+                <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
+                <li name='destination' value='unknown'>Where do you want to go to?</li>
+                <li>You want to go to from <get name='currentloc' /> to <get name='destination' /></li>
             </condition>
         </template>
     </category>
@@ -75,7 +76,19 @@
         <that>Where do you want to depart from?</that>
         <template>
             <think><set name='currentloc'><star /></set></think>
-            A LOT
+            <condition>
+                <li name='destination' value='unknown'>Where do you want to go to?</li>
+                <li>You want to go to from <get name='currentloc' /> to <get name='destination' /></li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern><set name='stations'>*</set></pattern>
+        <that>Where do you want to go to?</that>
+        <template>
+            <think><set name='destination'><star /></set></think>
+            You want to go to from <get name='currentloc' /> to <get name='destination' />
         </template>
     </category>
 

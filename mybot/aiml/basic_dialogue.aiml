@@ -44,13 +44,13 @@
         </template>
     </category>
 
-    <category>
+<!--     <category>
      <pattern>WHAT IS THE LAST TRAIN TO * </pattern>
         <template>
             Last train to: <set name="destination"><star/></set>
         </template>
     </category>
-
+ -->
 
     <category>
      <pattern>WHATT IS THE FIRST TRAIN TO * </pattern>

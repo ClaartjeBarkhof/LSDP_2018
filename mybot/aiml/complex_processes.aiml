@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-    <category>
+<!--     <category>
         <pattern>I WANT TO GO TO *</pattern>
         <template>
             Your destination is <set name="destination"><star/></set>.
         </template>
     </category>
-    
+ -->    
     <category>
         <pattern>I WANT TO GO FROM * TO *</pattern>
         <template>
@@ -28,10 +28,10 @@
         </template>
     </category>  
 
-    <category>
+<!--     <category>
         <pattern>PHONE <set name="numeric"></pattern>
         <template>
             OK, I am calling <star /> now for you.
         </template>
     </category> 
-</aiml>
+ --></aiml>

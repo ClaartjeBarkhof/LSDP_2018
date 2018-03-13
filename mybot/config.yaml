@@ -37,3 +37,4 @@ brain:
     dynamic:
         maps:
             gettrain: programy.dynamic.maps.train.GetTrain
+            tripletrain: programy.dynamic.maps.train.GetTrainTriple

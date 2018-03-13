@@ -8,31 +8,18 @@
     </category>
 
     <category>
-        <pattern>* NEXT TRAIN FROM <set name='stations'>*</set></pattern>
+        <pattern>^ NEXT TRAIN FROM <set name='stations'>*</set></pattern>
         <template>
-            From <star index='2' /><map name="gettrain"><star index='2' /></map>
-            <think><set name='currenctloc'><star /></set></think>
+            From <star index='2'/><map name="gettrain"><star index='2'/></map>
+            <think><set name='currentloc'><star index='2'/></set></think>
         </template>
     </category>
 
     <category>
-        <pattern>NEXT TRAIN FROM <set name='stations'>*</set></pattern>
-        <template>
-            From <star /><map name="gettrain"><star /></map>
-            <think><set name='currentloc'><star /></set></think>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* NEXT TRAIN FROM *</pattern>
+        <pattern>^ NEXT TRAIN FROM *</pattern>
         <template>
             <star index='2' /> is not a known station.
         </template>
-    </category>
-
-    <category>
-        <pattern>NEXT TRAIN FROM * </pattern>
-        <template><star /> is not a known station.</template>
     </category>
 
 

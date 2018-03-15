@@ -8,8 +8,7 @@
     </category>
 
 
-<!-- Eerste vraag, valide of niet valide
- -->
+<!-- Eerste vraag, valide of niet valide -->
     <category>
         <pattern>^ NEXT TRAIN FROM <set name='stations'>*</set></pattern>
         <template>
@@ -26,8 +25,7 @@
     </category>
 
 
-<!-- Vraag naar vertrekkende treinen
- -->
+<!-- Vraag naar vertrekkende treinen -->
     <category>
         <pattern>WHAT TRAINS ARE LEAVING AT *</pattern>
         <template>
@@ -47,7 +45,6 @@
             <condition>
                 <li name='destination' value='unknown'>Where do you want to go to?</li>
                 <li name='time' value='last'> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
-                <li>You want to go to from <get name='currentloc' /> to <get name='destination' /> at <get name='time' /></li>
             </condition>
         </template>
     </category>
@@ -69,13 +66,9 @@
             <think><set name="time">last</set></think>
             <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
-                <li>You want to go to from <get name='currentloc' /> to <get name='destination' /></li>
+                <li name='time' value='last'> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
             </condition>
         </template>
     </category>
-
-
-
-
 
 </aiml>

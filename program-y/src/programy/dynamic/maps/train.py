@@ -127,7 +127,7 @@ class GetTrainTriple(DynamicMap):
 
 
 
-                if not last == 'TRUE:
+                if not last == 'TRUE':
                     output += 'Option ' + index + '(travel time: ' + reistijd +'):\n'
                 output += 'At ' + vertrektijd + ', '
                 counter = 0

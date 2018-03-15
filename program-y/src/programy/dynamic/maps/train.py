@@ -41,8 +41,6 @@ class GetTrain(DynamicMap):
     def __init__(self, config):
         DynamicMap.__init__(self, config)
 
-
-
     def map_value(self, bot, clientid, input_value):
         return self.first_leaving_train(input_value)
 

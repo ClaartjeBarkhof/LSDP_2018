@@ -24,6 +24,7 @@ from xml.etree import ElementTree
 from datetime import datetime
 from login import aut
 from programy.utils.text.dateformat import DateFormatter
+import pdb
 
 def time_to_string(time):
     h = time.time().hour
@@ -124,25 +125,22 @@ class GetTrainTriple(DynamicMap):
                 vertrektijd = datetime.strptime(vertrektijd, '%Y-%m-%dT%H:%M:%S%z')
                 vertrektijd = time_to_string(vertrektijd)
 
-
-
-
-                if not last == 'TRUE':
-                    output += 'Option ' + index + '(travel time: ' + reistijd +'):\n'
-                output += 'At ' + vertrektijd + ', '
+                if last != 'TRUE':
+                    output += 'Option ' + str(index) + ' (travel time ' + reistijd + '):\n'
                 counter = 0
                 for reisdeel in optie.findall('ReisDeel'):
-                    spoor = reisdeel.find('ReisStop').find('Spoor').text
-                    tijd = reisdeel.find('ReisStop').find('Tijd').text[11:16]
-                    # print("SPOORTJE")
-                    # print(spoor)
+                    stops = reisdeel.findall('ReisStop')
+                    spoor = stops[0].find('Spoor').text
+                    tijd = stops[0].find('Tijd').text[11:16]
+                    naam = stops[0].find('Naam').text
+
                     if counter == 0:
-                        # print('vertrek van ' + origin + ' op spoor: ' + spoor)
-                        output += ' - ' + tijd + ' leaving from ' + origin + ' at platform: ' + spoor
+                        output += ' ' + tijd + ' from ' + naam + ' at platform ' + spoor + '\n'
                     if counter > 0:
-                        overstap = reisdeel.find('ReisStop').find('Naam').text
-                        # print('overstappen op ' + overstap + ' op spoor: ' + spoor)
-                        output += ' - ' + reisdeel.find('ReisStop').find('Tijd').text[11:16] +' change at ' + overstap + ' to platform: ' + spoor
+                        output += ' ' + tijd +' change at ' + naam + ' to platform ' + spoor + '\n'
                     counter += 1
-                    output += '\n'
+
+
+
+                output += ' ' + stops[-1].find('Tijd').text[11:16] + ' arrival at ' + stops[-1].find('Naam').text + '\n\n'
         return output

@@ -70,11 +70,13 @@ class GetTrainTriple(DynamicMap):
         return self.triple_to_train(input_value)
 
     def triple_to_train(self, name):
-        origin, time, destination = name.split(' , ')
+        origin, time, destination, arrival = name.split(' , ')
         if (time == 'LAST'):
             time = '2018-03-13T23:50'
         ns = 'https://webservices.ns.nl/'
         global aut
+        if arrival == 'true':
+            time += '&Departure=false'
         r = requests.get(ns + 'ns-api-treinplanner?toStation=' + destination + '&fromStation=' + origin + '&dateTime=' + time, auth=aut)
         tree = ElementTree.fromstring(r.text)
         opties = tree.findall('ReisMogelijkheid')

@@ -37,6 +37,15 @@ def find_last_today(opties):
             return optie
     return opties[-1]
 
+def convert_time(time):
+    if (len(time) == 2):
+            date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
+            time = 'T' + time + ':00'
+            time = date + time
+    elif 
+
+    return time
+
 class GetTrain(DynamicMap):
 
     def __init__(self, config):
@@ -71,18 +80,13 @@ class GetTrainTriple(DynamicMap):
         return self.triple_to_train(input_value)
 
     def triple_to_train(self, name):
-        print(name)
         origin, time, destination, arrival, last = name.split(' , ')
+
         if (last == 'TRUE'):
             time = '2018-03-13T23:50'
-        elif (len(time) == 2):
-            date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
-            time = 'T' + time + ':00'
-            time = date + time
-            print(time)
         else:
-            time = DateFormatter().time_representation()
-            date = DateFormatter().date_representation()
+            time = convert_time(time)
+
         ns = 'https://webservices.ns.nl/'
         global aut
         if arrival == 'true':

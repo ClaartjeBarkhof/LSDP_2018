@@ -71,8 +71,9 @@ class GetTrainTriple(DynamicMap):
         return self.triple_to_train(input_value)
 
     def triple_to_train(self, name):
-        origin, time, destination, arrival = name.split(' , ')
-        if (time == 'LAST'):
+        print(name)
+        origin, time, destination, arrival, last = name.split(' , ')
+        if (last == 'TRUE'):
             time = '2018-03-13T23:50'
         elif (len(time) == 2):
             date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]

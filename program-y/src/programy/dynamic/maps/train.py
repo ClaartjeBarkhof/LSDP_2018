@@ -22,6 +22,7 @@ import pprint
 from xml.etree import ElementTree
 from datetime import datetime
 from login import aut
+from programy.utils.text.dateformat import DateFormatter
 
 def time_to_string(time):
     h = time.time().hour
@@ -73,9 +74,18 @@ class GetTrainTriple(DynamicMap):
         origin, time, destination = name.split(' , ')
         if (time == 'LAST'):
             time = '2018-03-13T23:50'
+        elif (len(time) == 2):
+            date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
+            time = 'T' + time + ':00'
+            time = date + time
+            print(time)
+        else:
+            time = DateFormatter().time_representation()
+            date = DateFormatter().date_representation()
         ns = 'https://webservices.ns.nl/'
         global aut
         r = requests.get(ns + 'ns-api-treinplanner?toStation=' + destination + '&fromStation=' + origin + '&dateTime=' + time, auth=aut)
+        #print(r.text)
         tree = ElementTree.fromstring(r.text)
         opties = tree.findall('ReisMogelijkheid')
         optie = find_last_today(opties)

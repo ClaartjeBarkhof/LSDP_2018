@@ -102,34 +102,36 @@ class GetTrainTriple(DynamicMap):
         else:
             output += 'These are your options:\n'
         for index, optie in enumerate(opties):
-            overstappen = optie.find('AantalOverstappen').text
-            reistijd = optie.find('GeplandeReisTijd').text
-            vertrektijd = optie.find('GeplandeVertrekTijd').text
-            actuelevertrektijd = optie.find('ActueleVertrekTijd').text
-            aankomsttijd = optie.find('GeplandeAankomstTijd').text
-            actueleaankomsttijd = optie.find('ActueleAankomstTijd').text
-            vertrektijd = datetime.strptime(vertrektijd, '%Y-%m-%dT%H:%M:%S%z')
-            vertrektijd = time_to_string(vertrektijd)
+            if index < 5:
+                index += 1
+                overstappen = optie.find('AantalOverstappen').text
+                reistijd = optie.find('GeplandeReisTijd').text
+                vertrektijd = optie.find('GeplandeVertrekTijd').text
+                actuelevertrektijd = optie.find('ActueleVertrekTijd').text
+                aankomsttijd = optie.find('GeplandeAankomstTijd').text
+                actueleaankomsttijd = optie.find('ActueleAankomstTijd').text
+                vertrektijd = datetime.strptime(vertrektijd, '%Y-%m-%dT%H:%M:%S%z')
+                vertrektijd = time_to_string(vertrektijd)
 
 
 
 
-            if not last == 'TRUE:
-                output += 'Option ' + index + '(travel time: ' + reistijd +'):\n'
-            output += 'At ' + vertrektijd + ', '
-            counter = 0
-            for reisdeel in optie.findall('ReisDeel'):
-                spoor = reisdeel.find('ReisStop').find('Spoor').text
-                tijd = reisdeel.find('ReisStop').find('Tijd').text[11:16]
-                # print("SPOORTJE")
-                # print(spoor)
-                if counter == 0:
-                    # print('vertrek van ' + origin + ' op spoor: ' + spoor)
-                    output += ' - ' + tijd + ' leaving from ' + origin + ' at platform: ' + spoor
-                if counter > 0:
-                    overstap = reisdeel.find('ReisStop').find('Naam').text
-                    # print('overstappen op ' + overstap + ' op spoor: ' + spoor)
-                    output += ' - ' + reisdeel.find('ReisStop').find('Tijd').text[11:16] +' change at ' + overstap + ' to platform: ' + spoor
-                counter += 1
-                output += '\n'
+                if not last == 'TRUE:
+                    output += 'Option ' + index + '(travel time: ' + reistijd +'):\n'
+                output += 'At ' + vertrektijd + ', '
+                counter = 0
+                for reisdeel in optie.findall('ReisDeel'):
+                    spoor = reisdeel.find('ReisStop').find('Spoor').text
+                    tijd = reisdeel.find('ReisStop').find('Tijd').text[11:16]
+                    # print("SPOORTJE")
+                    # print(spoor)
+                    if counter == 0:
+                        # print('vertrek van ' + origin + ' op spoor: ' + spoor)
+                        output += ' - ' + tijd + ' leaving from ' + origin + ' at platform: ' + spoor
+                    if counter > 0:
+                        overstap = reisdeel.find('ReisStop').find('Naam').text
+                        # print('overstappen op ' + overstap + ' op spoor: ' + spoor)
+                        output += ' - ' + reisdeel.find('ReisStop').find('Tijd').text[11:16] +' change at ' + overstap + ' to platform: ' + spoor
+                    counter += 1
+                    output += '\n'
         return output

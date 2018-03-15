@@ -88,7 +88,8 @@ class GetTrainTriple(DynamicMap):
         origin, time, destination, arrival, last = name.split(' , ')
         
         if (last == 'TRUE'):
-            time = '2018-03-13T23:50'
+            date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
+            time = date + 'T23:50'
         elif any(char.isdigit() for char in time) == False:
             return "Please enter a valid sentence."
         else:

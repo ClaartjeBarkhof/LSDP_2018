@@ -7,7 +7,6 @@
         </template>
     </category>
 
-
 <!-- Eerste vraag, valide of niet valide -->
     <category>
         <pattern>^ NEXT TRAIN FROM <set name='stations'>*</set></pattern>
@@ -58,10 +57,6 @@
             <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/></map>
         </template>
     </category>
-
-
-    
-
 
     <category>
      <pattern>WHAT IS THE LAST TRAIN TO <set name='stations'>*</set></pattern>

@@ -7,7 +7,6 @@
         </template>
     </category>
 
-
 <!-- Eerste vraag, valide of niet valide -->
     <category>
         <pattern>^ NEXT TRAIN FROM <set name='stations'>*</set></pattern>
@@ -33,7 +32,7 @@
             <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
                 <li name='destination' value='unknown'>Where do you want to go to?</li>
-                <li><map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
+                <li><map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/></map></li>
             </condition>
         </template>
     </category>
@@ -55,14 +54,9 @@
         <that>WHERE DO YOU WANT TO GO TO</that>
         <template>
             <think><set name='destination'><star /></set></think>
-            HELLO
-            <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map>
+            <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/></map>
         </template>
     </category>
-
-
-    
-
 
     <category>
      <pattern>WHAT IS THE LAST TRAIN TO <set name='stations'>*</set></pattern>

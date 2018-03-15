@@ -18,6 +18,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 from programy.dynamic.maps.map import DynamicMap
 
 import requests
+import re
 import pprint
 from xml.etree import ElementTree
 from datetime import datetime
@@ -38,12 +39,19 @@ def find_last_today(opties):
     return opties[-1]
 
 def convert_time(time):
+    date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
+    if (len(time) == 1):
+        time = 'T0' + time + ':00'
+        time = date + time
     if (len(time) == 2):
-            date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
-            time = 'T' + time + ':00'
+        time = 'T' + time + ':00'
+        time = date + time
+    elif ":" in time:
+        if len(time) == 5:
+            time = date + 'T' + time
+        if len(time) == 4:
+            time = 'T0' + time
             time = date + time
-    elif
-
     return time
 
 class GetTrain(DynamicMap):
@@ -83,7 +91,10 @@ class GetTrainTriple(DynamicMap):
         origin, time, destination, arrival, last = name.split(' , ')
 
         if (last == 'TRUE'):
-            time = '2018-03-13T23:50'
+            date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
+            time = date + 'T23:50'
+        elif any(char.isdigit() for char in time) == False:
+            return "Please enter a valid sentence."
         else:
             time = convert_time(time)
 

@@ -14,12 +14,12 @@
         </template>
     </category>
     
-    <category>
+<!--     <category>
         <pattern>WHERE AM I</pattern>
         <template>
             You told me you are in <get name="origin"/>.
         </template>
-    </category>  
+    </category>   -->
 
     <category>
         <pattern>TEST</pattern>

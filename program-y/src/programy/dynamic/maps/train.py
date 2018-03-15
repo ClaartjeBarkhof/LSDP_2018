@@ -42,7 +42,6 @@ def convert_time(time):
             date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
             time = 'T' + time + ':00'
             time = date + time
-    elif 
 
     return time
 

@@ -86,12 +86,14 @@ class GetTrainTriple(DynamicMap):
 
     def triple_to_train(self, name):
         origin, time, destination, arrival, last = name.split(' , ')
+        
         if (last == 'TRUE'):
             time = '2018-03-13T23:50'
         elif any(char.isdigit() for char in time) == False:
             return "Please enter a valid sentence."
         else:
             time = convert_time(time)
+        
         ns = 'https://webservices.ns.nl/'
         global aut
         if arrival == 'true':

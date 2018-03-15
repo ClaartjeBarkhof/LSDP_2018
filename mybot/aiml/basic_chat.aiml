@@ -29,14 +29,29 @@
     <category>
         <pattern>WHAT TRAINS ARE LEAVING AT *</pattern>
         <template>
-            <think><set name='time'><star /></set></think>
+            <think><set name='time'><star/></set></think>
             <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
                 <li name='destination' value='unknown'>Where do you want to go to?</li>
-                <li><map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
+                <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
             </condition>
         </template>
     </category>
+
+    <category>
+        <pattern>*</pattern>
+        <that> WHEN DO YOU WANT TO LEAVE</that>
+        <template>
+            <think><set name='time'><star/></set></think>
+            <condition>
+                <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
+                <li name='destination' value='unknown'>Where do you want to go to?</li>
+                <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
+            </condition>
+        </template>
+    </category>
+
+
 
     <category>
         <pattern><set name='stations'>*</set></pattern>
@@ -45,18 +60,26 @@
             <think><set name='currentloc'><star /></set></think>
             <condition>
                 <li name='destination' value='unknown'>Where do you want to go to?</li>
-                <li> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/></map></li>
+                <li name='last' value='true'> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
+                <li name='time' value='unknown'>When do you want to leave?</li>
+                <li> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
             </condition>
         </template>
     </category>
+
 
     <category>
         <pattern><set name='stations'>*</set></pattern>
         <that>WHERE DO YOU WANT TO GO TO</that>
         <template>
             <think><set name='destination'><star /></set></think>
-            HELLO
-            <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map>
+        <condition>
+            <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
+            You want to go to from <get name='currentloc' /> to <get name='destination' />
+            <li name='last' value='true'> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
+            <li name='time' value='unknown'>When do you want to leave?</li>
+            <li> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
+        <condition>
         </template>
     </category>
 
@@ -65,10 +88,10 @@
      <pattern>WHAT IS THE LAST TRAIN TO <set name='stations'>*</set></pattern>
         <template>
             <think><set name="destination"><star index='1'/></set></think>
-            <think><set name="last">true</set></think>
+            <think><set name="time">last</set></think>
             <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
-                <li> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/></map></li>
+                <li name='time' value='last'> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
             </condition>
         </template>
     </category>

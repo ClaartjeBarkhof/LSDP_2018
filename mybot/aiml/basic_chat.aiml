@@ -29,10 +29,11 @@
     <category>
         <pattern>WHAT TRAINS ARE LEAVING AT *</pattern>
         <template>
+            <think><set name='time'><star /></set></think>
             <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
                 <li name='destination' value='unknown'>Where do you want to go to?</li>
-                <li>You want to go to from <get name='currentloc' /> to <get name='destination' /></li>
+                <li><map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
             </condition>
         </template>
     </category>
@@ -44,7 +45,7 @@
             <think><set name='currentloc'><star /></set></think>
             <condition>
                 <li name='destination' value='unknown'>Where do you want to go to?</li>
-                <li name='time' value='last'> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
+                <li> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'></map></li>
             </condition>
         </template>
     </category>
@@ -54,7 +55,8 @@
         <that>WHERE DO YOU WANT TO GO TO</that>
         <template>
             <think><set name='destination'><star /></set></think>
-            You want to go to from <get name='currentloc' /> to <get name='destination' />
+            HELLO
+            <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map>
         </template>
     </category>
 
@@ -66,7 +68,7 @@
             <think><set name="time">last</set></think>
             <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
-                <li name='time' value='last'> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/></map></li>
+                <li> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'></map></li>
             </condition>
         </template>
     </category>

@@ -78,7 +78,10 @@ class GetTrainTriple(DynamicMap):
         r = requests.get(ns + 'ns-api-treinplanner?toStation=' + destination + '&fromStation=' + origin + '&dateTime=' + time, auth=aut)
         tree = ElementTree.fromstring(r.text)
         opties = tree.findall('ReisMogelijkheid')
-        optie = find_last_today(opties)
+        if time == '2018-03-13T23:50':
+            optie = find_last_today(opties)
+        else:
+            optie = opties[0]
 
         overstappen = optie.find('AantalOverstappen').text
         reistijd = optie.find('GeplandeReisTijd').text

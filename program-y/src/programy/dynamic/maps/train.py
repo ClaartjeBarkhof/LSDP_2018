@@ -40,9 +40,12 @@ def find_last_today(opties):
 
 def convert_time(time):
     date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
+    if (len(time) == 1):
+        time = 'T0' + time + ':00'
+        time = date + time
     if (len(time) == 2):
-            time = 'T' + time + ':00'
-            time = date + time
+        time = 'T' + time + ':00'
+        time = date + time
     elif ":" in time:
         if len(time) == 5:
             time = date + 'T' + time

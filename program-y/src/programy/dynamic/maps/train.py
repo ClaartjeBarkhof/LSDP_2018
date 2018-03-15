@@ -34,13 +34,12 @@ def find_last_today(opties):
         date2 = opties[index+1].find('GeplandeVertrekTijd').text[0:10]
         if date1 != date2:
             return optie
+    return opties[-1]
 
 class GetTrain(DynamicMap):
 
     def __init__(self, config):
         DynamicMap.__init__(self, config)
-
-
 
     def map_value(self, bot, clientid, input_value):
         return self.first_leaving_train(input_value)

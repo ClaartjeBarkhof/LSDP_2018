@@ -18,6 +18,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 from programy.dynamic.maps.map import DynamicMap
 
 import requests
+import datetime
 import re
 import pprint
 from xml.etree import ElementTree
@@ -39,8 +40,14 @@ def find_last_today(opties):
             return optie
     return opties[-1]
 
-def convert_time(time):
-    date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
+def convert_time(time, date):
+    if (date == 'TOMORROW'):
+        date = date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
+        day = int(date[8:10])
+        tomorrow = day + 1
+        date = date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + str(tomorrow)
+    else:
+        date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
     if (len(time) == 1):
         time = 'T0' + time + ':00'
         time = date + time
@@ -54,6 +61,7 @@ def convert_time(time):
             time = 'T0' + time
             time = date + time
     return time
+
 
 class GetTrain(DynamicMap):
 
@@ -89,15 +97,14 @@ class GetTrainTriple(DynamicMap):
         return self.triple_to_train(input_value)
 
     def triple_to_train(self, name):
-        origin, time, destination, arrival, last = name.split(' , ')
-
+        origin, time, destination, arrival, last, date = name.split(' , ')
         if (last == 'TRUE'):
             date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
             time = date + 'T23:50'
         elif any(char.isdigit() for char in time) == False:
             return "Please enter a valid sentence."
         else:
-            time = convert_time(time)
+            time = convert_time(time, date)
 
         ns = 'https://webservices.ns.nl/'
         global aut
@@ -139,8 +146,6 @@ class GetTrainTriple(DynamicMap):
                     if counter > 0:
                         output += ' ' + tijd +' change at ' + naam + ' to platform ' + spoor + '\n'
                     counter += 1
-
-
 
                 output += ' ' + stops[-1].find('Tijd').text[11:16] + ' arrival at ' + stops[-1].find('Naam').text + '\n\n'
         return output

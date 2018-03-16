@@ -26,19 +26,33 @@
     <category>
         <pattern>WHERE AM I</pattern>
         <template>
-            You told me you are in <get name="currentloc"/>.
+            You told me you are at <get name="currentloc"/>.
         </template>
     </category>
 
     <category>
-        <pattern>I AM <regex pattern="(in|at)"/><set name='stations'>*</set></pattern>
+        <pattern>WHAT TIME IS IT</pattern>
         <template>
-            I understand that you are at <set name="currentloc"><star index="2"/></set>
+            I am not a watch! Just check your computer
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>ARE YOU ^ HUMAN</pattern>
+        <template>
+            Offcourse I am! Are you human?
         </template>
     </category>
 
 
 
+    <category>
+        <pattern>I AM <regex pattern="(in|at|IN|AT)"/><set name='stations'>*</set></pattern>
+        <template>
+            I understand that you are at <set name="currentloc"><star index="2"/></set>
+        </template>
+    </category>
 
 <!-- Vraag naar vertrekkende treinen -->
     <category>
@@ -55,6 +69,14 @@
     </category>
 
     <category>
+        <pattern>WHAT TRAINS ARE <iset words="LEAVING, ARRIVING"/> AT *</pattern>
+        <template>
+            <star/> is not a valid time. Please try again.
+        </template>
+    </category>
+
+
+    <category>
         <pattern>WHAT TRAINS ARE ARRIVING AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <template>
             <think><set name='time'><star/></set></think>
@@ -66,6 +88,7 @@
             </condition>
         </template>
     </category>
+
 
     <category>
         <pattern>I WANT TO GO TO <set name='stations'>*</set></pattern>
@@ -80,7 +103,7 @@
     </category>
 
     <category>
-        <pattern>I WANT TO GO TO <set name='stations'>*</set> at <regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <pattern>I WANT TO GO TO <set name='stations'>*</set> AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <template>
             <think><set name='destination'><star index='1'/></set></think>
             <think><set name='time'><star index='2'/></set></think>
@@ -90,18 +113,22 @@
     </category>
 
     <category>
+        <pattern>I WANT TO <iset words="GO, ARRIVE"/> TO <set name='stations'>*</set> AT * </pattern>
+        <template><star index='2'/> is not a valid time. Please try again.</template>
+    </category>
+
+    <category>
         <pattern>I WANT TO ARRIVE AT <set name='stations'>*</set></pattern>
         <template>
             <think><set name='destination'><star/></set></think>
             <think><set name='arrival'>true</set></think>
              <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
-                <li name='time' value='unknown'>When do you want to arrive?</li>
+                 <li name='time' value='unknown'>When do you want to arrive?</li>
                 <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/></map></li>
             </condition>
         </template>
     </category>
-
 
     <category>
         <pattern>I WANT TO ARRIVE AT <set name='stations'>*</set> at <regex pattern="\d\d?(:\d\d)?$"/></pattern>
@@ -126,7 +153,7 @@
         </template>
     </category>
 
-   <category>
+  <category>
      <pattern>WHAT IS THE FIRST TRAIN TO <set name='stations'>*</set></pattern>
         <template>
             <think><set name="destination"><star index='1'/></set></think>
@@ -139,31 +166,7 @@
     </category>
 
     <category>
-         <pattern>WHAT IS THE RETURNING ROUTE</pattern>
-            <template>
-            <condition>
-                <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
-                <li name='destination' value='unknown'>Where do you want to go to?</li>                
-                When do you want to return
-            </template>
-        </category>
-    </category>
-
-    <category>
-        <pattern> <regex pattern="\d\d?(:\d\d)?$"/></pattern>
-        <that>WHEN DO YOU WANT TO RETURN</that>
-        <template>
-            <think>
-                <set name='d'><get name='arrival'/></set>
-                <set name='departure'><get name='arrival'/></set>
-                <set name='arrival'><get name='d'/></set>
-                <set name='time'><star/></set>
-            <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/></map>
-        </template>
-    </category>
-
-    <category>
-        <pattern><regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <pattern>*</pattern>
         <that>WHEN DO YOU WANT TO ÀRRIVE</that>
         <template>
             <think><set name='time'><star/></set></think>
@@ -189,8 +192,6 @@
             </condition>
         </template>
     </category>
-
-
 
     <category>
         <pattern><set name='stations'>*</set></pattern>
@@ -220,4 +221,12 @@
         </condition>
         </template>
     </category>
+
+    <category>
+        <pattern> * </pattern>
+    <template>
+        I am sorry, this sentence does not make sense to me.
+    </template>
+    </category>
+
 </aiml>

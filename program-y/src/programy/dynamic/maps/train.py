@@ -21,7 +21,7 @@ import requests
 import re
 import pprint
 from xml.etree import ElementTree
-from datetime import datetime
+from datetime import datetime, timedelta
 from login import aut
 from programy.utils.text.dateformat import DateFormatter
 import pdb
@@ -90,7 +90,7 @@ class GetTrainTriple(DynamicMap):
 
     def triple_to_train(self, name):
         origin, time, destination, arrival, last = name.split(' , ')
-
+        print(arrival)
         if (last == 'TRUE'):
             date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
             time = date + 'T23:50'
@@ -101,9 +101,10 @@ class GetTrainTriple(DynamicMap):
 
         ns = 'https://webservices.ns.nl/'
         global aut
-        if arrival == 'true':
-            time += '&Departure=false'
-        r = requests.get(ns + 'ns-api-treinplanner?toStation=' + destination + '&fromStation=' + origin + '&dateTime=' + time, auth=aut)
+        arrivaltext = ''
+        if arrival == 'TRUE':
+            arrivaltext += '&Departure=false'
+        r = requests.get(ns + 'ns-api-treinplanner?toStation=' + destination + '&fromStation=' + origin + '&dateTime=' + time + arrivaltext, auth=aut)
         #print(r.text)
         tree = ElementTree.fromstring(r.text)
         opties = tree.findall('ReisMogelijkheid')
@@ -113,6 +114,26 @@ class GetTrainTriple(DynamicMap):
             output += 'The last option is:\n'
         else:
             output += 'These are your options:\n'
+
+        #filter out the options that are more than 10 minutes before the given time
+        timeobj = datetime.strptime(time + ':00+0100', '%Y-%m-%dT%H:%M:%S%z')
+        newoptions = []
+        for optie in opties:
+            if arrival == 'TRUE':
+                newtime = datetime.strptime(optie.find('ActueleAankomstTijd').text, '%Y-%m-%dT%H:%M:%S%z')
+                if ((timeobj <= newtime) and abs(timeobj - newtime) <= timedelta(minutes=40)) or ((timeobj >= newtime) and abs(newtime - timeobj) <= timedelta(minutes=30)):
+                    newoptions.append(optie)
+            else:
+                newtime = datetime.strptime(optie.find('ActueleVertrekTijd').text, '%Y-%m-%dT%H:%M:%S%z')
+                if (timeobj <= newtime) or abs(timeobj - newtime) <= timedelta(minutes=10):
+                    newoptions.append(optie)
+        opties = newoptions
+
+
+
+
+
+        # sums up the top 5 options
         for index, optie in enumerate(opties):
             if index < 5:
                 index += 1

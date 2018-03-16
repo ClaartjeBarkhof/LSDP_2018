@@ -16,6 +16,7 @@
         </template>
     </category>
 
+
     <category>
         <pattern>^ NEXT TRAIN FROM *</pattern>
         <template>
@@ -24,9 +25,16 @@
     </category>
 
     <category>
-        <pattern>WHERE AM I</pattern>
+        <pattern>^ WHERE AM I</pattern>
         <template>
             You told me you are at <get name="currentloc"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern> ^ WHERE I AM</pattern>
+        <template>
+            <srai>WHERE AM I</srai>
         </template>
     </category>
 
@@ -45,7 +53,7 @@
     </category>
 
     <category>
-        <pattern>I AM <regex pattern="(in|at|IN|AT)"/><set name='stations'>*</set></pattern>
+        <pattern>I AM <regex pattern="(IN|AT)"/><set name='stations'>*</set></pattern>
         <template>
             I understand that you are at <set name="currentloc"><star index="2"/></set>
         </template>
@@ -112,7 +120,16 @@
     </category>
 
     <category>
-        <pattern>I WANT TO GO TO <set name='stations'>*</set> AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <pattern># -- #</pattern>
+        <template>
+             Sorry, I must have misunderstood what you said.
+             
+            <srai><star index='1'/><star index='2'/></srai> 
+       </template>
+    </category>
+
+    <category>
+        <pattern>I WANT TO <iset words="GO, ARRIVE"/> TO <set name='stations'>*</set> AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <template>
             <think><set name='destination'><star index='1'/></set></think>
             <think><set name='time'><star index='2'/></set></think>

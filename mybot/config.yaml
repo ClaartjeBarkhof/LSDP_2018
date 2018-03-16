@@ -2,10 +2,10 @@ bot:
     license_keys: ../program-y/bots/y-bot/config/license.keys
 
     prompt: ">>>"
-    initial_question: Hi, how can I help you today?
+    initial_question: Hey there! I can assist you in planning your journey.
     default_response: Sorry, I don't have an answer for that!
     empty_string_srai: YEMPTY
-    exit_response: So long, and thanks for the fish!
+    exit_response: So long!
 
     override_properties: true
 

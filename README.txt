@@ -64,4 +64,8 @@ Het tweede genoemde voorbeeld van prosodische informatie die een zin kan helpen 
 
 Wanneer er sprake is van rectificatie als doen van de zin, wordt er vaak meer nadruk gelegd op het gedeelte dat gerectificeerd moet worden. In het bovenstaande voorbeeld is het de plaatsaanduiding voor de bestemming, die aangepast moet worden. Wanneer deze extra nadruk wordt opgeslagen in de tekst met een ‘--’ markering. Het gesprek zal dan als voorbeeld 2 verlopen. 
 
-Onderstaand staat een echte conversatie met de chatbot:
+====================================
+
+VOORBEELD CONVERSATIES
+
+

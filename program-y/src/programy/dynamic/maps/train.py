@@ -145,9 +145,6 @@ class GetTrainTriple(DynamicMap):
             return("Oh no! There are no connections from " + origin + " to " + destination + " around " + time[-5:] +\
                    "... I do hope you have some proper shoes for the walk!")
 
-
-
-
         # sums up the top 4 options
         for index, optie in enumerate(opties):
             if index < 4:

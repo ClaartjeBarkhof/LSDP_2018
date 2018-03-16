@@ -24,9 +24,16 @@
     </category>
 
     <category>
-        <pattern>WHERE AM I</pattern>
+        <pattern>^ WHERE AM I</pattern>
         <template>
             You told me you are at <get name="currentloc"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern> ^ WHERE I AM</pattern>
+        <template>
+            <srai>WHERE AM I</srai>
         </template>
     </category>
 
@@ -47,7 +54,7 @@
 
 
     <category>
-        <pattern>I AM <regex pattern="(in|at|IN|AT)"/><set name='stations'>*</set></pattern>
+        <pattern>I AM <regex pattern="(IN|AT)"/><set name='stations'>*</set></pattern>
         <template>
             I understand that you are at <set name="currentloc"><star index="2"/></set>
         </template>

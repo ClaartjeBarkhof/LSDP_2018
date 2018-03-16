@@ -118,7 +118,7 @@
 
 
     <category>
-        <pattern>I WANT TO GO FROM <set name='stations'>*</set> TO <set name='stations'>*</set></pattern>
+        <pattern>I WANT TO <iset words="GO, TRAVEL"/> FROM <set name='stations'>*</set> TO <set name='stations'>*</set></pattern>
         <template>
             <think><set name='destination'><star index='2'/></set></think>
             <think><set name='currentloc'><star index='1'/></set></think>

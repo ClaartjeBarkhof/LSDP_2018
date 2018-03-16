@@ -92,6 +92,7 @@
     <category>
         <pattern>I WANT TO GO TO <set name='stations'>*</set></pattern>
         <template>
+            TEST
             <think><set name='destination'><star/></set></think>
             <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
@@ -110,6 +111,17 @@
          <srai>I WANT TO GO TO <get name='destination'/></srai>
         </template>
     </category>
+
+    <category>
+        <pattern>
+            I WANT TO GO TO <set name='stations'>*</set> - TOMORROW
+        </pattern>
+        <template>
+            <think><set name='date'>tomorrow</set></think>
+            <srai>I want to go to <star /></srai>
+        </template>
+    </category>
+
 
     <category>
         <pattern>I WANT TO <iset words="GO, ARRIVE"/> TO <set name='stations'>*</set> AT * </pattern>

@@ -141,7 +141,9 @@ class GetTrainTriple(DynamicMap):
                 if (timeobj <= newtime) or abs(timeobj - newtime) <= timedelta(minutes=10):
                     newoptions.append(optie)
         opties = newoptions
-
+        if len(opties) == 0:
+            return("Oh no! There are no connections from " + origin + " to " + destination + " around " + time[-5:] +\
+                   "... I do hope you have some proper shoes for the walk!")
 
 
 

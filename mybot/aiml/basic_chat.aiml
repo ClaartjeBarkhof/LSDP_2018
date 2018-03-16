@@ -25,9 +25,16 @@
     </category>
 
     <category>
-        <pattern>WHERE AM I</pattern>
+        <pattern>^ WHERE AM I</pattern>
         <template>
             You told me you are at <get name="currentloc"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern> ^ WHERE I AM</pattern>
+        <template>
+            <srai>WHERE AM I</srai>
         </template>
     </category>
 
@@ -48,7 +55,7 @@
 
 
     <category>
-        <pattern>I AM <regex pattern="(in|at|IN|AT)"/><set name='stations'>*</set></pattern>
+        <pattern>I AM <regex pattern="(IN|AT)"/><set name='stations'>*</set></pattern>
         <template>
             I understand that you are at <set name="currentloc"><star index="2"/></set>
         </template>
@@ -93,7 +100,6 @@
     <category>
         <pattern>I WANT TO GO TO <set name='stations'>*</set></pattern>
         <template>
-
             <think><set name='destination'><star/></set></think>
             <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
@@ -115,7 +121,7 @@
 
 
     <category>
-        <pattern>I WANT TO GO TO <set name='stations'>*</set> AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <pattern>I WANT TO <iset words="GO, ARRIVE"/> TO <set name='stations'>*</set> AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <template>
             <think><set name='destination'><star index='1'/></set></think>
             <think><set name='time'><star index='2'/></set></think>
@@ -125,7 +131,18 @@
     </category>
 
     <category>
-        <pattern>I WA NT TO <iset words="GO, ARRIVE"/> TO <set name='stations'>*</set> AT * </pattern>
+        <pattern>
+            I WANT TO GO TO <set name='stations'>*</set> - TOMORROW
+        </pattern>
+        <template>
+            <think><set name='date'>tomorrow</set></think>
+            <srai>I want to go to <star /></srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>I WANT TO <iset words="GO, ARRIVE"/> TO <set name='stations'>*</set> AT * </pattern>
         <template><star index='2'/> is not a valid time. Please try again.</template>
     </category>
 
@@ -183,6 +200,7 @@
         <template>
             <think><set name='time'><star/></set></think>
             <condition>
+                <<!-- li name='currentloc'><value><get name='destination'></value>You are already at <get name='destination'>. Please ask me something else.</li> -->
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
                 <li name='destination' value='unknown'>Where do you want to go to?</li>
                 <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map></li>

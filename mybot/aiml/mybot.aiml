@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
+
+<!-- First some basic (and funny) interactions
+ -->
     <category>
         <pattern>HELLO</pattern>
         <template>
@@ -7,7 +10,6 @@
         </template>
     </category>
 
-<!-- Eerste vraag, valide of niet valide -->
     <category>
         <pattern>^ NEXT TRAIN FROM <set name='stations'>*</set></pattern>
         <template>
@@ -15,7 +17,6 @@
             <think><set name='currentloc'><star index='2'/></set></think>
         </template>
     </category>
-
 
     <category>
         <pattern>^ NEXT TRAIN FROM *</pattern>
@@ -31,6 +32,8 @@
         </template>
     </category>
 
+<!-- Sometimes the bot is tolerant for incorrect sentences.
+ -->    
     <category>
         <pattern> ^ WHERE I AM</pattern>
         <template>
@@ -52,6 +55,10 @@
         </template>
     </category>
 
+
+<!-- These categories allow users to tell the bot where they are and ask for basic travel information. The bot can respond by supplying
+    the requested information or asking return questions.
+ -->
     <category>
         <pattern>I AM <regex pattern="(at|in|IN|AT)"/><set name='stations'>*</set></pattern>
         <template>
@@ -70,8 +77,6 @@
     </category>
 
 
-
-<!-- Vraag naar vertrekkende treinen -->
     <category>
         <pattern>WHAT TRAINS ARE LEAVING AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <template>
@@ -93,6 +98,8 @@
         </template>
     </category>
 
+<!-- Responds to incorrect user-input.
+ -->
     <category>
         <pattern>WHAT TRAINS ARE <iset words="LEAVING, ARRIVING"/> AT *</pattern>
         <template>
@@ -123,6 +130,9 @@
     </category>
 
 
+
+<!-- These categories allow user to use the chatbot as a travel-planner.
+ -->
     <category>
         <pattern>I WANT TO GO TO <set name='stations'>*</set></pattern>
         <template>
@@ -147,18 +157,6 @@
         </template>
     </category>
 
-
-    <category>
-        <pattern>I WANT TO <iset words="GO, TRAVEL"/> FROM <set name='stations'>*</set> TO <set name='stations'>*</set></pattern>
-        <template>
-            <think><set name='destination'><star index='2'/></set></think>
-            <think><set name='currentloc'><star index='1'/></set></think>
-            <condition>
-                <li name='time' value='unknown'>At what time do you want to leave?</li>
-                <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map></li>
-            </condition>
-        </template>
-    </category>
 
     <category>
         <pattern>I WANT TO GO TO <set name='stations'>*</set> AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
@@ -195,13 +193,6 @@
         </template>
     </category>
 
-     <category>
-        <pattern>I WANT TO ARRIVE AT *</pattern>
-        <template>
-            I am sorry but <star/> is not a station that I know of.
-        </template>
-    </category>
-
     <category>
         <pattern>I WANT TO ARRIVE AT <set name='stations'>*</set> AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <template>
@@ -213,6 +204,50 @@
     </category>
 
 
+     <category>
+        <pattern>I WANT TO ARRIVE AT *</pattern>
+        <template>
+            I am sorry but <star/> is not a station that I know of.
+        </template>
+    </category>
+
+     <category>
+        <pattern>I WANT TO GO TO *</pattern>
+        <template>
+            I am sorry but <star/> is not a station that I know of.
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>I WANT TO <iset words="GO, TRAVEL"/> FROM <set name='stations'>*</set> TO <set name='stations'>*</set></pattern>
+        <template>
+            <think><set name='destination'><star index='3'/></set></think>
+            <think><set name='currentloc'><star index='2'/></set></think>
+            <condition>
+                <li name='time' value='unknown'>At what time do you want to leave?</li>
+                <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map></li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WANT TO <iset words="GO, TRAVEL"/> FROM <set name='stations'>*</set> TO <set name='stations'>*</set> AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <template>
+            <think><set name='destination'><star index='3'/></set></think>
+            <think><set name='currentloc'><star index='2'/></set></think>
+            <think><set name='time'><star index='4'/></set></think>
+            <condition>
+                <li name='time' value='unknown'>At what time do you want to leave?</li>
+                <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map></li>
+            </condition>
+        </template>
+    </category>
+
+
+<!-- These categoreis allow for a type of indirect time indication. The operator '-' represents a pause.
+    This pause explains the bot that the time indication is not part of the station name.
+ -->
     <category>
         <pattern>
             I WANT TO GO TO <set name='stations'>*</set> - TOMORROW
@@ -248,6 +283,8 @@
     </category>
 
 
+<!-- Let the bot respond to incorrect user-input
+ -->
     <category>
         <pattern>I WANT TO GO TO <set name='stations'>*</set> AT * </pattern>
         <template><star index='2'/> is not a valid time. Please try again.</template>
@@ -257,8 +294,6 @@
         <pattern>I WANT TO ARRIVE AT <set name='stations'>*</set> AT * </pattern>
         <template><star index='2'/> is not a valid time. Please try again.</template>
     </category>
-
-
 
 
     <category>
@@ -309,6 +344,8 @@
         </template>
     </category>
 
+<!-- Let the bot respond to incorrect user-input
+ -->
     <category>
         <pattern>WHAT IS THE <iset words="LAST, FIRST"/> TRAIN TO *</pattern>
         <template>
@@ -318,12 +355,10 @@
 
 
 
-
-
-<!-- Responses to further questions from the chatbot
+<!-- The categories below enable the bot to process answers that users give in response to return-questions.
  -->
     <category>
-        <pattern>*</pattern>
+        <pattern><regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <that>AT WHAT TIME DO YOU WANT TO ARRIVE</that>
         <template>
             <think><set name='time'><star/></set></think>
@@ -345,7 +380,7 @@
 
 
     <category>
-        <pattern>*</pattern>
+        <pattern><regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <that>AT WHAT TIME DO YOU WANT TO LEAVE</that>
         <template>
             <think><set name='time'><star/></set></think>
@@ -436,6 +471,9 @@
     </category>
 
 
+
+<!-- When a contrastive pitch phrase is found (- -), the bot acknowledges that he has misunderstood the user, and futher processes the question.
+ -->
     <category>
         <pattern># -- #</pattern>
         <template>

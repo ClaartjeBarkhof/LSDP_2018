@@ -24,6 +24,64 @@ Om deze chatbot (‘mybot’) te gebruiken, moet het bestand console.sh worden u
 
 ====================================
 
+FUNCTIONALITEITEN
+
+De chatbot kan gebruikt worden om op een natuurlijke wijze reisinformatie (gebaseerd op echte data) uit te vragen. De chatbot antwoord op vragen over de verschillende reisopties vanaf een specifieke plek. Ook kan de chatbot worden gebruikt als reisplanner. Wanneer een gebruiker een beginpunt, een eindpunt, en een ankomsttijd of vertrektijd geeft, geeft de chatbot reisopties.  Dit blijkt uit het volgende voorbeeld:
+
+Wanneer de chatbot informatie mist vraagt hij de gebruiker naar deze informatie.
+User: 	i want to go from rotterdam to almere at 14:20
+
+Bot:	These are your options:
+		Option 1 (travel time 1:06):
+		 14:11 from Rotterdam Centraal at platform 11
+		 14:48 change at Schiphol Airport to platform 1-2
+		 15:17 arrival at Almere Centrum
+
+		Option 2 (travel time 1:20):
+		 14:27 from Rotterdam Centraal at platform 9
+		 15:47 arrival at Almere Centrum
+
+		Option 3 (travel time 1:03):
+		 14:28 from Rotterdam Centraal at platform 11
+		 15:04 change at Schiphol Airport to platform 1-2
+		 15:31 arrival at Almere Centrum
+
+		Option 4 (travel time 1:06):
+		 14:41 from Rotterdam Centraal at platform 11
+		 15:18 change at Schiphol Airport to platform 1-2
+		 15:47 arrival at Almere Centrum
+
+
+Wanneer informatie mist kan de chatbot naar deze informatie vragen:
+
+>>> i want to go to Rotterdam
+Where do you want to depart from?
+>>> almere
+At what time do you want to leave?
+>>> 14:20
+These are your options:
+Option 1 (travel time 1:07):
+ 14:12 from Almere Centrum at platform 1
+ 14:53 change at Schiphol Airport to platform 5-6
+ 15:19 arrival at Rotterdam Centraal
+
+Option 2 (travel time 1:21):
+ 14:12 from Almere Centrum at platform 1
+ 15:33 arrival at Rotterdam Centraal
+
+Option 3 (travel time 1:01):
+ 14:29 from Almere Centrum at platform 1
+ 15:04 change at Schiphol Airport to platform 5-6
+ 15:30 arrival at Rotterdam Centraal
+
+Option 4 (travel time 1:19):
+ 14:29 from Almere Centrum at platform 1
+ 15:15 change at Leiden Centraal to platform 8b
+ 15:48 arrival at Rotterdam Centraal
+>>> 
+
+De chatbot controleert of de gebruiker correcte informatie geeft (bestaande stations en tijden) en vraagt wanneer nodig naar herformulering.
+====================================
 EXTRA EIGENSCHAP: PROSODISCHE INFORMATIE
 
 In het hypothetische geval dat de chatbot ook gesproken tekst zou kunnen verwerken, zou er prosodische informatie opgeslagen kunnen worden. Deze prosodische informatie kan helpen zinnen van de gebruiker te disambigueren. Dit kan op verschillende manieren. Het kan bijvoorbeeld gaan om een verschil in het ontleden (parsen) van een zin. Een ander voorbeeld is het helpen herkennen van een verschil in nuance of doel van de tekst van de gebruiker. We zullen van allebei deze twee manieren om een zin te disambigueren met behulp van prosodie een voorbeeld geven.

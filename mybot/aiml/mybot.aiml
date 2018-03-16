@@ -59,6 +59,15 @@
         </template>
     </category>
 
+    <category>
+        <pattern>I AM <regex pattern="(IN|AT)"/>*</pattern>
+        <template>
+            I am sorry but <star/> is not a station that I know of.
+        </template>
+    </category>
+
+
+
 <!-- Vraag naar vertrekkende treinen -->
     <category>
         <pattern>WHAT TRAINS ARE LEAVING AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
@@ -76,7 +85,7 @@
     <category>
         <pattern>WHAT TRAINS ARE <iset words="LEAVING, ARRIVING"/> AT *</pattern>
         <template>
-            <star/> is not a valid time. Please try again.
+            <star index='2'/> is not a valid time. Please try again.
         </template>
     </category>
 
@@ -107,6 +116,7 @@
         </template>
     </category>
 
+
     <category>
         <pattern>I WANT TO GO FROM <set name='stations'>*</set> TO <set name='stations'>*</set></pattern>
         <template>
@@ -120,38 +130,13 @@
     </category>
 
     <category>
-        <pattern># -- #</pattern>
-        <template>
-             Sorry, I must have misunderstood what you said.
-             
-            <srai><star index='1'/><star index='2'/></srai> 
-       </template>
-    </category>
-
-    <category>
-        <pattern>I WANT TO <iset words="GO, ARRIVE"/> TO <set name='stations'>*</set> AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <pattern>I WANT TO GO TO <set name='stations'>*</set> AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <template>
             <think><set name='destination'><star index='1'/></set></think>
             <think><set name='time'><star index='2'/></set></think>
             <think><set name='arrival'>false</set></think>
          <srai>I WANT TO GO TO <get name='destination'/></srai>
         </template>
-    </category>
-
-    <category>
-        <pattern>
-            I WANT TO GO TO <set name='stations'>*</set> - TOMORROW
-        </pattern>
-        <template>
-            <think><set name='date'>tomorrow</set></think>
-            <srai>I want to go to <star /></srai>
-        </template>
-    </category>
-
-
-    <category>
-        <pattern>I WANT TO <iset words="GO, ARRIVE"/> TO <set name='stations'>*</set> AT * </pattern>
-        <template><star index='2'/> is not a valid time. Please try again.</template>
     </category>
 
     <category>
@@ -167,16 +152,71 @@
         </template>
     </category>
 
+     <category>
+        <pattern>I WANT TO ARRIVE AT *</pattern>
+        <template>
+            I am sorry but <star/> is not a station that I know of.
+        </template>
+    </category>
+
     <category>
-        <pattern>I WANT TO ARRIVE AT <set name='stations'>*</set> at <regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <pattern>I WANT TO ARRIVE AT <set name='stations'>*</set> AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <template>
             <think><set name='destination'><star index='1'/></set></think>
             <think><set name='time'><star index='2'/></set></think>
             <think><set name='arrival'>true</set></think>
-            <think><set name='last'>false</set></think>
-            <srai>I WANT TO ARRIVE AT <get name='destination'/></srai>
+         <srai>I WANT TO ARRIVE AT<get name='destination'/></srai>
         </template>
     </category>
+
+
+    <category>
+        <pattern>
+            I WANT TO GO TO <set name='stations'>*</set> - TOMORROW
+        </pattern>
+        <template>
+            <think><set name='date'>tomorrow</set></think>
+            <srai>I want to go to <star /></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WANT TO GO TO * - TOMORROW</pattern>
+        <template>
+            I am sorry but <star/> is not a station that I know of.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            I WANT TO ARRIVE AT <set name='stations'>*</set> - TOMORROW
+        </pattern>
+        <template>
+            <think><set name='date'>tomorrow</set></think>
+            <srai>I want to arrive at<star /></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WANT TO ARRIVE AT * - TOMORROW</pattern>
+        <template>
+            I am sorry but <star/> is not a station that I know of.
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>I WANT TO GO TO <set name='stations'>*</set> AT * </pattern>
+        <template><star index='2'/> is not a valid time. Please try again.</template>
+    </category>
+
+    <category>
+        <pattern>I WANT TO ARRIVE AT <set name='stations'>*</set> AT * </pattern>
+        <template><star index='2'/> is not a valid time. Please try again.</template>
+    </category>
+
+
+
 
     <category>
      <pattern>WHAT IS THE LAST TRAIN TO <set name='stations'>*</set></pattern>
@@ -202,6 +242,19 @@
         </template>
     </category>
 
+    <category>
+        <pattern>WHAT IS THE <iset words="LAST, FIRST"/> TRAIN TO *</pattern>
+        <template>
+        I am sorry, <star index='2'/> is not a station that i know of.
+        </template>
+    </category>
+
+
+
+
+
+<!-- Responses to further questions from the chatbot
+ -->
     <category>
         <pattern>*</pattern>
         <that>AT WHAT TIME DO YOU WANT TO ARRIVE</that>
@@ -258,6 +311,15 @@
             <li> <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map></li>
         </condition>
         </template>
+    </category>
+
+
+    <category>
+        <pattern># -- #</pattern>
+        <template>
+             Sorry, I must have misunderstood what you said.
+            <srai><star index='1'/><star index='2'/></srai> 
+       </template>
     </category>
 
     <category>

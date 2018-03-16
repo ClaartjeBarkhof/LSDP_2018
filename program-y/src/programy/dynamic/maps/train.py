@@ -18,10 +18,11 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 from programy.dynamic.maps.map import DynamicMap
 
 import requests
+import datetime
 import re
 import pprint
 from xml.etree import ElementTree
-from datetime import datetime
+from datetime import datetime, timedelta
 from login import aut
 from programy.utils.text.dateformat import DateFormatter
 import pdb
@@ -39,8 +40,14 @@ def find_last_today(opties):
             return optie
     return opties[-1]
 
-def convert_time(time):
-    date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
+def convert_time(time, date):
+    if (date == 'TOMORROW'):
+        date = date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
+        day = int(date[8:10])
+        tomorrow = day + 1
+        date = date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + str(tomorrow)
+    else:
+        date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
     if (len(time) == 1):
         time = 'T0' + time + ':00'
         time = date + time
@@ -54,6 +61,7 @@ def convert_time(time):
             time = 'T0' + time
             time = date + time
     return time
+
 
 class GetTrain(DynamicMap):
 
@@ -89,32 +97,58 @@ class GetTrainTriple(DynamicMap):
         return self.triple_to_train(input_value)
 
     def triple_to_train(self, name):
-        origin, time, destination, arrival, last = name.split(' , ')
-
+        origin, time, destination, arrival, last, date = name.split(' , ')
         if (last == 'TRUE'):
             date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
             time = date + 'T23:50'
         elif any(char.isdigit() for char in time) == False:
             return "Please enter a valid sentence."
         else:
-            time = convert_time(time)
+            time = convert_time(time, date)
 
         ns = 'https://webservices.ns.nl/'
         global aut
-        if arrival == 'true':
-            time += '&Departure=false'
-        r = requests.get(ns + 'ns-api-treinplanner?toStation=' + destination + '&fromStation=' + origin + '&dateTime=' + time, auth=aut)
+        arrivaltext = ''
+        if arrival == 'TRUE':
+            arrivaltext += '&Departure=false'
+        r = requests.get(ns + 'ns-api-treinplanner?toStation=' + destination + '&fromStation=' + origin + '&dateTime=' + time + arrivaltext, auth=aut)
         #print(r.text)
         tree = ElementTree.fromstring(r.text)
         opties = tree.findall('ReisMogelijkheid')
         output = ''
+        if date == 'TOMORROW':
+            output += 'For tomorrow, t'
+        else:
+            output += 'T'
+
         if last == 'TRUE':
             opties = [find_last_today(opties)]
-            output += 'The last option is:\n'
+            output += 'he last option is:\n'
         else:
-            output += 'These are your options:\n'
+            output += 'hese are your options:\n'
+
+
+        #filter out the options that are more than 10 minutes before the given time
+        timeobj = datetime.strptime(time + ':00+0100', '%Y-%m-%dT%H:%M:%S%z')
+        newoptions = []
+        for optie in opties:
+            if arrival == 'TRUE':
+                newtime = datetime.strptime(optie.find('ActueleAankomstTijd').text, '%Y-%m-%dT%H:%M:%S%z')
+                if ((timeobj <= newtime) and abs(timeobj - newtime) <= timedelta(minutes=40)) or ((timeobj >= newtime) and abs(newtime - timeobj) <= timedelta(minutes=30)):
+                    newoptions.append(optie)
+            else:
+                newtime = datetime.strptime(optie.find('ActueleVertrekTijd').text, '%Y-%m-%dT%H:%M:%S%z')
+                if (timeobj <= newtime) or abs(timeobj - newtime) <= timedelta(minutes=10):
+                    newoptions.append(optie)
+        opties = newoptions
+
+
+
+
+
+        # sums up the top 4 options
         for index, optie in enumerate(opties):
-            if index < 5:
+            if index < 4:
                 index += 1
                 overstappen = optie.find('AantalOverstappen').text
                 reistijd = optie.find('GeplandeReisTijd').text
@@ -139,8 +173,6 @@ class GetTrainTriple(DynamicMap):
                     if counter > 0:
                         output += ' ' + tijd +' change at ' + naam + ' to platform ' + spoor + '\n'
                     counter += 1
-
-
 
                 output += ' ' + stops[-1].find('Tijd').text[11:16] + ' arrival at ' + stops[-1].find('Naam').text + '\n\n'
         return output

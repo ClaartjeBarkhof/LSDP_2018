@@ -12,7 +12,7 @@ Deze bestanden vormen samen een implementatie van een chatbot die op basis van A
 
 Program Y is een python programma dat AIML 2.0. Interpreteert en zo een chatbot implementeert. We hebben voor deze interpreteerder gekozen omdat deze zeer flexibel is. Bovendien heeft AIML 2.0. functionaliteiten die eerdere, veel gebruikte, versies niet hebben. De functionaliteit waar het meeste gebruik van is gemaakt, is de dynamic map. Dit is een manier om een waarde gegeven in de conversatie toe te wijzen aan een bepaalde output. Een static map doet dit aan de hand van een tekstbestand, waarin key-value paren staan opgeslagen. Een dynamic map daarentegen doet dit aan de hand van een python object. In andere woorden: een dynamic map converteerd een waarde naar een nieuwe waarde met behulp van een (zelf geschreven) algoritme. In onze implementatie is de input die wordt gegeven aan de dynamic map de informatie voor een op te vragen reisadvies (de output). Deze informatie wordt uit de conversatie gehaald.
 
-Om deze chatbot (‘mybot’) te gebruiken, moet het bestand console.sh worden uitgevoerd. Het is belangrijk dat de requirements voor het gebruik van Program-Y zijn geïnstalleerd. Deze zijn te installeren met behulp van requirements.txt. De AIML die we hebben geschreven staat opgeslagen in mybot.aiml. We hebben tevens een set aangemaakt: stations.txt. Ook hebben we een dynamic map aangemaakt: train.py. Zoals eerder aangegeven gebruiken we voor onze implementatie gebruik van de NS API (www.ns.nl/reisinformatie/ns-api). In login.py staan authorisatie gegevens om deze te kunnen gebruiken. Hieronder staan alle belangrijke, benodigde en/of gewijzigde files met relatieve paden (vanaf de aangeleverde directory) aangegeven.
+Om deze chatbot (‘mybot’) te gebruiken, moet het bestand console.sh worden uitgevoerd. Het is belangrijk dat de requirements voor het gebruik van Program-Y zijn geïnstalleerd. Deze zijn te installeren met behulp van requirements.txt. De bot en zijn benodigde files zijn gedefinieerd in config.yaml. De AIML die we hebben geschreven staat opgeslagen in mybot.aiml. We hebben tevens een set aangemaakt: stations.txt. Ook hebben we een dynamic map aangemaakt: train.py. Zoals eerder aangegeven gebruiken we voor onze implementatie gebruik van de NS API (www.ns.nl/reisinformatie/ns-api). In login.py staan authorisatie gegevens om deze te kunnen gebruiken. Hieronder staan alle belangrijke, benodigde en/of gewijzigde files met relatieve paden (vanaf de aangeleverde directory) aangegeven.
 
 /mybot/console.sh
 /program-y/requirements.txt
@@ -43,7 +43,7 @@ Met de informatie die in bovenstaande zinnen is toegevoegd kan ‘Muiderpoort to
 
 Het tweede genoemde voorbeeld van prosodische informatie die een zin kan helpen disambigueren is het verschil maken tussen verschillende doelen van een bepaalde tekst input van een gebruiker. Onderstaande delen van conversaties illustreren dit mogelijke verschil in doel van de zin. In onderstaande voorbeelden is het doel van de eerste input van de gebruiker reisinformatie opvragen en het tweede doel rectificatie (verbeteren van de chatbot). In het eerste voorbeeld wordt dit niet door de chatbot herkend. In het tweede voorbeeld wordt dit wel herkend.
 
-1.	User:	I want to travel from Rotterdam to Amersfoort.
+1.	User:	I want to go from Rotterdam to Amersfoort.
 			→ Doel = reisinformatie opvragen
 	Bot:	There is a train from Rotterdam to Almere at 11:36 at track 2. 
 			→ Begrepen doel = reisinformatie opvragen
@@ -52,7 +52,7 @@ Het tweede genoemde voorbeeld van prosodische informatie die een zin kan helpen 
 	Bot:	There is a train from Rotterdam to Amstersfoort at 12:05 at track 9.
 			→ Begrepen doel = reisinformatie opvragen
 
-2.	User: 	I want to travel from Rotterdam to Amersfoort.
+2.	User: 	I want to go from Rotterdam to Amersfoort.
 			→ Doel = reisinformatie opvragen
 	Bot:	There is a train from Rotterdam to Almere at 11:36 at track 2. 
 			→ Begrepen doel = reisinformatie opvragen
@@ -63,3 +63,5 @@ Het tweede genoemde voorbeeld van prosodische informatie die een zin kan helpen 
 			→ Begrepen doel = reisinformatie opvragen
 
 Wanneer er sprake is van rectificatie als doen van de zin, wordt er vaak meer nadruk gelegd op het gedeelte dat gerectificeerd moet worden. In het bovenstaande voorbeeld is het de plaatsaanduiding voor de bestemming, die aangepast moet worden. Wanneer deze extra nadruk wordt opgeslagen in de tekst met een ‘--’ markering. Het gesprek zal dan als voorbeeld 2 verlopen. 
+
+Onderstaand staat een echte conversatie met de chatbot:

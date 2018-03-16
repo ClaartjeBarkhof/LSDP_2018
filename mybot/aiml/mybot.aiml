@@ -6,7 +6,12 @@
     <category>
         <pattern>HELLO</pattern>
         <template>
-            Hey there! I can assist you in planning your journey.
+            <random>
+                <li> Hello! </li>
+                <li> Hi! Nice to meet you! </li>
+                <li> Well, Hello! </li>
+                <li> Hoi hoi! </li>
+            </random>
         </template>
     </category>
 
@@ -487,6 +492,13 @@
     <template>
         I am sorry, this sentence does not make sense to me.
     </template>
+    </category>
+
+    <category>
+        <pattern>Bye</pattern>
+        <template>
+            Bye bye! Thanks for talking to me.
+        </template>
     </category>
 
 </aiml>

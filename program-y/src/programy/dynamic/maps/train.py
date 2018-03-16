@@ -16,7 +16,6 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 """
 
 from programy.dynamic.maps.map import DynamicMap
-
 import requests
 import datetime
 import re
@@ -27,11 +26,18 @@ from login import aut
 from programy.utils.text.dateformat import DateFormatter
 import pdb
 
+'''
+Converts time object to time in type string
+'''
 def time_to_string(time):
     h = time.time().hour
     m = time.time().minute
     return('%s'%h + ':%s'%m)
 
+'''
+Finds the last travel advice from a list of
+options for this day.
+'''
 def find_last_today(opties):
     for index, optie in enumerate(opties):
         date1 = optie.find('GeplandeVertrekTijd').text[0:10]
@@ -40,6 +46,12 @@ def find_last_today(opties):
             return optie
     return opties[-1]
 
+'''
+Returns an appropriate date time string,
+based on a given time and date (which can be set to
+tomorrow or unknown). If Date is set to unknown, we'll
+assume the user wishes to travel today.
+'''
 def convert_time(time, date):
     if (date == 'TOMORROW'):
         date = date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
@@ -63,6 +75,10 @@ def convert_time(time, date):
     return time
 
 
+'''
+This class implements the GetTrain dynamic map. This works
+with a station as input.
+'''
 class GetTrain(DynamicMap):
 
     def __init__(self, config):
@@ -71,6 +87,10 @@ class GetTrain(DynamicMap):
     def map_value(self, bot, clientid, input_value):
         return self.first_leaving_train(input_value)
 
+    '''
+    Takes a station as input and outputs the first
+    leaving train.
+    '''
     def first_leaving_train(self, name):
         ns = 'https://webservices.ns.nl/'
         global aut
@@ -82,13 +102,14 @@ class GetTrain(DynamicMap):
         spoor = train.find('VertrekSpoor').text
         vertrektijd = train.find('VertrekTijd').text
         vertrektijd = datetime.strptime(vertrektijd, '%Y-%m-%dT%H:%M:%S%z')
-
         vertrektijd = time_to_string(vertrektijd)
- #       print(vertrektijd.time().hour + vertrektijd.time().minute)
         return ('the next leaving train is the ' + treinsoort +' to ' + eindbest +' at ' + vertrektijd + ' from platform ' +  spoor)
 
 
-#Dit doet het als de tijd 'LAST' is. Moet nog gebeuren voor echte tijdswaarden.
+'''
+This class implements the GetTrainTriple dynamic map. This works
+with a destination, origin and time as a minimal input.
+'''
 class GetTrainTriple(DynamicMap):
     def __init__(self, config):
         DynamicMap.__init__(self, config)
@@ -97,6 +118,11 @@ class GetTrainTriple(DynamicMap):
         return self.triple_to_train(input_value)
 
     def triple_to_train(self, name):
+        '''
+        Origin (departure station), time (time of departure or arrival),
+        destination (destination station), arrival (true if an arrival time is given),
+        last (true if the last train is requested), date (can be set to tomorrow) 
+        '''
         origin, time, destination, arrival, last, date = name.split(' , ')
         if (last == 'TRUE'):
             date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
@@ -112,7 +138,6 @@ class GetTrainTriple(DynamicMap):
         if arrival == 'TRUE':
             arrivaltext += '&Departure=false'
         r = requests.get(ns + 'ns-api-treinplanner?toStation=' + destination + '&fromStation=' + origin + '&dateTime=' + time + arrivaltext, auth=aut)
-        #print(r.text)
         tree = ElementTree.fromstring(r.text)
         opties = tree.findall('ReisMogelijkheid')
         output = ''
@@ -128,7 +153,7 @@ class GetTrainTriple(DynamicMap):
             output += 'hese are your options:\n'
 
 
-        #filter out the options that are more than 10 minutes before the given time
+        # filter out the options that are more than 10 minutes before the given time
         timeobj = datetime.strptime(time + ':00+0100', '%Y-%m-%dT%H:%M:%S%z')
         newoptions = []
         for optie in opties:

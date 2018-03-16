@@ -1,4 +1,9 @@
+====================================
+
 OPDRACHT 3 - REISPLANNER CHATBOT
+
+====================================
+====================================
 
 ARIE SOETEMAN		- 	11060565
 CLAARTJE BARKHOF	-	11035129
@@ -125,5 +130,199 @@ Wanneer er sprake is van rectificatie als doen van de zin, wordt er vaak meer na
 ====================================
 
 VOORBEELD CONVERSATIES
+
+====================================
+
+Hey there! I can assist you in planning your journey.
+
+>>> Hello 
+Well, Hello!
+
+>>> I am in Rotterdam
+I understand that you are at Rotterdam
+
+>>> I want to go to Amsterdam Centraal
+At what time do you want to leave?
+
+>>> 22
+These are your options:
+Option 1 (travel time 0:40):
+ 21:57 from Rotterdam Centraal at platform 12
+ 22:37 arrival at Amsterdam Centraal
+
+Option 2 (travel time 1:04):
+ 22:02 from Rotterdam Centraal at platform 9
+ 23:06 arrival at Amsterdam Centraal
+
+Option 3 (travel time 0:38):
+ 22:04 from Rotterdam Centraal at platform 12
+ 22:42 arrival at Amsterdam Centraal
+
+Option 4 (travel time 1:15):
+ 22:05 from Rotterdam Centraal at platform 14
+ 22:53 change at Utrecht Centraal to platform 7
+ 23:20 arrival at Amsterdam Centraal
+
+====================================
+
+Hey there! I can assist you in planning your journey.
+
+>>> Hello
+Hello!
+
+>>> I am in Baarn
+I understand that you are at Baarn
+
+>>> I want to go to Baarn
+Surprise! You are already at Baarn . Please ask me something else.
+
+>>> I want to go to Haarlem
+At what time do you want to leave?
+
+>>> 22:00
+These are your options:
+Option 1 (travel time 1:07):
+ 22:08 from Baarn at platform 2
+ 22:56 change at Amsterdam Centraal to platform 1
+ 23:15 arrival at Haarlem
+
+Option 2 (travel time 1:06):
+ 22:38 from Baarn at platform 2
+ 23:26 change at Amsterdam Centraal to platform 1
+ 23:44 arrival at Haarlem
+
+Option 3 (travel time 1:07):
+ 23:08 from Baarn at platform 2
+ 23:56 change at Amsterdam Centraal to platform 1
+ 00:15 arrival at Haarlem
+
+Option 4 (travel time 1:06):
+ 23:38 from Baarn at platform 2
+ 00:26 change at Amsterdam Centraal to platform 1
+ 00:44 arrival at Haarlem
+
+====================================
+
+Hey there! I can assist you in planning your journey.
+
+>>> Hello
+Well, Hello!
+
+>>> What time is it?
+I am not a watch! Just check your computer
+
+>>> Are you a human?
+Offcourse I am! Are you human?
+
+>>> What is the last train to Muiderpoort
+Where do you want to depart from?
+
+>>> Amsterdam Centraal
+The last option is:
+ 23:53 from Amsterdam Centraal at platform 10b
+ 23:58 arrival at Amsterdam Muiderpoort
+
+====================================
+
+Hey there! I can assist you in planning your journey.
+
+>>> Hello
+Hello!
+
+>>> I want to go to Muiderpoort - tomorrow      
+Where do you want to depart from?
+
+>>> Baarn
+At what time do you want to leave?
+
+>>> 11:00
+For tomorrow, these are your options:
+Option 1 (travel time 0:36):
+ 11:08 from Baarn at platform 2
+ 11:44 arrival at Amsterdam Muiderpoort
+
+Option 2 (travel time 0:36):
+ 11:38 from Baarn at platform 2
+ 12:14 arrival at Amsterdam Muiderpoort
+
+Option 3 (travel time 0:36):
+ 12:08 from Baarn at platform 2
+ 12:44 arrival at Amsterdam Muiderpoort
+
+Option 4 (travel time 0:36):
+ 12:38 from Baarn at platform 2
+ 13:14 arrival at Amsterdam Muiderpoort
+
+====================================
+
+Hey there! I can assist you in planning your journey.
+
+>>> Hello
+Hoi hoi!
+
+>>> I want to go from Rotterdam to Amersfoort 
+At what time do you want to leave?
+
+>>> I want to go to -- Almere
+Sorry, I must have misunderstood what you said. At what time do you want to leave?
+
+>>> 12:00
+These are your options:
+Option 1 (travel time 1:56):
+ 12:01 from Goor at platform 1
+ 12:34 change at Zutphen to platform 3
+ 13:17 change at Zwolle to platform 3a
+ 13:57 arrival at Almere Centrum
+
+Option 2 (travel time 1:56):
+ 12:31 from Goor at platform 1
+ 13:04 change at Zutphen to platform 3
+ 13:47 change at Zwolle to platform 3a
+ 14:27 arrival at Almere Centrum
+
+Option 3 (travel time 1:56):
+ 13:01 from Goor at platform 1
+ 13:34 change at Zutphen to platform 3
+ 14:17 change at Zwolle to platform 3a
+ 14:57 arrival at Almere Centrum
+
+Option 4 (travel time 1:56):
+ 13:31 from Goor at platform 1
+ 14:04 change at Zutphen to platform 3
+ 14:47 change at Zwolle to platform 3a
+ 15:27 arrival at Almere Centrum
+
+====================================
+
+Hey there! I can assist you in planning your journey.
+
+>>> Hello
+Hoi hoi!
+
+>>> I want to arrive at Niemandsland
+I am sorry but Niemandsland is not a station that I know of.
+
+====================================
+
+Hey there! I can assist you in planning your journey.
+
+>>> Hello
+Hello!
+
+>>> I want to arrive at Rotterdam at 22
+Where do you want to depart from?
+
+>>> Leeuwarden
+These are your options:
+Option 1 (travel time 2:39):
+ 19:16 from Leeuwarden at platform 4
+ 20:20 change at Zwolle to platform 5a
+ 21:55 arrival at Rotterdam Centraal
+
+Option 2 (travel time 2:39):
+ 19:46 from Leeuwarden at platform 3
+ 22:25 arrival at Rotterdam Centraal
+
+
 
 

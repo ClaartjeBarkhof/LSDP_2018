@@ -24,6 +24,7 @@ from xml.etree import ElementTree
 from datetime import datetime
 from login import aut
 from programy.utils.text.dateformat import DateFormatter
+import pdb
 
 def time_to_string(time):
     h = time.time().hour
@@ -89,7 +90,7 @@ class GetTrainTriple(DynamicMap):
 
     def triple_to_train(self, name):
         origin, time, destination, arrival, last = name.split(' , ')
-        
+
         if (last == 'TRUE'):
             date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
             time = date + 'T23:50'
@@ -97,7 +98,7 @@ class GetTrainTriple(DynamicMap):
             return "Please enter a valid sentence."
         else:
             time = convert_time(time)
-        
+
         ns = 'https://webservices.ns.nl/'
         global aut
         if arrival == 'true':
@@ -106,33 +107,40 @@ class GetTrainTriple(DynamicMap):
         #print(r.text)
         tree = ElementTree.fromstring(r.text)
         opties = tree.findall('ReisMogelijkheid')
-        if time == '2018-03-13T23:50':
-            optie = find_last_today(opties)
+        output = ''
+        if last == 'TRUE':
+            opties = [find_last_today(opties)]
+            output += 'The last option is:\n'
         else:
-            optie = opties[0]
+            output += 'These are your options:\n'
+        for index, optie in enumerate(opties):
+            if index < 5:
+                index += 1
+                overstappen = optie.find('AantalOverstappen').text
+                reistijd = optie.find('GeplandeReisTijd').text
+                vertrektijd = optie.find('GeplandeVertrekTijd').text
+                actuelevertrektijd = optie.find('ActueleVertrekTijd').text
+                aankomsttijd = optie.find('GeplandeAankomstTijd').text
+                actueleaankomsttijd = optie.find('ActueleAankomstTijd').text
+                vertrektijd = datetime.strptime(vertrektijd, '%Y-%m-%dT%H:%M:%S%z')
+                vertrektijd = time_to_string(vertrektijd)
 
-        overstappen = optie.find('AantalOverstappen').text
-        reistijd = optie.find('GeplandeReisTijd').text
-        vertrektijd = optie.find('GeplandeVertrekTijd').text
-        actuelevertrektijd = optie.find('ActueleVertrekTijd').text
-        aankomsttijd = optie.find('GeplandeAankomstTijd').text
-        actueleaankomsttijd = optie.find('ActueleAankomstTijd').text
-        vertrektijd = datetime.strptime(vertrektijd, '%Y-%m-%dT%H:%M:%S%z')
-        vertrektijd = time_to_string(vertrektijd)
+                if last != 'TRUE':
+                    output += 'Option ' + str(index) + ' (travel time ' + reistijd + '):\n'
+                counter = 0
+                for reisdeel in optie.findall('ReisDeel'):
+                    stops = reisdeel.findall('ReisStop')
+                    spoor = stops[0].find('Spoor').text
+                    tijd = stops[0].find('Tijd').text[11:16]
+                    naam = stops[0].find('Naam').text
 
-        output='tijd: '+vertrektijd+' .'
-        counter = 0
-        for reisdeel in optie.findall('ReisDeel'):
-            spoor = reisdeel.find('ReisStop').find('Spoor').text
-            # print("SPOORTJE")
-            # print(spoor)
-            if counter == 0:
-                # print('vertrek van ' + origin + ' op spoor: ' + spoor)
-                output += 'vertrek van ' + origin + ' op spoor: ' + spoor
-            if counter > 0:
-                overstap = reisdeel.find('ReisStop').find('Naam').text
-                # print('overstappen op ' + overstap + ' op spoor: ' + spoor)
-                output += ', overstappen op ' + overstap + ' op spoor: ' + spoor
-            counter += 1
-        output += '.'
+                    if counter == 0:
+                        output += ' ' + tijd + ' from ' + naam + ' at platform ' + spoor + '\n'
+                    if counter > 0:
+                        output += ' ' + tijd +' change at ' + naam + ' to platform ' + spoor + '\n'
+                    counter += 1
+
+
+
+                output += ' ' + stops[-1].find('Tijd').text[11:16] + ' arrival at ' + stops[-1].find('Naam').text + '\n\n'
         return output

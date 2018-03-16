@@ -116,11 +116,17 @@ class GetTrainTriple(DynamicMap):
         tree = ElementTree.fromstring(r.text)
         opties = tree.findall('ReisMogelijkheid')
         output = ''
+        if date == 'TOMORROW':
+            output += 'For tomorrow, t'
+        else:
+            output += 'T'
+
         if last == 'TRUE':
             opties = [find_last_today(opties)]
-            output += 'The last option is:\n'
+            output += 'he last option is:\n'
         else:
-            output += 'These are your options:\n'
+            output += 'hese are your options:\n'
+
 
         #filter out the options that are more than 10 minutes before the given time
         timeobj = datetime.strptime(time + ':00+0100', '%Y-%m-%dT%H:%M:%S%z')
@@ -140,9 +146,9 @@ class GetTrainTriple(DynamicMap):
 
 
 
-        # sums up the top 5 options
+        # sums up the top 4 options
         for index, optie in enumerate(opties):
-            if index < 5:
+            if index < 4:
                 index += 1
                 overstappen = optie.find('AantalOverstappen').text
                 reistijd = optie.find('GeplandeReisTijd').text

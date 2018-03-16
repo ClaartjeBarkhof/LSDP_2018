@@ -456,4 +456,11 @@
     </template>
     </category>
 
+    <category>
+        <pattern>Bye</pattern>
+        <template>
+            Bye bye! Thanks for talking to me.
+        </template>
+    </category>
+
 </aiml>

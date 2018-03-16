@@ -3,7 +3,7 @@
     <category>
         <pattern>HELLO</pattern>
         <template>
-            Well, hello!
+            Hey there! I can assist you in planning your journey.
         </template>
     </category>
 
@@ -43,8 +43,6 @@
             Offcourse I am! Are you human?
         </template>
     </category>
-
-
 
     <category>
         <pattern>I AM <regex pattern="(in|at|IN|AT)"/><set name='stations'>*</set></pattern>
@@ -92,11 +90,22 @@
     <category>
         <pattern>I WANT TO GO TO <set name='stations'>*</set></pattern>
         <template>
-            TEST
             <think><set name='destination'><star/></set></think>
             <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
                  <li name='time' value='unknown'>At what time do you want to leave?</li>
+                <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map></li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WANT TO GO FROM <set name='stations'>*</set> TO <set name='stations'>*</set></pattern>
+        <template>
+            <think><set name='destination'><star index='2'/></set></think>
+            <think><set name='currentloc'><star index='1'/></set></think>
+            <condition>
+                <li name='time' value='unknown'>At what time do you want to leave?</li>
                 <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map></li>
             </condition>
         </template>
@@ -182,7 +191,7 @@
         <template>
             <think><set name='time'><star/></set></think>
             <condition>
-                <<!-- li name='currentloc'><value><get name='destination'></value>You are already at <get name='destination'>. Please ask me something else.</li> -->
+                <!-- li name='currentloc'><value><get name='destination'></value>You are already at <get name='destination'>. Please ask me something else.</li> -->
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
                 <li name='destination' value='unknown'>Where do you want to go to?</li>
                 <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map></li>

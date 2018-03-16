@@ -43,7 +43,7 @@ Met de informatie die in bovenstaande zinnen is toegevoegd kan ‘Muiderpoort to
 
 Het tweede genoemde voorbeeld van prosodische informatie die een zin kan helpen disambigueren is het verschil maken tussen verschillende doelen van een bepaalde tekst input van een gebruiker. Onderstaande delen van conversaties illustreren dit mogelijke verschil in doel van de zin. In onderstaande voorbeelden is het doel van de eerste input van de gebruiker reisinformatie opvragen en het tweede doel rectificatie (verbeteren van de chatbot). In het eerste voorbeeld wordt dit niet door de chatbot herkend. In het tweede voorbeeld wordt dit wel herkend.
 
-1.	User:	I want to travel from Rotterdam to Amersfoort.
+1.	User:	I want to go from Rotterdam to Amersfoort.
 			→ Doel = reisinformatie opvragen
 	Bot:	There is a train from Rotterdam to Almere at 11:36 at track 2. 
 			→ Begrepen doel = reisinformatie opvragen
@@ -52,7 +52,7 @@ Het tweede genoemde voorbeeld van prosodische informatie die een zin kan helpen 
 	Bot:	There is a train from Rotterdam to Amstersfoort at 12:05 at track 9.
 			→ Begrepen doel = reisinformatie opvragen
 
-2.	User: 	I want to travel from Rotterdam to Amersfoort.
+2.	User: 	I want to go from Rotterdam to Amersfoort.
 			→ Doel = reisinformatie opvragen
 	Bot:	There is a train from Rotterdam to Almere at 11:36 at track 2. 
 			→ Begrepen doel = reisinformatie opvragen

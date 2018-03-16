@@ -96,7 +96,7 @@
             <think><set name='arrival'>true</set></think>
              <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
-                 <li name='time' value='unknown'>When do you want to arrive?</li>
+                <li name='time' value='unknown'>When do you want to arrive?</li>
                 <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/></map></li>
             </condition>
         </template>
@@ -126,7 +126,7 @@
         </template>
     </category>
 
-  <category>
+   <category>
      <pattern>WHAT IS THE FIRST TRAIN TO <set name='stations'>*</set></pattern>
         <template>
             <think><set name="destination"><star index='1'/></set></think>
@@ -139,7 +139,31 @@
     </category>
 
     <category>
-        <pattern>*</pattern>
+         <pattern>WHAT IS THE RETURNING ROUTE</pattern>
+            <template>
+            <condition>
+                <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
+                <li name='destination' value='unknown'>Where do you want to go to?</li>                
+                When do you want to return
+            </template>
+        </category>
+    </category>
+
+    <category>
+        <pattern> <regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <that>WHEN DO YOU WANT TO RETURN</that>
+        <template>
+            <think>
+                <set name='d'><get name='arrival'/></set>
+                <set name='departure'><get name='arrival'/></set>
+                <set name='arrival'><get name='d'/></set>
+                <set name='time'><star/></set>
+            <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern><regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <that>WHEN DO YOU WANT TO ÀRRIVE</that>
         <template>
             <think><set name='time'><star/></set></think>

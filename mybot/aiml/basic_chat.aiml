@@ -170,6 +170,7 @@
         <template>
             <think><set name='time'><star/></set></think>
             <condition>
+                <<!-- li name='currentloc'><value><get name='destination'></value>You are already at <get name='destination'>. Please ask me something else.</li> -->
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
                 <li name='destination' value='unknown'>Where do you want to go to?</li>
                 <li > <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map></li>

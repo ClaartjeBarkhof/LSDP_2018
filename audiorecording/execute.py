@@ -43,18 +43,20 @@ class Question_Recorder(object):
             print('Opname opgeslagen')
 
     def perform_questions(self):
+        for _ in range(30):
+            print('\n')
         for index in sorted(self.questions):
             qdict = self.questions[index]
             print('Vraagnummer: ', index, '/78')
-            print('Te beantwoorden vraag: ', qdict['question'])
+            print('Te beantwoorden vraag: ', qdict['question'] ,'\n')
             if qdict['qtype'] == 'normaal':
-                print('Antwoord met: ', qdict['answer'])
+                print('Antwoord met: ', qdict['answer'], '\n')
                 self.perform_recording('norm_' + str(index))
             else:
                 print('De chatbot begreep je niet goed!')
-                print('Corrigeer deze met: ', qdict['answer'])
+                print('Corrigeer deze met: ', qdict['answer'], '\n')
                 self.perform_recording('corr_' + str(index))
-            for _ in range(12):
+            for _ in range(30):
                 print('\n')
 
 

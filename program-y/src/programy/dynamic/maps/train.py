@@ -74,7 +74,6 @@ def convert_time(time, date):
             time = date + time
     return time
 
-
 '''
 This class implements the GetTrain dynamic map. This works
 with a station as input.

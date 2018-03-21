@@ -54,7 +54,8 @@ class Question_Recorder(object):
                 print('De chatbot begreep je niet goed!')
                 print('Corrigeer deze met: ', qdict['answer'])
                 self.perform_recording('corr_' + str(index))
-                print('')
+            for _ in range(12):
+                print('\n')
 
 
 questions = Question_Recorder()

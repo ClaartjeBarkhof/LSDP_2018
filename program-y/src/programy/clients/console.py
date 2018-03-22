@@ -20,6 +20,12 @@ import logging
 from programy.clients.client import BotClient
 from programy.config.sections.client.console import ConsoleConfiguration
 
+import time
+from recorder import Recorder
+import os, sys
+
+import speech_recognition as sr
+
 
 class ConsoleBotClient(BotClient):
 
@@ -40,8 +46,34 @@ class ConsoleBotClient(BotClient):
         return
 
     def get_question(self, input_func=input):
-        ask = "%s " % self.bot.prompt
-        return input_func(ask)
+        rec = Recorder(channels=1)
+        with rec.open('test.wav', 'wb') as recfile:
+            input('Druk op enter om te beginnen met opnemen')
+            recfile.start_recording()
+            print('Aan het opnemen!')
+            input('Druk Enter om opnemen te stoppen')
+            time.sleep(0.5)
+            recfile.stop_recording()
+            print('Opname opgeslagen')
+
+        r = sr.Recognizer()
+        with sr.AudioFile('test.wav') as source:
+            audio = r.record(source)
+        
+        try:
+            # for testing purposes, we're just using the default API key
+            # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
+            # instead of `r.recognize_google(audio)`
+            #print("Google Speech Recognition thinks you said " + r.recognize_google(audio, language='nl-NL'))
+            ask = r.recognize_google(audio, language='nl-NL')
+        except sr.UnknownValueError:
+            print("Google Speech Recognition could not understand audio")
+        except sr.RequestError as e:
+            print("Could not request results from Google Speech Recognition service; {0}".format(e))    
+
+        #ask = "%s " % self.bot.prompt
+        print("HELLO")
+        return ask + '  '
 
     def display_startup_messages(self):
         self.display_response(self.bot.get_version_string)
@@ -53,12 +85,13 @@ class ConsoleBotClient(BotClient):
 
     def process_question_answer(self):
         question = self.get_question()
+        print(question)
 
         if question[-1]=='?':
             question = question[:-1]
 
-
         response = self.bot.ask_question(self.clientid, question, responselogger=self)
+
         if response[-2]==" ":
             response = response[:-2]+"."
         self.display_response(response)

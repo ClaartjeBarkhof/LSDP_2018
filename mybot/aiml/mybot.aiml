@@ -105,7 +105,6 @@
         </template>
     </category>
 
-
     <category>
         <pattern>WHAT TRAINS ARE ARRIVING AT <regex pattern="\d\d?(:\d\d)?$"/></pattern>
         <template>
@@ -114,6 +113,30 @@
             <condition>
                 <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
                 <li name='destination' value='unknown'>Where do you want to go to?</li>
+                <li>
+                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                    <think>
+                        <set name='time'>unknown</set>
+                        <set name='arrival'>unknown</set>
+                        <set name='destination'>unknown</set>
+                        <set name='date'>unknown</set>
+                    </think>
+                </li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IK WIL NAAR <set name='stations'>*</set></pattern>
+        <template>
+            <think><set name='destination'><star/></set></think>
+            <condition>
+                <li name='currentloc'>
+                    <value><get name='destination' /></value>Surprise! You are already at <get name='destination' />. Please ask me something else.
+                    <think><set name='destination'>unknown</set></think>
+                </li>
+                <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
+                <li name='time' value='unknown'>At what time do you want to leave?</li>
                 <li>
                     <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
                     <think>

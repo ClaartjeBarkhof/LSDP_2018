@@ -47,7 +47,7 @@ class Question_Recorder(object):
             print('\n')
         for index in sorted(self.questions):
             qdict = self.questions[index]
-            print('Vraagnummer: ', index, '/78')
+            print('Vraagnummer: ', index, '/80')
             print('Te beantwoorden vraag: ', qdict['question'] ,'\n')
             if qdict['qtype'] == 'normaal':
                 print('Antwoord met: ', qdict['answer'], '\n')

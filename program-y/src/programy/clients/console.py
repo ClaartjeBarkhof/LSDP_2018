@@ -59,7 +59,7 @@ class ConsoleBotClient(BotClient):
         r = sr.Recognizer()
         with sr.AudioFile('test.wav') as source:
             audio = r.record(source)
-        
+
         try:
             # for testing purposes, we're just using the default API key
             # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
@@ -69,7 +69,7 @@ class ConsoleBotClient(BotClient):
         except sr.UnknownValueError:
             print("Google Speech Recognition could not understand audio")
         except sr.RequestError as e:
-            print("Could not request results from Google Speech Recognition service; {0}".format(e))    
+            print("Could not request results from Google Speech Recognition service; {0}".format(e))
 
         #ask = "%s " % self.bot.prompt
         print("HELLO")
@@ -85,7 +85,6 @@ class ConsoleBotClient(BotClient):
 
     def process_question_answer(self):
         question = self.get_question()
-        print(question)
 
         if question[-1]=='?':
             question = question[:-1]

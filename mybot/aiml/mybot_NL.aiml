@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>HALLO</pattern> <!-- <regex pattern="(Hallo|HI|HOI|HEY)"/> -->
+        <template>
+            <random>
+                <li> Hallo! </li>
+                <li> Hallo, leuk dat je er bent! </li>
+                <li> Well, Hello! </li>
+                <li> Hoi hoi!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ VOLGENDE TREIN VANAF <set name='stations'>*</set></pattern>
+        <template>
+            Vanaf <star index='2'/><map name="gettrain"><star index='2'/></map>
+            <think><set name='currentloc'><star index='2'/></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ VOLGENDE TREIN VANAF *</pattern>
+        <template>
+            <star index='2' /> is bij ons niet als station bekend.
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ WAAR BEN IK</pattern>
+        <template>
+            <condition>
+                <li name='currentloc' value='unknown'>Je hebt me niet verteld waar je bent, dus dat weet ik niet.</li>
+                <li>Je hebt me verteld dat je op <get name="currentloc"/> bent.</li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern> ^ WAAR IK BEN</pattern>
+        <template>
+            <srai>WAAR BEN IK</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOE LAAT IS HET</pattern>
+        <template>
+            Ik ben geen klok! Kijk gewoon even op je computer of telefoon.
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEN JE EEN MENS</pattern>
+        <template>
+            Natuurlijk ben ik dat, jij niet?
+        </template>
+    </category>
+
+    <category>
+        <pattern>IK BEN <regex pattern="(OP|IN|op|in)"/><set name='stations'>*</set></pattern>
+        <template>
+            Fijn, nu weet ik dat je op <set name="currentloc"><star index="2"/></set> bent!
+        </template>
+    </category>
+
+    <category>
+        <pattern>IK BEN <regex pattern="(OP|IN|op|in)"/>*</pattern>
+        <template>
+            Sorry, maar <star/> is bij mij geen bekend station.
+        </template>
+    </category>
+
+    <!-- Vraag naar vertrekkende treinen -->
+    <category>
+        <pattern>WELKE TREINEN VERTREKKEN ER OM <regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <template>
+            <think><set name='time'><star/></set></think>
+            <think><set name='arrival'>false</set></think>
+            <condition>
+                <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
+                <li name='destination' value='unknown'>Waar wil je naartoe reizen?</li>
+                <li>
+                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                    <think>
+                        <set name='time'>unknown</set>
+                        <set name='arrival'>unknown</set>
+                        <set name='destination'>unknown</set>
+                        <set name='date'>unknown</set>
+                    </think>
+                </li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WELKE TREINEN <iset words="VERTREKKEN ER, KOMEN ER AAN"/> OP *</pattern>
+        <template>
+            <star index='2'/> is geen geldige tijd. Probeer het opnieuw.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WELKE TREINEN KOMEN ER AAN OM <regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <template>
+            <think><set name='time'><star/></set></think>
+            <think><set name='arrival'>true</set></think>
+            <condition>
+                <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
+                <li name='destination' value='unknown'>Waar wil je naartoe reizen?</li>
+                <li>
+                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                    <think>
+                        <set name='time'>unknown</set>
+                        <set name='arrival'>unknown</set>
+                        <set name='destination'>unknown</set>
+                        <set name='date'>unknown</set>
+                    </think>
+                </li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IK WIL NAAR <set name='stations'>*</set></pattern>
+        <template>
+            <think><set name='destination'><star/></set></think>
+            <condition>
+                <li name='currentloc'>
+                    <value><get name='destination' /></value>Verassing! Je bent al op <get name='destination' />. Je kan me iets anders vragen als je wil.
+                    <think><set name='destination'>unknown</set></think>
+                </li>
+                <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
+                <li name='time' value='unknown'>Hoe laat wil je vertrekken?</li>
+                <li>
+                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                    <think>
+                        <set name='time'>unknown</set>
+                        <set name='arrival'>unknown</set>
+                        <set name='destination'>unknown</set>
+                        <set name='date'>unknown</set>
+                    </think>
+                </li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IK WIL NAAR <set name='stations'>*</set> OM <regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <template>
+            <think><set name='destination'><star index='1'/></set></think>
+            <think><set name='time'><star index='2'/></set></think>
+            <think><set name='arrival'>false</set></think>
+         <srai>IK WIL NAAR <get name='destination'/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IK WIL AANKOMEN OP <set name='stations'>*</set></pattern>
+        <template>
+            <think><set name='destination'><star/></set></think>
+            <think><set name='arrival'>true</set></think>
+                 <condition>
+                    <li name='currentloc'>
+                        <value><get name='destination' /></value>Verassing! Je bent al op <get name='destination' />. Je kan me iets anders vragen als je wil.
+                        <think><set name='destination'>unknown</set></think>
+                    </li>
+                    <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
+                    <li name='time' value='unknown'>Hoe laat wil je aankomen?</li>
+                    <li>
+                        <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                        <think>
+                            <set name='time'>unknown</set>
+                            <set name='arrival'>unknown</set>
+                            <set name='destination'>unknown</set>
+                            <set name='date'>unknown</set>
+                        </think>
+                    </li>
+                </condition>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IK WIL AANKOMEN OP *</pattern>
+        <template>
+            Sorry, maar <star/> is bij mij geen bekend station.
+        </template>
+    </category>
+
+    <category>
+        <pattern>IK WIL AANKOMEN OP <set name='stations'>*</set> OM <regex pattern="\d\d?(:\d\d)?$"/></pattern>
+        <template>
+            <think><set name='destination'><star index='1'/></set></think>
+            <think><set name='time'><star index='2'/></set></think>
+            <think><set name='arrival'>true</set></think>
+         <srai>IK WIL AANKOMEN OP <get name='destination'/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            IK WIL NAAR <set name='stations'>*</set> - MORGEN
+        </pattern>
+        <template>
+            <think><set name='date'>tomorrow</set></think>
+            <srai>Ik wil naar <star /></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IK WIL NAAR * - MORGEN</pattern>
+        <template>
+            Sorry, maar <star/> is bij mij geen bekend station.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            IK WIL AANKOMEN OP <set name='stations'>*</set> - MORGEN
+        </pattern>
+        <template>
+            <think><set name='date'>tomorrow</set></think>
+            <srai>Ik wil aankomen op<star /></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IK WIL AANKOMEN OP * - MORGEN</pattern>
+        <template>
+            Sorry, maar <star/> is bij mij geen bekend station.
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>IK WIL NAAR <set name='stations'>*</set> OM * </pattern>
+        <template><star index='2'/> is geen geldige tijd. Probeer het opnieuw.</template>
+    </category>
+
+    <category>
+        <pattern>IK WIL AANKOMEN OP <set name='stations'>*</set> OM * </pattern>
+        <template><star index='2'/> is geen geldige tijd. Probeer het opnieuw.</template>
+    </category>
+
+    <category>
+     <pattern>WAT IS DE LAATSTE TREIN NAAR <set name='stations'>*</set></pattern>
+        <template>
+            <think><set name="destination"><star index='1'/></set></think>
+            <think><set name="last">true</set></think>
+            <condition>
+                <li name='currentloc'>
+                    <value><get name='destination' /></value>Verassing! Je bent al op <get name='destination' />. Je kan me iets anders vragen als je wil.
+                    <think><set name='destination'>unknown</set></think>
+                </li>
+                <li name='currentloc' value='unknown'>Waar vandaan wil je vertekken</li>
+                <li>
+                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                    <think>
+                        <set name='time'>unknown</set>
+                        <set name='arrival'>unknown</set>
+                        <set name='destination'>unknown</set>
+                        <set name='date'>unknown</set>
+                    </think>
+                </li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+       <pattern>WHAT IS THE FIRST TRAIN TO <set name='stations'>*</set></pattern>
+          <template>
+              <think><set name="destination"><star index='1'/></set></think>
+              <think><set name="last">first</set></think>
+              <condition>
+                  <li name='currentloc'>
+                      <value><get name='destination' /></value>Verassing! Je bent al op <get name='destination' />. Je kan me iets anders vragen als je wil.
+                      <think><set name='destination'>unknown</set></think>
+                  </li>
+                  <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
+                  <li>
+                      <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                      <think>
+                          <set name='time'>unknown</set>
+                          <set name='arrival'>unknown</set>
+                          <set name='destination'>unknown</set>
+                          <set name='date'>unknown</set>
+                      </think>
+                  </li>
+              </condition>
+          </template>
+      </category>
+
+      <category>
+          <pattern>WAT IS DE <iset words="LAATSTE, EERSTE"/> TREIN NAAR *</pattern>
+          <template>
+            Sorry, maar <star index='2'/> is bij mij geen bekend station.
+          </template>
+      </category>
+
+      <!-- Responses to further questions from the chatbot
+       -->
+          <category>
+              <pattern>*</pattern>
+              <that>HOE LAAT WIL JE AANKOMEN</that>
+              <template>
+                  <think><set name='time'><star/></set></think>
+                  <condition>
+                      <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
+                      <li name='destination' value='unknown'>Where do you want to go to?</li>
+                      <li>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                          <think>
+                              <set name='time'>unknown</set>
+                              <set name='arrival'>unknown</set>
+                              <set name='destination'>unknown</set>
+                              <set name='date'>unknown</set>
+                          </think>
+                      </li>
+                  </condition>
+              </template>
+          </category>
+
+          <category>
+              <pattern>*</pattern>
+              <that>HOE LAAT WIL JE VERTREKKEN</that>
+              <template>
+                  <think><set name='time'><star/></set></think>
+                  <think><set name='arrival'>false</set></think>
+                  <condition>
+                      <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
+                      <li name='destination' value='unknown'>Waar wil je naartoe reizen?</li>
+                      <li>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                          <think>
+                              <set name='time'>unknown</set>
+                              <set name='arrival'>unknown</set>
+                              <set name='destination'>unknown</set>
+                              <set name='date'>unknown</set>
+                          </think>
+                      </li>
+                  </condition>
+              </template>
+          </category>
+
+          <category>
+              <pattern><set name='stations'>*</set></pattern>
+              <that>WAAR VANDAAN WIL JE VERTREKKEN</that>
+              <template>
+                  <think><set name='currentloc'><star /></set></think>
+                  <condition>
+                      <li name='currentloc'>
+                          <value><get name='destination' /></value>Dit is al je bestemming, stop met me voor de gek te houden!
+                          <think><set name='destination'>unknown</set></think>
+                      </li>
+                      <li name='destination' value='unknown'>Waar wil je naartoe reizen?</li>
+                      <li name='last' value='true'>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                          <think>
+                              <set name='time'>unknown</set>
+                              <set name='arrival'>unknown</set>
+                              <set name='destination'>unknown</set>
+                              <set name='date'>unknown</set>
+                          </think>
+                      </li>
+                      <li name='time' value='unknown'>Hoe laat wil je vertrekken?</li>
+                      <li>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                          <think>
+                              <set name='time'>unknown</set>
+                              <set name='arrival'>unknown</set>
+                              <set name='destination'>unknown</set>
+                              <set name='date'>unknown</set>
+                          </think>
+                      </li>
+                  </condition>
+              </template>
+          </category>
+
+
+          <category>
+              <pattern><set name='stations'>*</set></pattern>
+              <that>WAAR WIL JE NAARTOE REIZEN</that>
+              <template>
+                  <think><set name='destination'><star /></set></think>
+                  <condition>
+                      <li name='currentloc'>
+                          <value><get name='destination' /></value>Verassing! Je bent al op <get name='destination' />. Je kan me iets anders vragen als je wil.
+                          <think><set name='destination'>unknown</set></think>
+                      </li>
+                      <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
+                      <li name='last' value='true'>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                          <think>
+                              <set name='time'>unknown</set>
+                              <set name='arrival'>unknown</set>
+                              <set name='destination'>unknown</set>
+                              <set name='date'>unknown</set>
+                          </think>
+                      </li>
+                      <li name='time' value='unknown'>Hoe laat wil je vertrekken?</li>
+                      <li>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                          <think>
+                              <set name='time'>unknown</set>
+                              <set name='arrival'>unknown</set>
+                              <set name='destination'>unknown</set>
+                              <set name='date'>unknown</set>
+                          </think>
+                      </li>
+                  </condition>
+              </template>
+          </category>
+
+
+          <category>
+              <pattern># -- #</pattern>
+              <template>
+                   Sorry, ik heb je denk ik verkeerd verstaan.
+                  <srai><star index='1'/><star index='2'/></srai>
+             </template>
+          </category>
+
+          <category>
+              <pattern> * </pattern>
+          <template>
+              Sorry, wat je zegt, begrijp ik niet.
+          </template>
+          </category>
+
+          <category>
+              <pattern>Doei</pattern>
+              <template>
+                  Tot de volgende keer!
+              </template>
+          </category>
+
+</aiml>

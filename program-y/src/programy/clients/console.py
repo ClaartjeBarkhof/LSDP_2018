@@ -27,6 +27,7 @@ import os, sys
 import speech_recognition as sr
 from pyraat import PraatAnalysisFunction
 from sys import platform
+import subprocess
 
 
 class ConsoleBotClient(BotClient):
@@ -51,7 +52,7 @@ class ConsoleBotClient(BotClient):
         rec = Recorder(channels=1)
         question = input('>>> ')
         if question != '':
-            return question + '  '
+            return question
         with rec.open('test.wav', 'wb') as recfile:
             recfile.start_recording()
             print('Aan het opnemen!')
@@ -66,28 +67,17 @@ class ConsoleBotClient(BotClient):
         try:
             ask = r.recognize_google(audio, language='nl-NL')
             print('You asked: ' + ask)
-            script_path = "SingleAudioScript.praat"
-            praat_path = ""
-            if platform == "linux" or platform == "linux2":
-                praat_path = "/usr/bin/praat"
-                print("LINUX")
-            if platform == "darwin":
-                praat_path = "/Applications/Praat.app/Contents/MacOS/praat"
-                print("OSX")
-            if praat_path == "":
-                print("Your operating system is not supported")
-            try:
-                func = PraatAnalysisFunction(script_path, praat_path)
-                output = func("test.wav")
 
-            except Exception as iets:
-                print(iets)
-                print(iets.args)
-  
-  
-            print("HIER KOMT DE OUTPUT")
-            print(output)
-            print(type(output))
+            try:
+                output = subprocess.check_output(["praat", "--run", "SingleAudioScript.praat", "test.wav"]).decode('utf')
+            except:
+                print('NOOOPE')
+
+            # model = pickle.load(open('svm_best_model.p', 'rb'))
+            # prediction = model.predict(output)
+            # print("HIER KOMT DE OUTPUT")
+            # print('output: ', output.decode('utf'))
+
 #            praat_script.process_sound(audio)
         except sr.UnknownValueError:
             print("Google Speech Recognition could not understand audio")
@@ -95,7 +85,7 @@ class ConsoleBotClient(BotClient):
             print("Could not request results from Google Speech Recognition service; {0}".format(e))
 
         #ask = "%s " % self.bot.prompt
-        return ask + '  '
+        return ask
 
     def display_startup_messages(self):
         self.display_response(self.bot.get_version_string)

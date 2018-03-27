@@ -2,3 +2,4 @@ login.py
 __pycache__
 mybot/temp
 *.wav
+singleoutputPraat.csv

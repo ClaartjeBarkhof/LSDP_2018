@@ -24,11 +24,14 @@
    #appendInfoLine: hertz_vector
 
    # write to file
-   appendFile: "singleoutputPraat.csv", "test2"
-   for i from 1 to 78
-       appendFile: "singleoutputPraat.csv", ",", hertz_vector [i]
-   endfor
-   appendFile: "singleoutputPraat.csv", ",", total_duration, ",", mean, newline$
+#   appendFile: "singleoutputPraat.csv", "test2"
+   output$ = "test"
+   echo "output$"
+
+#   for i from 1 to 78
+#       appendFile: "singleoutputPraat.csv", ",", hertz_vector [i]
+#   endfor
+#   appendFile: "singleoutputPraat.csv", ",", total_duration, ",", mean, newline$
  
-   select Sound test2
-   Remove
+#   select Sound test2
+#   Remove

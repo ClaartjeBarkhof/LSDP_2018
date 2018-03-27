@@ -24,8 +24,9 @@ import time
 from recorder import Recorder
 import os, sys
 
-import praat_script
 import speech_recognition as sr
+from pyraat import PraatAnalysisFunction
+from sys import platform
 
 
 class ConsoleBotClient(BotClient):
@@ -48,26 +49,46 @@ class ConsoleBotClient(BotClient):
 
     def get_question(self, input_func=input):
         rec = Recorder(channels=1)
-        question = input('>>> ')
-        if question != '':
-            return question + '  '
+        input('Proceed')
         with rec.open('test.wav', 'wb') as recfile:
+            input('Druk op enter om te beginnen met opnemen')
             recfile.start_recording()
             print('Aan het opnemen!')
             input('Druk Enter om opnemen te stoppen')
             time.sleep(0.5)
             recfile.stop_recording()
+            print('Opname opgeslagen')
 
         r = sr.Recognizer()
         with sr.AudioFile('test.wav') as source:
             audio = r.record(source)
-
+        
         try:
+            # for testing purposes, we're just using the default API key
+            # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
+            # instead of `r.recognize_google(audio)`
+            #print("Google Speech Recognition thinks you said " + r.recognize_google(audio, language='nl-NL'))
             ask = r.recognize_google(audio, language='nl-NL')
+            script_path = "SingleAudioScript.praat"
+            praat_path = ""
+            if platform == "linux" or platform == "linux2":
+                praat_path = "usr/bin/praat"
+                print("LINUX")
+            if platform == "darwin":
+                praat_path = "/Applications/Praat.app/Contents/MacOS/praat"
+                print("OSX")
+            if praat_path == "":
+                print("Your operating system is not supported")
+            func = PraatAnalysisFunction(script_path, praat_path)
+            output = func()
+            print("HIER KOMT DE OUTPUT")
+            print(output)
+
+#            praat_script.process_sound(audio)
         except sr.UnknownValueError:
             print("Google Speech Recognition could not understand audio")
         except sr.RequestError as e:
-            print("Could not request results from Google Speech Recognition service; {0}".format(e))
+            print("Could not request results from Google Speech Recognition service; {0}".format(e))    
 
         #ask = "%s " % self.bot.prompt
         return ask + '  '
@@ -82,6 +103,7 @@ class ConsoleBotClient(BotClient):
 
     def process_question_answer(self):
         question = self.get_question()
+        print(question)
 
         if question[-1]=='?':
             question = question[:-1]

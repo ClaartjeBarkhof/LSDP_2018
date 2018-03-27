@@ -48,7 +48,7 @@ class ConsoleBotClient(BotClient):
 
     def get_question(self, input_func=input):
         rec = Recorder(channels=1)
-        question = input('>>>')
+        question = input('>>> ')
         if question != '':
             return question + '  '
         with rec.open('test.wav', 'wb') as recfile:

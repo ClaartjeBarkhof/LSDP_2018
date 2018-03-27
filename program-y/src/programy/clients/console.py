@@ -76,8 +76,17 @@ class ConsoleBotClient(BotClient):
                 print("OSX")
             if praat_path == "":
                 print("Your operating system is not supported")
-            func = PraatAnalysisFunction(script_path, praat_path)
-            output = func()
+            print(script_path)
+            print(praat_path)
+
+            try:
+                func, func2 = PraatAnalysisFunction(script_path, praat_path)
+                output = func()
+
+            except Exception as iets:
+                print(iets)
+                print(iets.args)
+  
             print("HIER KOMT DE OUTPUT")
             print(output)
 

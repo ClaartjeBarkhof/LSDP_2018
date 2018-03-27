@@ -29,6 +29,21 @@ from pyraat import PraatAnalysisFunction
 from sys import platform
 import subprocess
 
+import csv
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import KFold
+from sklearn import svm
+from sklearn.preprocessing import Imputer
+from joblib import Parallel, delayed
+import multiprocessing
+import matplotlib.pyplot as plt
+from numpy import ma
+from matplotlib import colors, ticker, cm
+from matplotlib.mlab import bivariate_normal
+from matplotlib.colors import LogNorm
+import pickle
+
 
 class ConsoleBotClient(BotClient):
 
@@ -48,6 +63,19 @@ class ConsoleBotClient(BotClient):
     def parse_args(self, arguments, parsed_args):
         return
 
+    def normalize(self, X, mean):
+        '''Normalize: haal means van waarden
+        af en zet rest op 0 of andere waarde'''
+        for row_index, row in enumerate(X):
+            for column_index, col in enumerate(row):
+                if col == '--undefined--':
+                    # Voorbeelden van waarden om '--undefined--' in te veranderen:
+                    # -float(200), -float(mean[row_index]), float(0), float(200)
+                    X[row_index][column_index] = - float(mean[row_index])
+                else:
+                    X[row_index][column_index] = float(col) - float(mean[row_index])
+        return X
+
     def get_question(self, input_func=input):
         rec = Recorder(channels=1)
         question = input('>>> ')
@@ -64,26 +92,55 @@ class ConsoleBotClient(BotClient):
         with sr.AudioFile('test.wav') as source:
             audio = r.record(source)
 
+        praat_path = ""
+        if platform == "linux" or platform == "linux2":
+            praat_path = "/usr/bin/praat"
+            #print("LINUX")
+        if platform == "darwin":
+            praat_path = "/Applications/Praat.app/Contents/MacOS/praat"
+            #print("OSX")
+        if praat_path == "":
+            print("Your operating system is not supported")
+
         try:
             ask = r.recognize_google(audio, language='nl-NL')
             print('You asked: ' + ask)
-
-            try:
-                output = subprocess.check_output(["praat", "--run", "SingleAudioScript.praat", "test.wav"]).decode('utf')
-            except:
-                print('NOOOPE')
-
-            # model = pickle.load(open('svm_best_model.p', 'rb'))
-            # prediction = model.predict(output)
-            # print("HIER KOMT DE OUTPUT")
-            # print('output: ', output.decode('utf'))
-
-#            praat_script.process_sound(audio)
         except sr.UnknownValueError:
             print("Google Speech Recognition could not understand audio")
         except sr.RequestError as e:
             print("Could not request results from Google Speech Recognition service; {0}".format(e))
 
+
+        try:
+            output = subprocess.check_output([praat_path, "--run", "SingleAudioScript.praat", "test.wav"]).decode('utf')
+        except Exception as jhs:
+            print(jhs)
+            print(jhs.args)
+            print('NOOOPE')
+
+    
+        try:
+            df = pd.read_csv('singleoutputPraat.csv', header=None)
+            #print(df.head())
+            #print(df.shape)
+            #print(X.shape)
+            X = np.array(df.loc[:, 1:249])
+            mean = np.array(df.loc[:, 251])
+            duration = np.array(df.loc[:, 250]) 
+            self.normalize(X, mean)
+
+            model = pickle.load(open('svm_best_model.p', 'rb'))
+            prediction = model.predict(X)
+            print(prediction)
+        except Exception as jhs:
+                print(jhs)
+                print(jhs.args)
+                print('NOOOPE222')
+
+            # print("HIER KOMT DE OUTPUT")
+            # print('output: ', output.decode('utf'))
+
+#       
         #ask = "%s " % self.bot.prompt
         return ask
 

@@ -35,7 +35,7 @@ select Sound 'whole_name$'
    #appendInfoLine: hertz_vector
 
 #   write to file
-   appendFile: "singleoutputPraat.csv", "test"
+#   appendFile: "singleoutputPraat.csv", "test"
 #   output$ = "test"
 
    for i from 1 to 249

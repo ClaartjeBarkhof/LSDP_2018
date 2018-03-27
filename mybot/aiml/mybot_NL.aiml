@@ -82,12 +82,36 @@
                 <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
                 <li name='destination' value='unknown'>Waar wil je naartoe reizen?</li>
                 <li>
-                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
                     <think>
                         <set name='time'>unknown</set>
                         <set name='arrival'>unknown</set>
                         <set name='destination'>unknown</set>
                         <set name='date'>unknown</set>
+                        <set name='middag_avond'>unknown</set>
+                    </think>
+                </li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WELKE TREINEN VERTREKKEN ER OM * UUR ^</pattern>
+        <template>
+            <think><set name='time'><star index='1'/></set></think>
+            <think><set name='arrival'>false</set></think>
+            <think><set name='middag_avond'><star index='2'/></set></think>
+            <condition>
+                <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
+                <li name='destination' value='unknown'>Waar wil je naartoe reizen?</li>
+                <li>
+                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
+                    <think>
+                        <set name='time'>unknown</set>
+                        <set name='arrival'>unknown</set>
+                        <set name='destination'>unknown</set>
+                        <set name='date'>unknown</set>
+                        <set name='middag_avond'>unknown</set>
                     </think>
                 </li>
             </condition>
@@ -110,12 +134,36 @@
                 <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
                 <li name='destination' value='unknown'>Waar wil je naartoe reizen?</li>
                 <li>
-                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
                     <think>
                         <set name='time'>unknown</set>
                         <set name='arrival'>unknown</set>
                         <set name='destination'>unknown</set>
                         <set name='date'>unknown</set>
+                        <set name='middag_avond'>unknown</set>
+                    </think>
+                </li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WELKE TREINEN KOMEN ER AAN OM * UUR ^</pattern>
+        <template>
+            <think><set name='time'><star/></set></think>
+            <think><set name='arrival'>true</set></think>
+            <think><set name='middag_avond'><star index='2'/></set></think>
+            <condition>
+                <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
+                <li name='destination' value='unknown'>Waar wil je naartoe reizen?</li>
+                <li>
+                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
+                    <think>
+                        <set name='time'>unknown</set>
+                        <set name='arrival'>unknown</set>
+                        <set name='destination'>unknown</set>
+                        <set name='date'>unknown</set>
+                        <set name='middag_avond'>unknown</set>
                     </think>
                 </li>
             </condition>
@@ -134,12 +182,13 @@
                 <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
                 <li name='time' value='unknown'>Hoe laat wil je vertrekken?</li>
                 <li>
-                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
                     <think>
                         <set name='time'>unknown</set>
                         <set name='arrival'>unknown</set>
                         <set name='destination'>unknown</set>
                         <set name='date'>unknown</set>
+                        <set name='middag_avond'>unknown</set>
                     </think>
                 </li>
             </condition>
@@ -157,6 +206,17 @@
     </category>
 
     <category>
+        <pattern>IK WIL NAAR <set name='stations'>*</set> OM * UUR ^</pattern>
+        <template>
+            <think><set name='destination'><star index='1'/></set></think>
+            <think><set name='time'><star index='2'/></set></think>
+            <think><set name='arrival'>false</set></think>
+            <think><set name='middag_avond'><star index='3'/></set></think>
+         <srai>IK WIL NAAR <get name='destination'/></srai>
+        </template>
+    </category>
+
+    <category>
         <pattern>IK WIL AANKOMEN OP <set name='stations'>*</set></pattern>
         <template>
             <think><set name='destination'><star/></set></think>
@@ -169,12 +229,13 @@
                     <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
                     <li name='time' value='unknown'>Hoe laat wil je aankomen?</li>
                     <li>
-                        <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                        <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
                         <think>
                             <set name='time'>unknown</set>
                             <set name='arrival'>unknown</set>
                             <set name='destination'>unknown</set>
                             <set name='date'>unknown</set>
+                            <set name='middag_avond'>unknown</set>
                         </think>
                     </li>
                 </condition>
@@ -194,6 +255,17 @@
             <think><set name='destination'><star index='1'/></set></think>
             <think><set name='time'><star index='2'/></set></think>
             <think><set name='arrival'>true</set></think>
+         <srai>IK WIL AANKOMEN OP <get name='destination'/></srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IK WIL AANKOMEN OP <set name='stations'>*</set> OM * UUR ^</pattern>
+        <template>
+            <think><set name='destination'><star index='1'/></set></think>
+            <think><set name='time'><star index='2'/></set></think>
+            <think><set name='arrival'>true</set></think>
+            <think><set name='middag_avond'><star index='3'/></set></think>
          <srai>IK WIL AANKOMEN OP <get name='destination'/></srai>
         </template>
     </category>
@@ -255,12 +327,13 @@
                 </li>
                 <li name='currentloc' value='unknown'>Waar vandaan wil je vertekken</li>
                 <li>
-                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
+                    <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
                     <think>
                         <set name='time'>unknown</set>
                         <set name='arrival'>unknown</set>
                         <set name='destination'>unknown</set>
                         <set name='date'>unknown</set>
+                        <set name='middag_avond'>unknown</set>
                     </think>
                 </li>
             </condition>
@@ -279,13 +352,14 @@
                   </li>
                   <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
                   <li>
-                      <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
-                      <think>
-                          <set name='time'>unknown</set>
-                          <set name='arrival'>unknown</set>
-                          <set name='destination'>unknown</set>
-                          <set name='date'>unknown</set>
-                      </think>
+                      <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
+                    <think>
+                        <set name='time'>unknown</set>
+                        <set name='arrival'>unknown</set>
+                        <set name='destination'>unknown</set>
+                        <set name='date'>unknown</set>
+                        <set name='middag_avond'>unknown</set>
+                    </think>
                   </li>
               </condition>
           </template>
@@ -309,13 +383,14 @@
                       <li name='currentloc' value='unknown'>Where do you want to depart from?</li>
                       <li name='destination' value='unknown'>Where do you want to go to?</li>
                       <li>
-                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
-                          <think>
-                              <set name='time'>unknown</set>
-                              <set name='arrival'>unknown</set>
-                              <set name='destination'>unknown</set>
-                              <set name='date'>unknown</set>
-                          </think>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
+                        <think>
+                            <set name='time'>unknown</set>
+                            <set name='arrival'>unknown</set>
+                            <set name='destination'>unknown</set>
+                            <set name='date'>unknown</set>
+                            <set name='middag_avond'>unknown</set>
+                        </think>
                       </li>
                   </condition>
               </template>
@@ -331,13 +406,14 @@
                       <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
                       <li name='destination' value='unknown'>Waar wil je naartoe reizen?</li>
                       <li>
-                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
-                          <think>
-                              <set name='time'>unknown</set>
-                              <set name='arrival'>unknown</set>
-                              <set name='destination'>unknown</set>
-                              <set name='date'>unknown</set>
-                          </think>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
+                        <think>
+                            <set name='time'>unknown</set>
+                            <set name='arrival'>unknown</set>
+                            <set name='destination'>unknown</set>
+                            <set name='date'>unknown</set>
+                            <set name='middag_avond'>unknown</set>
+                        </think>
                       </li>
                   </condition>
               </template>
@@ -355,23 +431,25 @@
                       </li>
                       <li name='destination' value='unknown'>Waar wil je naartoe reizen?</li>
                       <li name='last' value='true'>
-                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
-                          <think>
-                              <set name='time'>unknown</set>
-                              <set name='arrival'>unknown</set>
-                              <set name='destination'>unknown</set>
-                              <set name='date'>unknown</set>
-                          </think>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
+                        <think>
+                            <set name='time'>unknown</set>
+                            <set name='arrival'>unknown</set>
+                            <set name='destination'>unknown</set>
+                            <set name='date'>unknown</set>
+                            <set name='middag_avond'>unknown</set>
+                        </think>
                       </li>
                       <li name='time' value='unknown'>Hoe laat wil je vertrekken?</li>
                       <li>
-                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
-                          <think>
-                              <set name='time'>unknown</set>
-                              <set name='arrival'>unknown</set>
-                              <set name='destination'>unknown</set>
-                              <set name='date'>unknown</set>
-                          </think>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
+                        <think>
+                            <set name='time'>unknown</set>
+                            <set name='arrival'>unknown</set>
+                            <set name='destination'>unknown</set>
+                            <set name='date'>unknown</set>
+                            <set name='middag_avond'>unknown</set>
+                        </think>
                       </li>
                   </condition>
               </template>
@@ -390,23 +468,25 @@
                       </li>
                       <li name='currentloc' value='unknown'>Waar vandaan wil je vertrekken?</li>
                       <li name='last' value='true'>
-                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
-                          <think>
-                              <set name='time'>unknown</set>
-                              <set name='arrival'>unknown</set>
-                              <set name='destination'>unknown</set>
-                              <set name='date'>unknown</set>
-                          </think>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
+                        <think>
+                            <set name='time'>unknown</set>
+                            <set name='arrival'>unknown</set>
+                            <set name='destination'>unknown</set>
+                            <set name='date'>unknown</set>
+                            <set name='middag_avond'>unknown</set>
+                        </think>
                       </li>
                       <li name='time' value='unknown'>Hoe laat wil je vertrekken?</li>
                       <li>
-                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/></map>
-                          <think>
-                              <set name='time'>unknown</set>
-                              <set name='arrival'>unknown</set>
-                              <set name='destination'>unknown</set>
-                              <set name='date'>unknown</set>
-                          </think>
+                          <map name='tripletrain'><get name='currentloc'/>,<get name='time'/>,<get name='destination'/>,<get name='arrival'/>,<get name='last'/>,<get name='date'/>,<get name='middag_avond' /></map>
+                        <think>
+                            <set name='time'>unknown</set>
+                            <set name='arrival'>unknown</set>
+                            <set name='destination'>unknown</set>
+                            <set name='date'>unknown</set>
+                            <set name='middag_avond'>unknown</set>
+                        </think>
                       </li>
                   </condition>
               </template>

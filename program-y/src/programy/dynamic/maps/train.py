@@ -52,7 +52,7 @@ based on a given time and date (which can be set to
 tomorrow or unknown). If Date is set to unknown, we'll
 assume the user wishes to travel today.
 '''
-def convert_time(time, date):
+def convert_time(time, date, middag_avond):
     if (date == 'TOMORROW'):
         date = date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
         day = int(date[8:10])
@@ -60,6 +60,10 @@ def convert_time(time, date):
         date = date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + str(tomorrow)
     else:
         date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
+    if (len(time) == 1) and ('MIDDAG' in middag_avond):
+            time = int(time) + 12
+            time = 'T' + str(time) + ':00'
+            time = date + time
     if (len(time) == 1):
         time = 'T0' + time + ':00'
         time = date + time
@@ -122,14 +126,15 @@ class GetTrainTriple(DynamicMap):
         destination (destination station), arrival (true if an arrival time is given),
         last (true if the last train is requested), date (can be set to tomorrow) 
         '''
-        origin, time, destination, arrival, last, date = name.split(' , ')
+        origin, time, destination, arrival, last, date, middag_avond = name.split(' , ')
+
         if (last == 'TRUE'):
             date = '2018-' + DateFormatter().date_representation()[0:2] + '-' + DateFormatter().date_representation()[3:5]
             time = date + 'T23:50'
         elif any(char.isdigit() for char in time) == False:
             return "Please enter a valid sentence."
         else:
-            time = convert_time(time, date)
+            time = convert_time(time, date, middag_avond)
 
         ns = 'https://webservices.ns.nl/'
         global aut

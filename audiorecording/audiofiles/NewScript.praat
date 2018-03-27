@@ -22,7 +22,7 @@ for current_file from 1 to file_count
 
 trim$ = "_trimmed"
 whole_name$  = name$ + trim$
-
+   select Sound 'whole_name$'
    total_duration = Get total duration
    frame_len = total_duration / 250
 

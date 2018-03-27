@@ -87,7 +87,7 @@ class ConsoleBotClient(BotClient):
   
             print("HIER KOMT DE OUTPUT")
             print(output)
-
+            print(type(output))
 #            praat_script.process_sound(audio)
         except sr.UnknownValueError:
             print("Google Speech Recognition could not understand audio")

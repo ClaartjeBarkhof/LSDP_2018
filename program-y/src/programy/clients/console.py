@@ -118,7 +118,7 @@ class ConsoleBotClient(BotClient):
             print(jhs.args)
             print('NOOOPE')
 
-    
+        prediction = ""
         try:
             df = pd.read_csv('singleoutputPraat.csv', header=None)
             #print(df.head())
@@ -131,7 +131,7 @@ class ConsoleBotClient(BotClient):
 
             model = pickle.load(open('svm_best_model.p', 'rb'))
             prediction = model.predict(X)
-            print(prediction)
+            #print(prediction)
         except Exception as jhs:
                 print(jhs)
                 print(jhs.args)
@@ -139,6 +139,8 @@ class ConsoleBotClient(BotClient):
 
             # print("HIER KOMT DE OUTPUT")
             # print('output: ', output.decode('utf'))
+        if prediction[0] == 'COR':
+            ask = ask + " --"
 
 #       
         #ask = "%s " % self.bot.prompt

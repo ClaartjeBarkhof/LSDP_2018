@@ -1,13 +1,13 @@
 
      Read from file... ../../../../mybot/test.wav
-     select Sound test2
+     select Sound test
    
    deleteFile: "singleoutputPraat.csv"
    total_duration = Get total duration
 #   frame_len = total_duration / 80
 
    To Pitch... 0.0 75 400 
-   select Pitch test2
+   select Pitch test
    
    count_frames = Get number of frames
    appendInfoLine: count_frames
@@ -24,7 +24,7 @@
    #appendInfoLine: hertz_vector
 
    # write to file
-#   appendFile: "singleoutputPraat.csv", "test2"
+#   appendFile: "singleoutputPraat.csv", "test"
    output$ = "test"
    echo "output$"
 
@@ -33,5 +33,5 @@
 #   endfor
 #   appendFile: "singleoutputPraat.csv", ",", total_duration, ",", mean, newline$
  
-#   select Sound test2
+#   select Sound test
 #   Remove

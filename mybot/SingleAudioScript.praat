@@ -1,6 +1,12 @@
+  form Variables
+    sentence filename
+    real measurement_point
+    integer nformants
+    real ceiling
+  endform
 
-     Read from file... test.wav
-     select Sound test
+    Read from file... 'filename$'
+    select Sound test
    
    deleteFile: "singleoutputPraat.csv"
    total_duration = Get total duration
@@ -26,7 +32,6 @@
    # write to file
 #   appendFile: "singleoutputPraat.csv", "test"
    output$ = "test"
-   echo "output$"
 
 #   for i from 1 to 78
 #       appendFile: "singleoutputPraat.csv", ",", hertz_vector [i]
@@ -35,3 +40,4 @@
  
 #   select Sound test
 #   Remove
+echo 'output$'

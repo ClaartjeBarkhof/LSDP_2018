@@ -69,23 +69,21 @@ class ConsoleBotClient(BotClient):
             script_path = "SingleAudioScript.praat"
             praat_path = ""
             if platform == "linux" or platform == "linux2":
-                praat_path = "usr/bin/praat"
+                praat_path = "/usr/bin/praat"
                 print("LINUX")
             if platform == "darwin":
                 praat_path = "/Applications/Praat.app/Contents/MacOS/praat"
                 print("OSX")
             if praat_path == "":
                 print("Your operating system is not supported")
-            print(script_path)
-            print(praat_path)
-
             try:
-                func, func2 = PraatAnalysisFunction(script_path, praat_path)
-                output = func()
+                func = PraatAnalysisFunction(script_path, praat_path)
+                output = func("test.wav")
 
             except Exception as iets:
                 print(iets)
                 print(iets.args)
+  
   
             print("HIER KOMT DE OUTPUT")
             print(output)
